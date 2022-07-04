@@ -18,6 +18,18 @@ def clean(raw_html):
    cleantext= re.sub("[^0-9]", "", cleantext)
    return cleantext 
 
+def cleaned_addreses(string):
+    """_summary_
+
+    Args:
+        string (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
+    a = str(string)
+    return a.replace('<span class="css-17o293g es62z2j9">', '').replace('</span>', '')
+
 
 def cleaned_space(string):
     """_summary_
@@ -46,24 +58,25 @@ def scrap_data():
    page_url = "https://www.otodom.pl/pl/oferty/sprzedaz/mieszkanie/warszawa?page="
 
    for number in range(593):
-      page = requests.get(page_url +str(number))
-      content = page.content
-      soup = BeautifulSoup(content, features='html.parser')
+        page = requests.get(page_url +str(number))
+        content = page.content
+        soup = BeautifulSoup(content, features='html.parser')
 
-      spans = soup.find_all("span", class_="css-rmqm02 eclomwz0")
-      addres = soup.find_all("span", class_="css-17o293g es62z2j9")
-      price = spans[::4]
-      rooms = spans[2::4]
-      space = spans[3::4]
+        spans = soup.find_all("span", class_="css-rmqm02 eclomwz0")
+        addres = soup.find_all("span", class_="css-17o293g es62z2j9")
+        price = spans[::4]
+        rooms = spans[2::4]
+        space = spans[3::4]
 
-      clean_price = [clean(p) for p in price]
-      clean_rooms = [clean(r) for r in rooms]
-      clean_space = [cleaned_space(s) for s in space]
+        clean_price = [clean(p) for p in price]
+        clean_rooms = [clean(r) for r in rooms]
+        clean_space = [cleaned_space(s) for s in space]
+        clean_addres = [cleaned_addreses(a) for a in addres]
 
-      addreses += addres   
-      out_prices += clean_price
-      out_space += clean_space
-      out_rooms += clean_rooms
+        addreses += clean_addres
+        out_prices += clean_price
+        out_space += clean_space
+        out_rooms += clean_rooms
 
    df = pd.DataFrame({'Address': addreses, 'Price': out_prices, 'Space': out_space, 'Rooms': out_rooms})
    return df.to_csv('listings.csv', index=False, encoding='utf-8')
