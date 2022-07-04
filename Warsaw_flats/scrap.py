@@ -1,28 +1,72 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-
-address=[] #List of flats adresses
-prices=[] #List house prices
-space=[] #List of house space
-rooms=[] #List of number of rooms in flat
-driver.get("https://www.otodom.pl/pl/oferty/sprzedaz/mieszkanie/warszawa")
-
-page_url = 'https://www.otodom.pl/pl/oferty/sprzedaz/mieszkanie/warszawa'
-page = requests.get(page_url)
-content = page.content
-soup = BeautifulSoup(content, features='html.parser')
-
-spans = soup.find_all("span", class_="css-rmqm02 eclomwz0")
+import re
 
 
+def clean(raw_html):
+   """clean numbers froim html 
 
-for element in soup.findAll('li', attrs={'class': 'css-1k6141t es62z2j0'}):
-   prices = element.find('span', attrs={'class': 'css-rmqm02 eclomwz0'})
-   space = element.find('span', attrs={'class': 'css-rmqm02 eclomwz0'})
-   address = element.find('span', attrs={'class': 'css-17o293g es62z2j9'})
-   rooms = element.find('span', attrs={'class': 'css-rmqm02 eclomwz0'})
+   Args:
+       raw_html (beautiful suoup object): _description_
+
+   Returns:
+       int: scrapped number
+   """
+   cleanr = re.compile('<.*?>')
+   cleantext  = re.sub(cleanr, '', str(raw_html))
+   cleantext= re.sub("[^0-9]", "", cleantext)
+   return cleantext 
 
 
-df = pd.DataFrame({'Address': address, 'Price': prices, 'Space': space, 'Rooms': rooms}, index=[0])
-df.to_csv('listings.csv', index=False, encoding='utf-8')
+def cleaned_space(string):
+    """_summary_
+
+    Args:
+        string (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
+    s = str(string)
+    return (s[34:40].replace('m','').replace('<',"").replace('²','').replace(' ','')) 
+
+
+def scrap_data():
+   """scrap data
+
+   Returns:
+       pandas_data_frame: four colums
+   """
+   addreses=[] #List of flats adresses
+   out_prices=[] #List house prices
+   out_space=[] #List of house space
+   out_rooms=[] #List of number of rooms in flat
+
+   page_url = "https://www.otodom.pl/pl/oferty/sprzedaz/mieszkanie/warszawa?page="
+
+   for number in range(593):
+      page = requests.get(page_url +str(number))
+      content = page.content
+      soup = BeautifulSoup(content, features='html.parser')
+
+      spans = soup.find_all("span", class_="css-rmqm02 eclomwz0")
+      addres = soup.find_all("span", class_="css-17o293g es62z2j9")
+      price = spans[::4]
+      rooms = spans[2::4]
+      space = spans[3::4]
+
+      clean_price = [clean(p) for p in price]
+      clean_rooms = [clean(r) for r in rooms]
+      clean_space = [cleaned_space(s) for s in space]
+
+      addreses += addres   
+      out_prices += clean_price
+      out_space += clean_space
+      out_rooms += clean_rooms
+
+   df = pd.DataFrame({'Address': addreses, 'Price': out_prices, 'Space': out_space, 'Rooms': out_rooms})
+   return df.to_csv('listings.csv', index=False, encoding='utf-8')
+
+
+data = scrap_data()
