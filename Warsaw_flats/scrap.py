@@ -83,3 +83,39 @@ def scrap_data():
 
 
 data = scrap_data()
+
+def inner_page_data_scrap(soup):
+    """scraps detail from inner html page of an offert
+
+    Args:
+        soup (bs4.BeautifulSoup): current html page of offerts list
+
+    Returns:
+       market, year, elevator, balcony, level, parking_place (list): _description_
+    """
+
+    inner_page_url = "https://www.otodom.pl"
+    market = []
+    year = []
+    elevator = []
+    balcony = []
+    level = []
+    parking_place = []
+
+    for a in soup.find_all('a', href=True)[2:41]:
+        pages_url = inner_page_url + a['href']
+
+    for url in pages_url:
+        page = requests.get(url)
+        content = page.content
+        soup = BeautifulSoup(content, features='html.parser')
+
+        market = soup.find_all("div", class_="css-1wi2w6s estckra5")
+        year = soup.find_all("div", class_="css-1wi2w6s estckra5")
+        elevator = soup.find_all("div", class_="css-1wi2w6s estckra5")
+        balcony = soup.find_all("div", class_="css-1wi2w6s estckra5")
+        level = soup.find_all("div", class_="css-1wi2w6s estckra5")
+        parking_place = soup.find_all("div", class_="css-e72ul8 ekf916v1")
+
+
+    return market, year, elevator, balcony, level, parking_place
