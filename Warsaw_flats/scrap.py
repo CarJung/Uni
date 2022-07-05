@@ -43,21 +43,38 @@ def cleaned_space(string):
     s = str(string)
     return (s[34:40].replace('m','').replace('<',"").replace('²','').replace(' ','')) 
 
+def cleaned_elevator(string):
+    """_summary_
+
+    Args:
+        string (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
+    s = str(string)
+    return (s[34:40].replace('m','').replace('<',"").replace('²','').replace(' ','')) 
 
 def scrap_data():
-   """scrap data
+    """scrap data
 
-   Returns:
-       pandas_data_frame: four colums
-   """
-   addreses=[] #List of flats adresses
-   out_prices=[] #List house prices
-   out_space=[] #List of house space
-   out_rooms=[] #List of number of rooms in flat
+    Returns:
+        pandas_data_frame: four colums
+    """
+    addreses = [] #List of flats adresses
+    out_prices = [] #List house prices
+    out_space = [] #List of house space
+    out_rooms = [] #List of number of rooms in flat
+    out_market = []
+    out_year = []
+    out_elevator = []
+    out_balcony = []
+    out_level = []
+    out_parking_place = []
 
-   page_url = "https://www.otodom.pl/pl/oferty/sprzedaz/mieszkanie/warszawa?page="
+    page_url = "https://www.otodom.pl/pl/oferty/sprzedaz/mieszkanie/warszawa?page="
 
-   for number in range(593):
+    for number in range(593):
         page = requests.get(page_url +str(number))
         content = page.content
         soup = BeautifulSoup(content, features='html.parser')
@@ -73,16 +90,23 @@ def scrap_data():
         clean_space = [cleaned_space(s) for s in space]
         clean_addres = [cleaned_addreses(a) for a in addres]
 
+        market, year, elevator, balcony, level, parking_place = inner_page_data_scrap(soup)
+
         addreses += clean_addres
         out_prices += clean_price
         out_space += clean_space
         out_rooms += clean_rooms
+        out_market += market
+        out_year += year
+        out_elevator += elevator
+        out_balcony += balcony
+        out_level += level
+        out_parking_place += parking_place
 
-   df = pd.DataFrame({'Address': addreses, 'Price': out_prices, 'Space': out_space, 'Rooms': out_rooms})
-   return df.to_csv('listings.csv', index=False, encoding='utf-8')
-
-
-data = scrap_data()
+    df = pd.DataFrame({
+        'Address': addreses, 'Price': out_prices, 'Space': out_space, 'Rooms': out_rooms, 'Market': out_market, 'Year': out_year, 'Evelevator': out_elevator, 'Balcony': out_balcony, 'Level': out_level, 'Parking place': out_parking_place
+        })
+    return df.to_csv('listings.csv', index=False, encoding='utf-8')
 
 def inner_page_data_scrap(soup):
     """scraps detail from inner html page of an offert
@@ -110,12 +134,16 @@ def inner_page_data_scrap(soup):
         content = page.content
         soup = BeautifulSoup(content, features='html.parser')
 
-        market = soup.find_all("div", class_="css-1wi2w6s estckra5")
-        year = soup.find_all("div", class_="css-1wi2w6s estckra5")
-        elevator = soup.find_all("div", class_="css-1wi2w6s estckra5")
-        balcony = soup.find_all("div", class_="css-1wi2w6s estckra5")
-        level = soup.find_all("div", class_="css-1wi2w6s estckra5")
-        parking_place = soup.find_all("div", class_="css-e72ul8 ekf916v1")
+        data= soup.find_all("div", class_="css-1wi2w6s estckra5")
 
+        market += str(data[10])[34:-6]
+        year += clean(data[12])
+        elevator += str(data[15])[34:-6]
+        balcony += str(data[5])[34:-6]
+        level += str(data[4])[34:-6]
+        parking_place += str(data[5])[34:-6]
 
     return market, year, elevator, balcony, level, parking_place
+
+
+data = scrap_data()
