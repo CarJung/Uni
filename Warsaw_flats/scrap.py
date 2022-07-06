@@ -125,9 +125,10 @@ def inner_page_data_scrap(soup):
     balcony = []
     level = []
     parking_place = []
+    pages_url = []
 
     for a in soup.find_all('a', href=True)[2:41]:
-            pages_url = inner_page_url + a['href']
+        pages_url.append(inner_page_url + a['href'])
 
     for u in pages_url:
         if len(u) < 5:
@@ -137,15 +138,32 @@ def inner_page_data_scrap(soup):
             content = page.content
             soup = BeautifulSoup(content, features='html.parser')
 
-            data= soup.find_all("div", class_="css-1wi2w6s estckra5")
-            print(u)
-            market += str(data[10])[34:-6]
+            data= soup.find_all("div", class_="css-1qzszy5 estckra8")
             
-            year += clean(data[12])
-            elevator += str(data[15])[34:-6]
-            balcony += str(data[5])[34:-6]
-            level += str(data[4])[34:-6]
-            parking_place += str(data[5])[34:-6]
+        try:
+            market.append(str(data[21].find_all('div',class_="css-1wi2w6s estckra5"))[35:-7])
+        except IndexError:
+            market.append('')
+        try:
+            year.append(str(data[25].find_all('div',class_="css-1wi2w6s estckra5"))[35:-7]) #clean(data[12])
+        except IndexError:
+            year.append('')
+        try:
+            elevator.append(str(data[31].find_all('div',class_="css-1wi2w6s estckra5"))[35:-7])
+        except IndexError:
+            elevator.append('')
+        try:
+            balcony.append(str(data[11].find_all('div',class_="css-1wi2w6s estckra5"))[35:-7])
+        except IndexError:
+            balcony.append('')
+        try:
+            level.append(str(data[9].find_all('div',class_="css-1wi2w6s estckra5"))[35:-7])
+        except IndexError:
+            level.append('')
+        try:
+            parking_place.append(str(data[15].find_all('div',class_="css-1wi2w6s estckra5"))[35:-7])
+        except IndexError:
+            parking_place.append('')
 
     return market, year, elevator, balcony, level, parking_place
 
