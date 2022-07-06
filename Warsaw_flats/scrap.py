@@ -74,7 +74,7 @@ def scrap_data():
 
     page_url = "https://www.otodom.pl/pl/oferty/sprzedaz/mieszkanie/warszawa?page="
 
-    for number in range(593):
+    for number in range(200):
         page = requests.get(page_url +str(number))
         content = page.content
         soup = BeautifulSoup(content, features='html.parser')
@@ -127,7 +127,7 @@ def inner_page_data_scrap(soup):
     parking_place = []
     pages_url = []
 
-    for a in soup.find_all('a', href=True)[2:41]:
+    for a in soup.find_all('a', href=True)[3:42]:
         pages_url.append(inner_page_url + a['href'])
 
     for u in pages_url:
