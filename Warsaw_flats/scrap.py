@@ -127,23 +127,28 @@ def inner_page_data_scrap(soup):
     parking_place = []
 
     for a in soup.find_all('a', href=True)[2:41]:
-        pages_url = inner_page_url + a['href']
+            pages_url = inner_page_url + a['href']
 
-    for url in pages_url:
-        page = requests.get(url)
-        content = page.content
-        soup = BeautifulSoup(content, features='html.parser')
+    for u in pages_url:
+        if len(u) < 5:
+            pass 
+        else:
+            page = requests.get(u)
+            content = page.content
+            soup = BeautifulSoup(content, features='html.parser')
 
-        data= soup.find_all("div", class_="css-1wi2w6s estckra5")
-
-        market += str(data[10])[34:-6]
-        year += clean(data[12])
-        elevator += str(data[15])[34:-6]
-        balcony += str(data[5])[34:-6]
-        level += str(data[4])[34:-6]
-        parking_place += str(data[5])[34:-6]
+            data= soup.find_all("div", class_="css-1wi2w6s estckra5")
+            print(u)
+            market += str(data[10])[34:-6]
+            
+            year += clean(data[12])
+            elevator += str(data[15])[34:-6]
+            balcony += str(data[5])[34:-6]
+            level += str(data[4])[34:-6]
+            parking_place += str(data[5])[34:-6]
 
     return market, year, elevator, balcony, level, parking_place
+
 
 
 data = scrap_data()
