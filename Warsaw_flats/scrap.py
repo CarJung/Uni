@@ -74,7 +74,7 @@ def scrap_data():
 
     page_url = "https://www.otodom.pl/pl/oferty/sprzedaz/mieszkanie/warszawa?page="
 
-    for number in range(200):
+    for number in range(400):
         page = requests.get(page_url +str(number))
         content = page.content
         soup = BeautifulSoup(content, features='html.parser')
@@ -103,6 +103,7 @@ def scrap_data():
         out_level += level
         out_parking_place += parking_place
 
+        print(number)
     df = pd.DataFrame({
         'Address': addreses, 'Price': out_prices, 'Space': out_space, 'Rooms': out_rooms, 'Market': out_market, 'Year': out_year, 'Evelevator': out_elevator, 'Balcony': out_balcony, 'Level': out_level, 'Parking place': out_parking_place
         })
