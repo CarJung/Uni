@@ -74,7 +74,7 @@ def scrap_data():
 
     page_url = "https://www.otodom.pl/pl/oferty/sprzedaz/mieszkanie/warszawa?page="
 
-    for number in range(400):
+    for number in range(100):
         page = requests.get(page_url +str(number))
         content = page.content
         soup = BeautifulSoup(content, features='html.parser')
@@ -107,7 +107,7 @@ def scrap_data():
     df = pd.DataFrame({
         'Address': addreses, 'Price': out_prices, 'Space': out_space, 'Rooms': out_rooms, 'Market': out_market, 'Year': out_year, 'Evelevator': out_elevator, 'Balcony': out_balcony, 'Level': out_level, 'Parking place': out_parking_place
         })
-    return df.to_csv('listings.csv', index=False, encoding='utf-8')
+    return df.to_csv('listings_1.csv', index=False, encoding='utf-8')
 
 def inner_page_data_scrap(soup):
     """scraps detail from inner html page of an offert
