@@ -1,0 +1,49 @@
+
+.topbar-links {
+	line-height: 18px;
+	margin-top: 40px;
+}
+
+.latest-article {
+	font-size: .9em;
+	margin-left: 45px;
+	margin-top: 25px;
+} 
+
+.latest-article img {
+	margin-bottom: 10px;
+}
+
+.article-info {
+	margin-bottom: 10px;
+}
+
+.latest-article:first-child {
+	margin-left: 0 !important;
+}
+
+
+
+.article-intro {
+	margin-top: 20px;
+}
+
+.art-more {
+	margin-bottom: 15px;
+}
+
+hr {
+	color: rgb(47, 164, 231);
+	background-color: rgb(47, 164, 231);
+	height: 4px;
+}
+
+.form-wrapper {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.left_col {
+	min-height: 500px;
+}
+

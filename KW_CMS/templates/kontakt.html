@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+
+{%block art%}
+<div class="article">
+    <h2>Masz pytania, napisz wiadomość.</h2>
+    <form action ='' method ='POST' class = '' id = ''>
+        <div class='col-sm-12' forms>
+            {% csrf_token %}
+            {{form}}
+        </div>
+        <div class='ol-sm-6'><button type ='submit' class ='btn btn-succes'>Wyślij</button></div>
+    </form>
+
+</div>
+{%endblock%}

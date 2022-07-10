@@ -1,0 +1,67 @@
+{% extends "index.html" %}
+{% load static %}
+
+{% block art %}
+<div class="article">
+<table class="table" id="table" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th><input type="checkbox" class="" id="all_checkbox"></th>
+            <th>Tytuł</th>
+            <th>Data publikacji</th>
+            <th>Opis</th>
+            <th>Czy ważny?</th>
+            <th>Status</th>
+            <th>Akceptuj</th>
+            <th>Usuń</th>
+            <th>Zobacz artykuł</th>
+        </tr>
+    </thead>
+    <tbody>
+
+{% if art.count > 0 %}
+{% for art in art %}
+<!--  Artykul -->
+<tr>
+    <td><input type="checkbox" class="checkbox" id="{{art.id}}"></td>
+    <td>{{art.title}}</td>
+    <td>{{art.pub_data}}</td>
+    <td>{{art.description}}</td>
+    <td>{% if art.important == 1 %}<input type="checkbox" class="" value="T" id="{{art.id}}" checked disabled="True">
+    {% else %}
+    <input type="checkbox" class="" value="N" id="{{art.id}}"  disabled="True">
+    {% endif %}
+    </td>
+    <td>{% if art.status == 1 %}<input type="checkbox" class="" value="T" id="{{art.id}}" checked disabled="True">
+        {% else %}
+        <input type="checkbox" class="" value="N" id="{{art.id}}"  disabled="True">
+        {% endif %}</td>
+    <td class='submit'><form action="{% url 'kwarticles:article_public' art.id %}" method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn remove-button" onclick="return confirm('Czy na pewno chcesz publikować artykuł {{art.title}}?');">
+            <i class="fas fa-play"></i>
+        </button>
+     </form></td>
+    <td class="delete"> <form action="{% url 'kwarticles:article_del' art.id %}" method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn remove-button" onclick="return confirm('Czy na pewno chcesz usunąć artykuł {{art.title}}?');">
+            <i class="fas fa-trash"></i>
+        </button>
+     </form></td>
+     <td><a class="brand" href="/articles/podgląd/{{art.id}}">Artykuł</a></td>
+</tr>
+<!-- Koniec artykulu -->
+{% endfor %}
+</tbody>
+
+</table>
+<div class="card-body">
+    <button id= "delete-button" class="btn btn-danger btn-sm disabled" onclick="return confirm('Czy na pewno chcesz usunąć wybrane pozycje?')" >Usuń zaznaczone</button>
+ 
+    <button id= "submit-button" class="btn btn-success btn-sm disabled" onclick="return confirm('Czy na pewno chcesz opublikować wybrane pozycje?')" >Opublikuj zaznaczone</button>
+</div>
+</div>
+{% else %}
+    <p>Brak artykułów!</p>
+{% endif %}
+{% endblock %}

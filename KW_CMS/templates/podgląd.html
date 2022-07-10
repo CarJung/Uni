@@ -1,0 +1,20 @@
+{% extends "index.html" %}
+{% load static %}
+
+
+
+{%block art%}
+<div class="article"><!--  Artykul -->
+    <hr>
+    <h2><a href="article.html">{{art.title}}</a></h2>
+    <div class="article-info">
+        Opublikowano : {{art.pub_date}}
+    </div>
+    <img src="{% if art.image  %}{{art.image.url}}{% else %} # {% endif %}" class="article-img img-rounded">
+    <div class="article-intro">
+        <p> {{art.content}} </p>
+    </div>
+</div><!-- Koniec artykulu -->
+<hr>
+
+{%endblock%}
