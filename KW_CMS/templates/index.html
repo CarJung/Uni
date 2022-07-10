@@ -1,0 +1,164 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>KW_CMS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-responsive.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <script  src="https://code.jquery.com/jquery-3.6.0.js"  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="  crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css"> 
+	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
+    <script src="https://kit.fontawesome.com/eb0f5d1f2c.js" crossorigin="anonymous"></script>
+</head>
+ 
+<body>
+
+<div class="container" id="wrapper">
+
+    <div class="row"><!--  PASEK GORA -->
+        <div class="topbar">
+            <div class="logo pull-left">
+                <h1><a href="#"><img src="{% static 'img/pobrane.png' %}"></a></h1>
+            </div>
+            <div class="topbar-links pull-right">
+                {% if request.user.is_authenticated %}
+                <p>User zalogowany : {{request.user.username}}</p><a href='/articles/logout/'>Wyloguj</a>| <a href="#">Rejestracja</a>
+                {% else %}
+                <p>Brak zalogowanego użytkownika!</p><a href='/articles/login/'>Zaloguj</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <div class="row"><!-- Menu -->
+        <div id="mainmenu" class="navbar navbar-inverse"> 
+                <div class="navbar-inner">
+                    <div>
+                        <a class="brand" href="/articles/main/">CMS</a>
+                        <ul class="nav">
+                            <li class="active"><a href="/articles/main/">Główna</a></li>
+                            <li><a href="/articles/add_article/">Dodaj artykuł</a></li>
+                            <li><a href="/articles/contact/">Kontakt</a></li>
+                            {% if request.user.is_authenticated %}<li><a href="/articles/article_accept/">Artykuły do akcetacji</a></li>{%endif%}
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div class="row"><!-- Glowna czesc -->
+
+        <div class="span9"><!-- Lewa kolumna -->
+            <div  class="row latest"><!-- Najnowsze art -->
+                {% block latest-art %}
+                {% endblock %}
+                
+
+            </div><!--  Koniec najnowszych art -->
+                {% block art %}
+                {% endblock %}
+            <div class="row"><!-- Artykuly lista -->
+
+
+            </div><!--  Koniec listy art -->
+
+        </div><!-- Koniec lewej kolumny -->
+
+
+        <div class="span3"><!-- Prawa kolumna -->
+            <div class="well sidebar-nav">
+                <h2>Sidebar</h2>
+                Liczba opublikowanych artykułów:
+                {{publicated.count}}
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="row">
+        <hr>
+        <div class="footer-wrap">
+            <p>SWPS @2021</p>
+        </div>
+    </div>
+
+</div>
+
+</body> 
+
+<script type="text/javascript">
+    $(document).ready( function () {
+        $('#table').DataTable();
+
+
+        $(".table tbody").on('click', 'input:checkbox', function() {
+            $(this).closest('tr').toggleClass('selected', this.checked);
+
+            if ($(this).is(":checked")) {
+                var isAllChecked = 0;
+                $(".checkbox").each(function() {
+                    if (!this.checked)
+                        isAllChecked = 1;
+                })
+                if (isAllChecked == 0) {
+                    $("#all_checkbox").prop("checked", true);
+                }
+
+            } else {
+                $("#all_checkbox").prop("checked", false);
+            }
+
+        });
+    
+        $('#all_checkbox').change(function(){
+            if (this.checked) {
+                $('.checkbox').each(function() {
+                    this.checked = true;
+                    $(this).parent().parent().addClass('selected');
+                })
+    
+            } else  {
+                $('.checkbox').each(function() {
+                    this.checked = false;
+                    $(this).parent().parent().removeClass('selected')
+                })}
+        })
+    
+        $('#delete-button').click(function(){
+            $('.selected .delete form').each(function (){
+                valueToSend = $(this).serialize();
+                $.ajax($(this).attr('action'), {
+                    method: $(this).attr('method'),
+                    data : valueToSend
+                });
+            });
+            setTimeout(function(){
+                location.reload(true);
+            }, 1500)
+  
+        })
+
+        $('#submit-button').click(function(){
+            $('.selected .submit form').each(function (){
+                valueToSend = $(this).serialize();
+                $.ajax($(this).attr('action'), {
+                    method: $(this).attr('method'),
+                    data : valueToSend
+                });
+            });
+            setTimeout(function(){
+                location.reload(true);
+            }, 1500)
+
+
+        })
+    } );
+
+    
+    </script>
+
+</html>

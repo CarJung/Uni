@@ -1,0 +1,14 @@
+{% extends "index.html" %}
+
+{%block art%}
+<div class="article">
+    <form action ='/articles/add_comment/{{art.id}}/' method ='POST' class = '' id = ''>
+        <div class='col-sm-12' forms>
+            {% csrf_token %}
+            {{form}}
+        </div>
+        <div class='ol-sm-6'><button type ='submit' class ='btn btn-succes'>Zapisz</button></div>
+    </form>
+
+</div>
+{%endblock%}

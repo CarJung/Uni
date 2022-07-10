@@ -1,0 +1,52 @@
+{% extends "index.html" %}
+{% load static %}
+
+
+{%block latest-art%}
+{%if art_last.count > 0%}
+{%for article in art_last%}
+    <div class ='span3 latest-article'>
+        <div class="latest-article-wrap">
+            <h3><a href="/articles/article/{{article.id}}/">{{article.title}}</a></h3>
+            {% if request.user.is_authenticated %}
+            <a href='/articles/article_edit/{{article.id}}/'>Edytuj</a> | <a href="/articles/article_edit/{{article.id}}/">Usuń</a>
+            {%endif%}
+            <div class="article-info">
+                Opublikowano : {{article.pub_date}}
+            </div>
+            <a href="#"><img src="{% static 'img/python-django.png' %}" class="img-rounded"></a>
+            <p>{{article.content  |  truncatewords:5}}</p>
+            <a href="/articles/article/{{article.id}}/" class="label label-info pull-right" target="_blank">Więcej</a>
+        </div>
+    </div>
+{%endfor%}
+{%else%}
+    <p>Brak artykułów</p>
+{%endif%}
+{%endblock%}
+
+
+
+{%block art%}
+{%if art.count > 0%}
+{%for art in art%}
+<div class="article"><!--  Artykul -->
+    <hr>
+    <h2><a href="/articles/article/{{art.id}}/">{{art.title}}</a></h2>
+    {% if request.user.is_authenticated %}
+    <a href ='#'> Edytuj</a> | <a href ='#'> Usuń</a>
+    {% endif %}
+    <div class="article-info">
+        Opublikowano : {{art.pub_date}}
+    </div>
+    <img src="{% static 'img/python-django.png' %}" class="article-img img-rounded">
+    <div class="article-intro">
+        <p> {{art.content  |  truncatewords:5}} </p>
+    </div>
+    <a class="btn btn-inverse art-more" href='/articles/article/{{art.id}}/'>Zobacz więcej</a>
+</div><!-- Koniec artykulu -->
+{%endfor%}
+{%else%}
+    <p>Brak artykułów</p>
+{%endif%}
+{%endblock%}

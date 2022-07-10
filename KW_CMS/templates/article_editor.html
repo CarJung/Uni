@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+
+{%block art%}
+<div class='col-sm-12' type ='button'><a href="logout.html"></a>  Wyloguj</button></div>
+<div class="article">
+    <form action ='' method ='POST' class = '' id = ''>
+        <div class='col-sm-12' forms>
+            {% csrf_token %}
+            {{form}}
+        </div>
+        <div class='ol-sm-6'><button type ='submit' class ='btn btn-succes'>Zapisz</button></div>
+    </form>
+
+</div>
+{%endblock%}
