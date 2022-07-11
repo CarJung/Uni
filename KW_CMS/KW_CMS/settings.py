@@ -55,7 +55,7 @@ ROOT_URLCONF = 'KW_CMS.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['C:/Users/Krzysztof/Desktop/Python/Git projekty/KW_CMS/KW_CMS/templates'],
+        'DIRS': ['**********************/KW_CMS/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -124,11 +124,11 @@ import os
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static'),
-    'C:/Users/Krzysztof/Desktop/Python/Git projekty/KW_CMS/static'
+     '***********/KW_CMS/static'
 ]
 
 
-MEDIA_ROOT = 'C:/Users/Krzysztof/Desktop/Python/Git projekty/KW_CMS/KW_CMS/media'
+MEDIA_ROOT = '****************/media'
 
 MEDIA_URL = '/media/'
 
@@ -137,10 +137,10 @@ MEDIA_URL = '/media/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST = '*****.*****.*****'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'jantomek76'
-EMAIL_PASSWORD = 'Whereismymind1'
+EMAIL_HOST_USER = '******'
+EMAIL_PASSWORD = '*********'
 EMAIL_USE_TLS = True
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
