@@ -17,10 +17,9 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge]][https://github.com/othneildrew/Best-README-Template/graphs/contributors]
-[![Forks][https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge]][https://github.com/othneildrew/Best-README-Template/network/members]
-[![Stargazers][https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge]][https://github.com/othneildrew/Best-README-Template/stargazers]
-
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -56,3 +55,11 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+[contributors-shield]: https://img.shields.io/github/contributors/CarJung/Warsaw_flats.svg?style=for-the-badge
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
