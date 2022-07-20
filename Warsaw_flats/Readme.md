@@ -17,16 +17,10 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
-<p align="centre">(<a href="#top">back to top</a>)</p>
+This is my private portfolio project to analyze housing prices in Warsaw in July 2022. My main goal is descriptive analysis of the housing market and the creation of a model for the valuation of apartments.
 
 
 
@@ -42,24 +36,15 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 * ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-[contributors-shield]: https://img.shields.io/github/contributors/CarJung/Warsaw_flats.svg?style=for-the-badge
-[contributors-url]: [https://github.com/CarJung/Warsaw_flats/graphs/contributors](https://github.com/CarJung/Uni/graphs/contributors)
-[forks-shield]: https://img.shields.io/github/forks/CarJung/Warsaw_flats.svg?style=for-the-badge
-[forks-url]: https://github.com/CarJung/Warsaw_flats/network/members
-[stars-shield]: https://img.shields.io/github/stars/CarJung/Warsaw_flats.svg?style=for-the-badge
-[stars-url]: https://github.com/CarJung/Warsaw_flats/stargazers
+- [*] Web scrapping Warsaw mortage data. 
+- [*] EDA
+- [*] Feature enginering
+- [*] Pycaret Modeling
+- [ ] Scikit learn modeling
+- [ ] Neural network model in Tensorflow / Keras
+- [ ] Power BI analysis
