@@ -41,10 +41,10 @@ This is my private portfolio project to analyze housing prices in Warsaw in July
 <!-- ROADMAP -->
 ## Roadmap
 
-- [*] Web scrapping Warsaw mortage data. 
-- [*] EDA
-- [*] Feature enginering
-- [*] Pycaret Modeling
+- [x] Web scrapping Warsaw mortage data. 
+- [x] EDA
+- [x] Feature enginering
+- [x] Pycaret Modeling
 - [ ] Scikit learn modeling
 - [ ] Neural network model in Tensorflow / Keras
 - [ ] Power BI analysis
