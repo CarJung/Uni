@@ -58,7 +58,7 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 
 
 [contributors-shield]: https://img.shields.io/github/contributors/CarJung/Warsaw_flats.svg?style=for-the-badge
-[contributors-url]: https://github.com/CarJung/Warsaw_flats/graphs/contributors
+[contributors-url]: [https://github.com/CarJung/Warsaw_flats/graphs/contributors](https://github.com/CarJung/Uni/graphs/contributors)
 [forks-shield]: https://img.shields.io/github/forks/CarJung/Warsaw_flats.svg?style=for-the-badge
 [forks-url]: https://github.com/CarJung/Warsaw_flats/network/members
 [stars-shield]: https://img.shields.io/github/stars/CarJung/Warsaw_flats.svg?style=for-the-badge
