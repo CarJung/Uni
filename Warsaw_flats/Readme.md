@@ -58,8 +58,8 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 
 
 [contributors-shield]: https://img.shields.io/github/contributors/CarJung/Warsaw_flats.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[contributors-url]: https://github.com/CarJung/Warsaw_flats/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/CarJung/Warsaw_flats.svg?style=for-the-badge
+[forks-url]: https://github.com/CarJung/Warsaw_flats/network/members
+[stars-shield]: https://img.shields.io/github/stars/CarJung/Warsaw_flats.svg?style=for-the-badge
+[stars-url]: https://github.com/CarJung/Warsaw_flats/stargazers
