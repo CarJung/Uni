@@ -7,7 +7,7 @@
 6143,4500000.0,423.0,10,wtórny,1936,0,1,0,0,0, Włochy, Nowe Włochy,2,2
 13482,6200000.0,350.0,6,wtórny,2009,1,1,0,0,0, Mokotów, Sadyba,3,3
 19806,15671000.0,344.0,6,wtórny,2009,1,1,0,0,0, Śródmieście, Niecała,1,7
-23068,6500000.0,328.0,5,wtórny,2022,1,1,0,0,0, Śródmieście, Zygmunta Słomińskiego,&gt; 10,16
+23068,6500000.0,328.0,5,wtórny,2022,1,1,0,0,0, Śródmieście, Zygmunta Słomińskiego,11,16
 10479,4850000.0,320.0,5,wtórny,1912,1,0,0,0,0, Śródmieście, Nowogrodzka,6,6
 17974,5700000.0,309.0,6,wtórny,2012,1,1,0,0,0, Mokotów, Mokotów,8,8
 21632,5708000.0,303.0,4,pierwotny,2012,1,1,0,0,0, Mokotów,Adama Naruszewicza,8,8
@@ -27,8 +27,8 @@
 1791,13000000.0,270.0,5,wtórny,2010,1,1,0,0,0, Śródmieście, Parkowa,0,5
 1778,8900000.0,258.67,5,wtórny,2008,1,1,0,0,0, Mokotów, Górny Mokotów,5,5
 18481,8382000.0,254.0,4,wtórny,1913,1,0,0,0,0, Śródmieście, Stanisława Noakowskiego,8,7
-1683,3500000.0,246.0,5,wtórny,2003,1,1,0,0,0, Mokotów, Pory,&gt; 10,13
-1682,3500000.0,246.0,5,wtórny,2003,1,1,0,0,0, Wilanów, al. Wilanowska,&gt; 10,13
+1683,3500000.0,246.0,5,wtórny,2003,1,1,0,0,0, Mokotów, Pory,11,13
+1682,3500000.0,246.0,5,wtórny,2003,1,1,0,0,0, Wilanów, al. Wilanowska,11,13
 4492,3200000.0,240.0,6,wtórny,2010,1,1,0,0,0, Wilanów, Zaściankowa,3,3
 4560,3000000.0,237.0,5,wtórny,2013,0,1,0,0,0, Śródmieście,Drewniana,5,5
 14162,14000000.0,237.0,5,wtórny,2011,1,1,0,0,0, Śródmieście, Drewniana,5,5
@@ -37,7 +37,7 @@
 721,1499000.0,225.0,7,wtórny,2020,0,1,0,0,0, Wesoła, Stara Miłosna,2,3
 1812,8000000.0,223.93,4,wtórny,2018,1,1,0,0,0, Mokotów, Fort Piłsudskiego,1,1
 12153,3200000.0,219.0,6,wtórny,1939,0,0,0,0,0, Bielany, Kleczewska,1,2
-6140,5500000.0,218.17,4,wtórny,2009,1,0,0,0,0, Wola, Grzybowska,&gt; 10,22
+6140,5500000.0,218.17,4,wtórny,2009,1,0,0,0,0, Wola, Grzybowska,11,22
 21331,6831720.0,218.1,7,pierwotny,2021,1,1,0,0,0, Wola, Krochmalna,8,8
 15521,9750000.0,212.0,5,wtórny,2011,1,1,0,0,0, Śródmieście, Drewniana,5,5
 15527,9750000.0,212.0,5,wtórny,2011,1,1,0,0,0, Śródmieście, Drewniana,5,5
@@ -47,7 +47,7 @@
 19604,4390000.0,207.0,4,wtórny,2011,1,1,0,0,0, Ochota, Kaliska,5,5
 4586,3850000.0,205.0,5,wtórny,2022,0,1,0,0,0, Śródmieście, Śródmieście,8,8
 15184,1400000.0,202.0,6,wtórny,2001,0,1,0,0,0, Wawer, Wawer,1,2
-13327,2600000.0,201.0,3,wtórny,2022,1,1,1,1,1, Wola, Łucka,&gt; 10,13
+13327,2600000.0,201.0,3,wtórny,2022,1,1,1,1,1, Wola, Łucka,11,13
 14471,1990000.0,200.0,5,wtórny,2017,0,0,0,0,0, Targówek,Krośniewicka,1,1
 4096,1990000.0,200.0,5,wtórny,2017,0,0,0,0,0, Targówek,Krośniewicka,1,1
 17980,1990000.0,200.0,5,wtórny,2017,0,0,0,0,0, Targówek,Krośniewicka,1,1
@@ -61,7 +61,7 @@
 21803,1990000.0,200.0,5,wtórny,2017,0,0,0,0,0, Targówek,Krośniewicka,1,1
 8465,1990000.0,200.0,5,wtórny,2017,0,0,0,0,0, Targówek,Krośniewicka,1,1
 21397,2035000.0,200.0,7,wtórny,2000,0,1,0,0,0, Targówek, Bartnicza,3,4
-1680,2850000.0,199.0,4,wtórny,2012,1,1,0,0,0, Mokotów, Puławska,&gt; 10,14
+1680,2850000.0,199.0,4,wtórny,2012,1,1,0,0,0, Mokotów, Puławska,11,14
 5233,2599000.0,198.0,7,wtórny,2004,1,1,0,0,0, Mokotów,Jana III Sobieskiego,5,6
 16515,7000000.0,197.7,5,wtórny,1902,1,1,0,0,0, Śródmieście, Wiejska,2,5
 16406,2700000.0,197.0,4,wtórny,2005,1,1,0,0,0, Mokotów, Jana III Sobieskiego,6,7
@@ -74,7 +74,7 @@
 9194,2290000.0,190.0,5,pierwotny,2021,1,1,0,0,0, Włochy,Ryżowa 22,0,2
 7948,2290000.0,189.72,5,pierwotny,2021,1,1,0,0,0, Włochy,Ryżowa 22,0,2
 19809,8795000.0,189.0,4,wtórny,2009,1,1,0,0,0, Śródmieście, Niecała,1,7
-14491,5900000.0,186.0,4,wtórny,2004,1,1,0,0,0, Wola, Grzybowska,&gt; 10,18
+14491,5900000.0,186.0,4,wtórny,2004,1,1,0,0,0, Wola, Grzybowska,11,18
 16389,4850000.0,185.88,4,wtórny,1912,1,0,0,0,0, Śródmieście, Okólnik,4,6
 14486,1750000.0,183.07,6,wtórny,1998,0,1,0,0,0, Wawer, Anin,1,2
 20953,1750000.0,183.0,6,wtórny,1996,0,0,0,0,0, Wawer, Anin,1,2
@@ -105,13 +105,13 @@
 4279,2600000.0,166.46,5,wtórny,2000,1,1,0,0,0, Mokotów, Dolny Mokotów,6,6
 13831,3240900.0,165.0,4,pierwotny,2022,1,1,0,0,0, Mokotów, Mokotów,2,2
 2682,6500000.0,164.87,4,wtórny,2012,1,1,0,0,0, Śródmieście, Mikołaja Kopernika,3,5
-15746,3280000.0,164.0,5,wtórny,2022,1,1,0,0,0, Wola, Marcina Kasprzaka,&gt; 10,13
+15746,3280000.0,164.0,5,wtórny,2022,1,1,0,0,0, Wola, Marcina Kasprzaka,11,13
 19337,3500000.0,164.0,3,wtórny,1998,1,1,0,0,0, Mokotów, Podchorążych,5,6
 20181,2190000.0,163.8,5,wtórny,2001,1,1,0,0,0, Mokotów, Wilanowska Al.,0,3
 17933,4900000.0,163.8,4,wtórny,2008,1,1,0,0,0, Śródmieście, Śródmieście,5,6
 15667,990000.0,163.1,4,wtórny,2005,0,1,1,1,1, Białołęka,Głębocka,4,4
 10795,1299000.0,163.0,5,wtórny,2022,0,0,0,0,0, Mokotów, Konstancińska,3,3
-6141,3280000.0,163.0,5,wtórny,2020,0,1,0,0,0, Wola, Marcina Kasprzaka,&gt; 10,13
+6141,3280000.0,163.0,5,wtórny,2020,0,1,0,0,0, Wola, Marcina Kasprzaka,11,13
 21007,1920000.0,163.0,5,wtórny,2007,0,1,0,0,0, Wilanów, Zawady,2,2
 8360,2500000.0,162.0,4,wtórny,2008,1,1,0,0,0, Ursynów,Makolągwy,3,3
 17515,1700000.0,162.0,4,wtórny,2010,0,1,0,0,0, Ursynów, Gawota,0,2
@@ -216,7 +216,7 @@
 17317,2100000.0,137.0,3,wtórny,2000,1,1,0,0,0, Żoliborz,Gwiaździsta,10,12
 18875,663000.0,136.1,4,wtórny,2021,0,1,0,0,0, Wesoła, Wesoła,1,1
 16783,663000.0,136.1,4,pierwotny,2021,0,1,0,0,0, Rembertów, Rembertów,1,1
-23066,1630000.0,136.0,5,wtórny,2007,1,1,0,0,0, Ochota,Juliana Ursyna Niemcewicza,&gt; 10,16
+23066,1630000.0,136.0,5,wtórny,2007,1,1,0,0,0, Ochota,Juliana Ursyna Niemcewicza,11,16
 2707,899000.0,136.0,4,pierwotny,2021,0,1,0,0,0, Wawer, Wawer,1,2
 4446,1100000.0,135.85,6,pierwotny,2022,0,1,1,1,1, Wawer, Wawer,1,2
 5694,1100000.0,135.85,6,pierwotny,2022,0,1,1,1,1, Wawer, Wawer,1,2
@@ -225,12 +225,12 @@
 235,1100000.0,135.85,6,pierwotny,2022,0,1,1,1,1, Wawer, Wawer,1,2
 8554,2470000.0,135.59,4,wtórny,2020,1,1,0,0,0, Wilanów, Wilanów,4,4
 21827,894900.0,135.0,4,pierwotny,2022,0,1,1,1,1, Bemowo, Bemowo,0,2
-13065,1740000.0,135.0,4,wtórny,2000,1,1,0,0,0, Śródmieście,Zygmunta Słomińskiego,&gt; 10,13
-3870,1740000.0,135.0,4,wtórny,2000,1,1,0,0,0, Śródmieście,Zygmunta Słomińskiego,&gt; 10,13
-2496,1740000.0,135.0,4,wtórny,2000,1,1,0,0,0, Śródmieście,Zygmunta Słomińskiego,&gt; 10,13
-741,1740000.0,135.0,4,wtórny,2000,1,1,0,0,0, Śródmieście,Zygmunta Słomińskiego,&gt; 10,13
+13065,1740000.0,135.0,4,wtórny,2000,1,1,0,0,0, Śródmieście,Zygmunta Słomińskiego,11,13
+3870,1740000.0,135.0,4,wtórny,2000,1,1,0,0,0, Śródmieście,Zygmunta Słomińskiego,11,13
+2496,1740000.0,135.0,4,wtórny,2000,1,1,0,0,0, Śródmieście,Zygmunta Słomińskiego,11,13
+741,1740000.0,135.0,4,wtórny,2000,1,1,0,0,0, Śródmieście,Zygmunta Słomińskiego,11,13
 14765,1458000.0,135.0,5,pierwotny,2021,0,1,0,0,0, Wawer,Trakt Lubelski,1,5
-13923,1740000.0,135.0,4,wtórny,2000,1,1,0,0,0, Śródmieście,Zygmunta Słomińskiego,&gt; 10,13
+13923,1740000.0,135.0,4,wtórny,2000,1,1,0,0,0, Śródmieście,Zygmunta Słomińskiego,11,13
 9585,2000000.0,135.0,4,wtórny,1996,0,1,0,0,0, Ursynów, Stanisława Herbsta,1,3
 785,1465000.0,134.74,4,pierwotny,2022,0,1,0,0,0, Wawer,Kwiatów Polskich,0,2
 6440,973979.0,134.0,4,pierwotny,2023,1,1,0,0,0, Ursus, Ursus,0,3
@@ -240,7 +240,7 @@
 13122,2500000.0,132.0,3,wtórny,2018,1,0,0,0,0, Bielany, Słodowiec,4,5
 22775,3200000.0,132.0,5,wtórny,1921,0,1,0,0,0, Mokotów, Stary Mokotów/zabytkowa willa z 1921 r./taras/ogród,1,2
 9957,1999900.0,131.84,5,pierwotny,2021,1,1,0,0,0, Mokotów, Bluszczańska,2,2
-9939,2999999.0,131.7,5,wtórny,2009,1,1,0,0,0, Wola, Józefa Bellottiego,&gt; 10,11
+9939,2999999.0,131.7,5,wtórny,2009,1,1,0,0,0, Wola, Józefa Bellottiego,11,11
 12412,2400000.0,131.0,4,wtórny,2000,0,1,0,0,0, Bielany, Zgrupowania Żubr,1,3
 1107,3380000.0,130.0,4,wtórny,2022,1,1,0,0,0, Wilanów, Franciszka Klimczaka,4,4
 2764,1160000.0,130.0,4,wtórny,2021,0,0,0,0,0, Wawer, Wawer,0,1
@@ -269,7 +269,7 @@
 22399,2205900.0,127.5,4,wtórny,1934,0,0,0,0,0, Mokotów, Mokotów,2,3
 16296,2300000.0,127.0,4,wtórny,2009,1,1,0,0,0, Wilanów, al. Rzeczypospolitej,5,5
 15167,3402000.0,126.0,4,wtórny,1905,1,0,0,0,0, Śródmieście, Jana i Jędrzeja Śniadeckich,4,4
-16769,2299000.0,126.0,5,wtórny,2020,1,1,0,0,0, Wola,Wolska,&gt; 10,16
+16769,2299000.0,126.0,5,wtórny,2020,1,1,0,0,0, Wola,Wolska,11,16
 194,1700055.0,125.93,3,wtórny,2022,0,1,0,0,0, Mokotów, Sułkowicka,5,10
 9999,1490000.0,125.8,4,wtórny,2009,1,0,0,0,0, Żoliborz, Żoliborz,7,14
 3684,1250000.0,125.74,3,wtórny,2022,1,0,0,0,0, Bemowo, Franciszka Kawy,1,5
@@ -295,7 +295,7 @@
 11581,1485000.0,125.0,4,pierwotny,2021,1,1,0,0,0, Włochy, Stare Włochy,2,2
 8708,1555000.0,124.95,4,pierwotny,2021,0,1,0,0,0, Włochy,Ryżowa 22,2,2
 4139,1011123.0,124.83,3,pierwotny,2019,0,1,0,0,0, Wilanów,Ruczaj,1,2
-16467,2299000.0,124.7,5,pierwotny,2020,1,1,0,0,0, Wola, Wola,&gt; 10,16
+16467,2299000.0,124.7,5,pierwotny,2020,1,1,0,0,0, Wola, Wola,11,16
 15275,1425000.0,124.5,4,wtórny,2000,1,1,0,0,0, Ochota, Aleje Jerozolimskie,5,14
 17654,1450000.0,124.0,3,wtórny,1998,1,0,0,0,0, Wola, Łucka,5,13
 18819,1598000.0,124.0,4,wtórny,1999,1,1,0,0,0, Ursynów, Polnej Róży,5,5
@@ -340,9 +340,9 @@
 3886,1599000.0,118.2,4,wtórny,2006,1,1,0,0,0, Wola, Wola,3,5
 13246,1850000.0,118.0,4,wtórny,1938,1,1,0,0,0, Śródmieście, Powiśle,1,4
 10445,2780000.0,118.0,3,wtórny,2002,1,1,0,0,0, Mokotów, Zbyszka Cybulskiego,1,4
-10069,2225300.0,117.79,5,pierwotny,2021,1,1,0,0,0, Mokotów, Ksawerów,&gt; 10,11
-10172,2225300.0,117.79,5,pierwotny,2022,1,1,0,0,0, Mokotów, Mariana Zdziechowskiego,&gt; 10,11
-5161,2225300.0,117.79,5,wtórny,2021,1,1,0,0,0, Mokotów, Mokotów,&gt; 10,11
+10069,2225300.0,117.79,5,pierwotny,2021,1,1,0,0,0, Mokotów, Ksawerów,11,11
+10172,2225300.0,117.79,5,pierwotny,2022,1,1,0,0,0, Mokotów, Mariana Zdziechowskiego,11,11
+5161,2225300.0,117.79,5,wtórny,2021,1,1,0,0,0, Mokotów, Mokotów,11,11
 9617,1350000.0,117.26,4,pierwotny,2020,1,1,0,0,0, Białołęka, Białołęka,8,9
 8102,1999690.0,117.0,4,wtórny,2002,1,1,0,0,0, Śródmieście,Grzybowska 2,4,11
 3429,975000.0,117.0,3,wtórny,1999,0,0,0,0,0, Białołęka,Odkryta,3,4
@@ -414,7 +414,7 @@
 17920,2420000.0,110.0,3,wtórny,2022,1,1,0,0,0, Mokotów, Podchorążych,5,7
 3345,1285000.0,110.0,3,wtórny,2000,0,1,0,0,0, Ursynów,Fosa,1,2
 10190,1896000.0,110.0,4,wtórny,1930,0,0,0,0,0, Śródmieście, Rozbrat,2,3
-13430,2320000.0,109.75,4,wtórny,2022,1,1,0,0,0, Wola, Siedmiogrodzka,&gt; 10,15
+13430,2320000.0,109.75,4,wtórny,2022,1,1,0,0,0, Wola, Siedmiogrodzka,11,15
 5826,1500000.0,109.6,4,wtórny,2014,1,1,0,0,0, Mokotów, Jana Pawła Woronicza,7,13
 10197,1165000.0,109.4,4,wtórny,1993,0,0,0,0,0, Praga-Południe, Praga-Południe,4,4
 8023,1629000.0,109.2,4,wtórny,2000,1,1,0,0,0, Żoliborz, Gwiaździsta,9,11
@@ -455,7 +455,7 @@
 18989,1990000.0,106.29,3,wtórny,2006,1,1,0,0,0, Mokotów, Wiktorska,4,5
 20598,1431000.0,106.0,5,wtórny,2022,1,1,1,1,1, Praga-Północ, Szwedzka,0,5
 23158,1450000.0,106.0,5,wtórny,1995,0,0,0,0,0, Wola, Szymczaka,0,5
-18892,2300000.0,106.0,2,wtórny,2022,1,1,0,0,0, Ochota, Grójecka,&gt; 10,11
+18892,2300000.0,106.0,2,wtórny,2022,1,1,0,0,0, Ochota, Grójecka,11,11
 11254,1404000.0,106.0,4,pierwotny,2022,1,1,0,0,0, Mokotów, Mokotów,1,7
 7856,1430000.0,105.9,3,wtórny,2003,1,1,0,0,0, Ochota, Złotego Smoka,5,7
 2330,980000.0,105.7,3,wtórny,2022,0,1,0,0,0, Wilanów, Syta,1,3
@@ -498,9 +498,9 @@
 18067,1359331.0,102.25,4,pierwotny,2023,1,0,0,0,0, Mokotów,Polska,3,3
 16359,1359300.0,102.25,4,pierwotny,2023,1,1,0,0,0, Mokotów, Gościniec,3,3
 16736,1660000.0,102.23,4,wtórny,2010,1,1,0,0,0, Wilanów, Adama Branickiego,2,4
-8221,1500000.0,102.2,3,wtórny,2000,1,1,0,0,0, Mokotów, Mokotów,&gt; 10,15
+8221,1500000.0,102.2,3,wtórny,2000,1,1,0,0,0, Mokotów, Mokotów,11,15
 7627,1299000.0,102.0,4,wtórny,2012,1,1,0,0,0, Ochota, Ochota,2,13
-23306,1438000.0,102.0,4,pierwotny,2021,1,1,1,1,1, Wola,Marcina Kasprzaka,&gt; 10,24
+23306,1438000.0,102.0,4,pierwotny,2021,1,1,1,1,1, Wola,Marcina Kasprzaka,11,24
 13740,1550000.0,102.0,4,wtórny,2005,1,1,0,0,0, Mokotów,Jana Pawła Woronicza,5,11
 12132,1290000.0,102.0,4,wtórny,2010,1,1,0,0,0, Śródmieście, al. Aleje Jerozolimskie155,10,11
 14371,1250000.0,102.0,4,wtórny,2005,1,1,0,0,0, Ochota, Aleje Jerozolimskie,10,15
@@ -556,7 +556,7 @@
 10965,823277.0,99.0,4,pierwotny,2025,1,1,0,0,0, Białołęka,Płochocińska,0,3
 10952,818150.0,98.84,4,pierwotny,2025,1,1,0,0,0, Białołęka,Płochocińska,1,3
 2937,1230000.0,98.5,4,wtórny,1999,1,1,0,0,0, Bemowo, Bemowo,5,8
-7316,1850000.0,98.4,4,wtórny,2004,1,0,0,0,0, Ochota,Juliana Ursyna Niemcewicza,&gt; 10,14
+7316,1850000.0,98.4,4,wtórny,2004,1,0,0,0,0, Ochota,Juliana Ursyna Niemcewicza,11,14
 4922,1250000.0,98.0,4,wtórny,2010,1,0,0,0,0, Bielany,Wólczyńska 63,0,5
 7566,1860000.0,98.0,3,wtórny,2014,1,1,0,0,0, Wola, symboliczna 3,8,9
 312,1860000.0,98.0,3,wtórny,2014,1,1,0,0,0, Wola, symboliczna 3,8,9
@@ -572,7 +572,7 @@
 16628,1897350.0,97.3,3,wtórny,2022,0,0,0,0,0, Mokotów, Ludwika Narbutta,1,4
 15779,1891000.0,97.0,4,wtórny,1938,1,0,0,0,0, Śródmieście, Kopernika/Krakowskie Przedmieście/balkon/winda/piękna kamienica z 1938 r.,4,7
 4660,1285000.0,97.0,4,wtórny,2005,0,1,0,0,0, Rembertów, Roty,0,1
-20691,1600000.0,97.0,4,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,27
+20691,1600000.0,97.0,4,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,11,27
 21666,1100000.0,97.0,4,wtórny,2004,1,1,0,0,0, Ursynów, Pileckiego,1,6
 6659,1240000.0,97.0,3,wtórny,1999,1,1,0,0,0, Śródmieście, Zimna,3,7
 12354,1290000.0,97.0,3,wtórny,2022,0,1,0,0,0, Śródmieście, Zimna,3,10
@@ -607,22 +607,22 @@
 5200,950000.0,94.35,4,wtórny,2011,1,0,0,0,0, Ursus, Skoroszewska,0,5
 7783,1057475.0,94.35,4,pierwotny,2022,0,1,0,0,0, Wesoła, Wesoła,0,4
 18907,1700000.0,94.1,4,wtórny,2000,1,1,0,0,0, Śródmieście, Śródmieście,4,28
-1215,1587000.0,94.0,4,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,26
-621,1587000.0,94.0,4,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,26
-23214,1584000.0,94.0,4,pierwotny,2021,1,1,0,0,0, Wola, Wola,&gt; 10,26
-3428,1580000.0,94.0,4,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,24
-11710,1579000.0,94.0,4,pierwotny,2022,1,1,1,1,1, Wola, Marcina Kasprzaka,&gt; 10,26
-7038,1577000.0,94.0,4,pierwotny,2022,1,1,1,1,1, Wola, Marcina Kasprzaka,&gt; 10,26
+1215,1587000.0,94.0,4,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,11,26
+621,1587000.0,94.0,4,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,11,26
+23214,1584000.0,94.0,4,pierwotny,2021,1,1,0,0,0, Wola, Wola,11,26
+3428,1580000.0,94.0,4,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,11,24
+11710,1579000.0,94.0,4,pierwotny,2022,1,1,1,1,1, Wola, Marcina Kasprzaka,11,26
+7038,1577000.0,94.0,4,pierwotny,2022,1,1,1,1,1, Wola, Marcina Kasprzaka,11,26
 1972,1250000.0,94.0,4,wtórny,2007,1,0,0,0,0, Wilanów, Wilanów,1,4
 17356,1589000.0,94.0,4,pierwotny,2021,1,1,0,0,0, Mokotów,Białej Floty,1,6
 18370,1589000.0,94.0,4,pierwotny,2021,1,1,0,0,0, Mokotów,Białej Floty,1,6
-23043,1479000.0,94.0,4,pierwotny,2021,1,1,1,1,1, Wola,Marcina Kasprzaka,&gt; 10,26
+23043,1479000.0,94.0,4,pierwotny,2021,1,1,1,1,1, Wola,Marcina Kasprzaka,11,26
 8854,1589000.0,94.0,4,pierwotny,2021,1,1,0,0,0, Mokotów,Białej Floty,1,6
-23186,1590000.0,94.0,4,pierwotny,2021,1,1,0,0,0, Wola, Wola,&gt; 10,24
+23186,1590000.0,94.0,4,pierwotny,2021,1,1,0,0,0, Wola, Wola,11,24
 7938,1200000.0,94.0,3,wtórny,2010,1,1,0,0,0, Ursynów, Bekasów 59,2,3
 11070,1200000.0,94.0,3,wtórny,2011,1,1,0,0,0, Ursynów, Bekasów,1,2
-12340,1590000.0,94.0,4,pierwotny,2021,1,1,0,0,0, Wola, Wola,&gt; 10,21
-19376,1590000.0,94.0,4,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,24
+12340,1590000.0,94.0,4,pierwotny,2021,1,1,0,0,0, Wola, Wola,11,21
+19376,1590000.0,94.0,4,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,11,24
 4876,1589000.0,94.0,4,pierwotny,2021,1,1,0,0,0, Mokotów,Białej Floty,1,6
 17316,1589000.0,94.0,4,pierwotny,2021,1,1,0,0,0, Mokotów,Białej Floty,1,6
 7645,1589000.0,94.0,4,pierwotny,2021,1,1,0,0,0, Mokotów,Białej Floty,1,6
@@ -641,7 +641,7 @@
 12654,1298000.0,93.51,4,wtórny,2015,1,1,0,0,0, Wawer, Anin,2,2
 9260,1349000.0,93.2,3,wtórny,2006,1,1,0,0,0, Mokotów, Jana Pawła Woronicza,8,11
 121,940000.0,93.0,4,wtórny,1978,1,1,0,0,0, Praga-Północ, Nowa Praga,3,5
-8574,1200000.0,93.0,4,wtórny,2022,1,1,0,0,0, Wola, Sokołowska,&gt; 10,12
+8574,1200000.0,93.0,4,wtórny,2022,1,1,0,0,0, Wola, Sokołowska,11,12
 20142,1440000.0,93.0,3,wtórny,2000,1,1,0,0,0, Śródmieście, Śródmieście Północne,10,12
 12250,1322500.0,93.0,4,pierwotny,2024,1,1,0,0,0, Bemowo, Górce,1,4
 9584,1200000.0,93.0,5,wtórny,1976,0,1,0,0,0, Mokotów, Wałbrzyska,4,10
@@ -654,7 +654,7 @@
 1454,877000.0,92.5,4,wtórny,2001,1,1,0,0,0, Bielany, Heroldów,3,3
 23234,2150000.0,92.3,3,wtórny,2022,0,1,0,0,0, Śródmieście, Śródmieście,2,7
 13111,2150000.0,92.29,3,wtórny,2022,0,1,0,0,0, Śródmieście, Książęca,1,7
-15372,1650000.0,92.23,4,wtórny,2015,1,1,0,0,0, Bielany, Bielany,&gt; 10,11
+15372,1650000.0,92.23,4,wtórny,2015,1,1,0,0,0, Bielany, Bielany,11,11
 11424,1479000.0,92.2,3,wtórny,2000,1,1,0,0,0, Mokotów, Wiktorska,5,7
 4321,1084000.0,92.05,4,pierwotny,2023,1,1,0,0,0, Bemowo, Chrzanów,0,4
 12318,2500000.0,92.0,3,wtórny,2022,0,0,0,0,0, Śródmieście, Kręta,1,4
@@ -704,17 +704,17 @@
 9580,2850000.0,90.0,2,wtórny,2018,1,1,0,0,0, Mokotów, Fort Piłsudskiego,1,2
 11249,1395000.0,90.0,3,wtórny,1935,0,1,0,0,0, Bielany, Stare Bielany,1,1
 11073,1799000.0,90.0,4,wtórny,1946,1,0,0,0,0, Śródmieście, Piękna/dwustronne/prestiżowa lokalizacja/kamienica,2,6
-22972,1795000.0,89.9,4,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,&gt; 10,24
-664,1795000.0,89.9,4,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,&gt; 10,24
-6353,1795000.0,89.9,4,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,&gt; 10,24
-18564,1795000.0,89.9,4,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,&gt; 10,24
-4251,1795000.0,89.9,4,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,&gt; 10,24
-14041,1795000.0,89.9,4,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,&gt; 10,24
-20633,1795000.0,89.9,4,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,&gt; 10,24
-13884,1795000.0,89.9,4,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,&gt; 10,24
-8385,1795000.0,89.9,4,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,&gt; 10,24
+22972,1795000.0,89.9,4,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,11,24
+664,1795000.0,89.9,4,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,11,24
+6353,1795000.0,89.9,4,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,11,24
+18564,1795000.0,89.9,4,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,11,24
+4251,1795000.0,89.9,4,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,11,24
+14041,1795000.0,89.9,4,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,11,24
+20633,1795000.0,89.9,4,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,11,24
+13884,1795000.0,89.9,4,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,11,24
+8385,1795000.0,89.9,4,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,11,24
 11682,850000.0,89.9,4,wtórny,2008,1,1,0,0,0, Białołęka, Białołęka,1,1
-11895,1795000.0,89.9,4,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,&gt; 10,24
+11895,1795000.0,89.9,4,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,11,24
 6759,879000.0,89.7,4,pierwotny,2024,1,1,0,0,0, Rembertów,Pielgrzymów,0,3
 19365,1350000.0,89.7,4,wtórny,2000,1,1,0,0,0, Praga-Południe,gen. Romana Abrahama,5,6
 13993,1350000.0,89.7,4,wtórny,2000,1,1,0,0,0, Praga-Południe, Gocław,6,6
@@ -761,7 +761,7 @@
 11058,1420000.0,88.27,3,wtórny,2017,1,1,0,0,0, Bemowo,Szeligowska,0,4
 16539,1790000.0,88.25,3,wtórny,2004,1,0,0,0,0, Śródmieście, al. Jana Chrystiana Szucha,1,6
 3398,1460000.0,88.1,3,wtórny,2006,1,1,0,0,0, Centrum, Centrum,4,11
-17021,795000.0,88.1,4,wtórny,1980,1,0,0,0,0, Bielany,Gwiaździsta,&gt; 10,12
+17021,795000.0,88.1,4,wtórny,1980,1,0,0,0,0, Bielany,Gwiaździsta,11,12
 13881,1200000.0,88.0,3,wtórny,2022,1,1,0,0,0, Wola, Wola,9,12
 3939,760000.0,88.0,3,wtórny,2000,0,1,0,0,0, Białołęka, Tarchomin,3,3
 14274,760000.0,88.0,3,wtórny,2000,0,1,0,0,0, Białołęka, Tarchomin,3,3
@@ -790,9 +790,9 @@
 7034,855000.0,87.0,5,wtórny,2007,0,1,0,0,0, Białołęka,Jasiniec,2,2
 4690,780000.0,87.0,4,wtórny,1930,0,1,0,0,0, Praga-Południe, Praga-Południe,2,2
 14345,1250000.0,87.0,3,wtórny,2010,1,0,0,0,0, Ochota, Grójecka,6,11
-23287,1200000.0,87.0,4,pierwotny,2021,1,1,1,1,1, Wola,Marcina Kasprzaka,&gt; 10,26
+23287,1200000.0,87.0,4,pierwotny,2021,1,1,1,1,1, Wola,Marcina Kasprzaka,11,26
 1701,780000.0,87.0,4,wtórny,1930,0,1,0,0,0, Wawer, Stylowa,2,2
-23280,1200000.0,87.0,4,pierwotny,2021,1,1,1,1,1, Wola,Marcina Kasprzaka,&gt; 10,26
+23280,1200000.0,87.0,4,pierwotny,2021,1,1,1,1,1, Wola,Marcina Kasprzaka,11,26
 12077,1078321.0,86.74,4,pierwotny,2024,1,1,0,0,0, Targówek, Targówek,0,5
 10193,650866.0,86.5,4,pierwotny,2024,0,1,0,0,0, Białołęka, Echa Leśne 71,1,1
 4711,1220000.0,86.5,3,wtórny,2022,1,1,0,0,0, Wilanów, Wilanów,1,4
@@ -806,11 +806,11 @@
 7261,990000.0,86.1,4,wtórny,2011,1,0,0,0,0, Praga-Południe, Łukowska,8,8
 8578,1120000.0,86.04,3,wtórny,2002,1,0,0,0,0, Ochota,Grójecka,4,13
 22960,999000.0,86.0,4,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,7,12
-23034,1537000.0,86.0,4,pierwotny,2021,1,1,1,1,1, Wola, Wola,&gt; 10,21
+23034,1537000.0,86.0,4,pierwotny,2021,1,1,1,1,1, Wola, Wola,11,21
 9749,980000.0,86.0,5,wtórny,1989,0,0,0,0,0, Bemowo, Orlich Gniazd,2,2
-11033,1537000.0,86.0,4,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,26
-11713,1525000.0,86.0,4,pierwotny,2022,1,1,1,1,1, Wola, Marcina Kasprzaka,&gt; 10,12
-528,1534000.0,86.0,4,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,26
+11033,1537000.0,86.0,4,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,11,26
+11713,1525000.0,86.0,4,pierwotny,2022,1,1,1,1,1, Wola, Marcina Kasprzaka,11,12
+528,1534000.0,86.0,4,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,11,26
 22965,1548000.0,86.0,3,wtórny,2006,1,1,0,0,0, Centrum, Centrum,5,11
 7117,850000.0,86.0,4,wtórny,2022,0,1,0,0,0, Ursus, Skorosze,5,6
 12639,1300000.0,86.0,4,wtórny,2022,1,1,0,0,0, Ursus, Silnikowa,1,7
@@ -929,13 +929,13 @@
 23011,1300000.0,82.0,4,wtórny,2017,0,1,0,0,0, Targówek,Krośniewicka,0,1
 16616,1300000.0,82.0,4,wtórny,2017,0,1,0,0,0, Targówek,Krośniewicka,0,1
 15842,1490000.0,82.0,4,wtórny,2008,1,1,0,0,0, Mokotów, Bobrowiecka,0,6
-23008,1398000.0,82.0,3,wtórny,2022,1,0,0,0,0, Mokotów, Bukowińska,&gt; 10,14
+23008,1398000.0,82.0,3,wtórny,2022,1,0,0,0,0, Mokotów, Bukowińska,11,14
 7846,1300000.0,82.0,4,wtórny,2017,0,1,0,0,0, Targówek,Krośniewicka,0,1
 13847,1300000.0,82.0,4,wtórny,2017,0,1,0,0,0, Targówek,Krośniewicka,0,1
 11327,750000.0,82.0,4,wtórny,1973,1,0,0,0,0, Praga-Południe, Praga-Południe,10,10
 12110,1340000.0,82.0,4,wtórny,2022,1,1,0,0,0, Ursynów, Stryjeńskich,1,4
 6439,785000.0,82.0,4,pierwotny,2023,1,1,0,0,0, Ursus, Ursus,1,7
-6024,1120000.0,82.0,3,wtórny,2022,1,0,0,0,0, Żoliborz,Sybilli,&gt; 10,15
+6024,1120000.0,82.0,3,wtórny,2022,1,0,0,0,0, Żoliborz,Sybilli,11,15
 11163,827900.0,82.0,4,pierwotny,2022,1,1,0,0,0, Ursus, al. Aleje Jerozolimskie,1,3
 23090,1300000.0,82.0,4,wtórny,2017,0,1,0,0,0, Targówek,Krośniewicka,0,1
 10749,819000.0,82.0,3,wtórny,1979,1,0,0,0,0, Praga-Południe, Świętosławska,10,11
@@ -977,13 +977,13 @@
 4161,1750000.0,80.5,3,wtórny,2012,1,1,0,0,0, Wilanów,Sarmacka,4,4
 642,719132.0,80.43,4,pierwotny,2023,1,1,0,0,0, Wawer, Wawer,2,5
 10365,795000.0,80.41,3,wtórny,1998,0,0,0,0,0, Bemowo,Ziębicka,3,5
-3566,1590000.0,80.4,3,wtórny,2007,1,1,0,0,0, Śródmieście,Zygmunta Słomińskiego,&gt; 10,22
+3566,1590000.0,80.4,3,wtórny,2007,1,1,0,0,0, Śródmieście,Zygmunta Słomińskiego,11,22
 14324,1299000.0,80.38,4,wtórny,2009,1,0,0,0,0, Wilanów, Sarmacka,2,4
-21294,1690000.0,80.33,3,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,&gt; 10,24
-16419,1690000.0,80.33,3,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,&gt; 10,24
-6060,1690000.0,80.33,3,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,&gt; 10,24
-8541,1690000.0,80.33,3,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,&gt; 10,24
-11389,1690000.0,80.33,3,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,&gt; 10,24
+21294,1690000.0,80.33,3,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,11,24
+16419,1690000.0,80.33,3,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,11,24
+6060,1690000.0,80.33,3,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,11,24
+8541,1690000.0,80.33,3,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,11,24
+11389,1690000.0,80.33,3,wtórny,2022,1,1,0,0,0, Wola, al. Aleja Prymasa Tysiąclecia,11,24
 7495,1660000.0,80.31,3,wtórny,2018,1,1,0,0,0, Ochota, Szczęśliwicka,6,6
 9413,835000.0,80.08,4,wtórny,2023,1,1,0,0,0, Mokotów, Domaniewska,1,7
 2482,954000.0,80.0,3,wtórny,2020,1,1,0,0,0, Targówek, Janowiecka,1,3
@@ -995,7 +995,7 @@
 15446,629000.0,80.0,4,wtórny,2022,0,1,1,1,1, Wawer, Wawer,0,2
 19229,629000.0,80.0,4,wtórny,2022,0,1,1,1,1, Wawer, Wawer,0,2
 8348,629000.0,80.0,4,wtórny,2022,0,1,1,1,1, Wawer, Wawer,0,2
-21371,999000.0,80.0,3,wtórny,1999,1,1,0,0,0, Wola, Płocka,&gt; 10,15
+21371,999000.0,80.0,3,wtórny,1999,1,1,0,0,0, Wola, Płocka,11,15
 11390,629000.0,80.0,4,wtórny,2022,0,1,1,1,1, Wawer, Wawer,0,2
 2705,600000.0,80.0,5,pierwotny,2022,0,1,1,1,1, Wawer,Wiekowa,0,3
 11252,1097000.0,80.0,4,pierwotny,2022,1,1,0,0,0, Mokotów, Mokotów,3,7
@@ -1100,7 +1100,7 @@
 5099,1220000.0,78.0,3,wtórny,2008,1,1,0,0,0, Wola, Zawiszy,1,7
 23125,691594.0,77.97,3,pierwotny,2022,1,1,0,0,0, Białołęka,Brzeziny,2,2
 1836,1160710.0,77.9,3,pierwotny,2022,1,1,0,0,0, Włochy, Promienista,2,2
-15998,1380000.0,77.9,3,wtórny,2008,1,1,0,0,0, Wola, Wola,&gt; 10,17
+15998,1380000.0,77.9,3,wtórny,2008,1,1,0,0,0, Wola, Wola,11,17
 946,1199000.0,77.86,4,wtórny,2017,1,1,0,0,0, Wilanów, Adama Branickiego,2,3
 16002,725000.0,77.8,3,wtórny,2003,0,1,0,0,0, Białołęka, Białołęka,2,2
 7838,725000.0,77.8,3,wtórny,2003,0,1,0,0,0, Białołęka, Białołęka,2,2
@@ -1108,7 +1108,7 @@
 1896,1180000.0,77.8,2,wtórny,2016,1,1,0,0,0, Mokotów,Obrzeżna,3,8
 6065,1164750.0,77.65,3,wtórny,2001,0,0,0,0,0, Wola, Łacińska,2,3
 6805,1150000.0,77.51,3,wtórny,2006,1,1,0,0,0, Ursynów,Melchiora Wańkowicza,2,5
-7967,1180000.0,77.4,4,wtórny,2008,1,1,0,0,0, Wola,Leszno 8,&gt; 10,14
+7967,1180000.0,77.4,4,wtórny,2008,1,1,0,0,0, Wola,Leszno 8,11,14
 5768,1470600.0,77.4,3,wtórny,2022,1,1,0,0,0, Mokotów," Batalionu AK ""Karpaty""",2,3
 889,970000.0,77.32,4,wtórny,2020,1,1,0,0,0, Targówek,Janowiecka,3,3
 3906,930000.0,77.32,4,wtórny,2022,1,1,0,0,0, Targówek, Janowiecka,3,3
@@ -1252,7 +1252,7 @@
 14534,1200000.0,74.2,3,wtórny,2009,1,1,0,0,0, Mokotów, Mokotów,6,10
 3719,848000.0,74.2,3,wtórny,2022,1,1,1,1,1, Ursus,Józefa Chełmońskiego 2,0,7
 18897,1200000.0,74.2,3,wtórny,2009,1,1,0,0,0, Mokotów, Puławska,6,10
-11689,1700000.0,74.08,3,wtórny,2016,1,1,0,0,0, Wola, Siedmiogrodzka,&gt; 10,16
+11689,1700000.0,74.08,3,wtórny,2016,1,1,0,0,0, Wola, Siedmiogrodzka,11,16
 3862,750000.0,74.04,3,wtórny,2007,1,1,0,0,0, Ursus,Skoroszewska,5,5
 3940,750000.0,74.04,3,wtórny,2007,1,1,0,0,0, Ursus,Skoroszewska,5,5
 5882,750000.0,74.04,3,wtórny,2007,1,1,0,0,0, Ursus,Skoroszewska,5,5
@@ -1383,10 +1383,10 @@
 7936,798000.0,73.0,3,wtórny,2007,0,1,1,1,1, Wilanów, Syta,0,1
 8055,1200000.0,73.0,4,wtórny,2020,1,1,0,0,0, Mokotów,Pory,1,6
 9180,798000.0,73.0,3,wtórny,2007,0,1,1,1,1, Mokotów, Mokotów,0,1
-23317,1250000.0,73.0,3,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,21
+23317,1250000.0,73.0,3,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,11,21
 4889,1204500.0,73.0,2,wtórny,2016,1,1,0,0,0, Wilanów, Kazachska,3,3
 5964,1204000.0,73.0,3,wtórny,2018,1,1,0,0,0, Mokotów,Komputerowa,6,7
-22662,1250000.0,73.0,3,wtórny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,24
+22662,1250000.0,73.0,3,wtórny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,11,24
 11728,740000.0,73.0,4,wtórny,1990,0,1,0,0,0, Ursynów, Zygmunta Pawlaczyka,0,4
 18043,1375000.0,72.93,3,wtórny,2021,1,1,0,0,0, Mokotów, Srebrnych Świerków,2,2
 15311,1140000.0,72.9,3,wtórny,2015,1,1,0,0,0, Ursynów, al. Aleja Wyścigowa,4,5
@@ -1407,8 +1407,8 @@
 15583,720000.0,72.59,3,pierwotny,2021,0,1,0,0,0, Wawer, Chodzieska,0,1
 1684,1440000.0,72.52,3,wtórny,1904,0,0,0,0,0, Śródmieście, Nowogrodzka,2,5
 20117,210000.0,72.51,3,wtórny,2005,1,0,0,0,0, Targówek, Targówek,4,4
-3282,1231775.0,72.5,4,wtórny,2009,1,1,0,0,0, Wola, Okopowa 56,&gt; 10,18
-2249,1195525.0,72.5,3,wtórny,2009,1,1,0,0,0, Wola,Okopowa 56,&gt; 10,16
+3282,1231775.0,72.5,4,wtórny,2009,1,1,0,0,0, Wola, Okopowa 56,11,18
+2249,1195525.0,72.5,3,wtórny,2009,1,1,0,0,0, Wola,Okopowa 56,11,16
 21779,1149000.0,72.5,3,wtórny,2014,1,1,0,0,0, Mokotów, Wynalazek,3,6
 4082,649000.0,72.4,3,wtórny,1999,1,1,0,0,0, Białołęka, Białołęka,4,4
 7488,649000.0,72.4,3,wtórny,1999,1,1,0,0,0, Białołęka, Białołęka,4,4
@@ -1445,7 +1445,7 @@
 4177,950000.0,72.0,3,wtórny,1985,0,1,0,0,0, Żoliborz,Przasnyska,4,4
 18823,640000.0,72.0,3,wtórny,1980,0,0,0,0,0, Praga-Południe, Grochów,2,16
 10777,1025000.0,72.0,3,wtórny,2022,0,0,0,0,0, Mokotów, Dolna,2,3
-22658,1072000.0,72.0,3,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,21
+22658,1072000.0,72.0,3,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,11,21
 2670,1137000.0,72.0,3,wtórny,2005,0,1,0,0,0, Ursynów, Jaworowa,0,2
 23308,640000.0,72.0,3,wtórny,1981,1,0,0,0,0, Praga-Południe,Igańska,2,16
 5274,900000.0,72.0,3,wtórny,1992,0,0,0,0,0, Ursynów,Bronisława Pietraszewicza,3,4
@@ -1454,7 +1454,7 @@
 2664,1150000.0,72.0,3,wtórny,2014,1,1,0,0,0, Praga-Południe, Praga-Południe,8,10
 11055,710000.0,72.0,3,wtórny,1981,1,0,0,0,0, Praga-Południe,Igańska,4,10
 11395,879000.0,72.0,3,wtórny,1989,0,0,0,0,0, Praga-Południe,Floriana Znanieckiego,2,4
-23316,1120000.0,72.0,4,pierwotny,2021,1,1,1,1,1, Wola, Wola,&gt; 10,12
+23316,1120000.0,72.0,4,pierwotny,2021,1,1,1,1,1, Wola, Wola,11,12
 9718,647000.0,71.92,4,wtórny,1980,0,0,0,0,0, Ursynów, Zamiany,4,4
 6483,654381.0,71.91,2,pierwotny,2019,0,1,0,0,0, Wilanów,Ruczaj,2,2
 1842,1042550.0,71.9,3,pierwotny,2022,1,1,0,0,0, Włochy, Promienista,0,2
@@ -1467,12 +1467,12 @@
 19803,852000.0,71.6,3,wtórny,1965,0,0,0,0,0, Ochota, Rakowiec,2,3
 13908,629992.0,71.59,3,pierwotny,2022,1,1,0,0,0, Białołęka,Brzeziny,2,2
 5189,979000.0,71.54,3,wtórny,2007,0,0,0,0,0, Wilanów,Franciszka Klimczaka,0,4
-10038,892000.0,71.54,4,wtórny,2017,1,1,0,0,0, Praga-Południe, Ostrobramska,&gt; 10,17
+10038,892000.0,71.54,4,wtórny,2017,1,1,0,0,0, Praga-Południe, Ostrobramska,11,17
 5266,979000.0,71.54,3,wtórny,2007,0,0,0,0,0, Wilanów,Franciszka Klimczaka,0,4
 10025,979000.0,71.54,3,wtórny,2007,0,0,0,0,0, Wilanów,Franciszka Klimczaka,0,4
 17045,979000.0,71.54,3,wtórny,2007,0,0,0,0,0, Wilanów,Franciszka Klimczaka,0,4
 15914,979000.0,71.54,3,wtórny,2007,0,0,0,0,0, Wilanów,Franciszka Klimczaka,0,4
-3690,899000.0,71.54,4,wtórny,2017,1,1,0,0,0, Praga-Południe, Ostrobramska,&gt; 10,17
+3690,899000.0,71.54,4,wtórny,2017,1,1,0,0,0, Praga-Południe, Ostrobramska,11,17
 8763,979000.0,71.54,3,wtórny,2007,0,0,0,0,0, Wilanów,Franciszka Klimczaka,0,4
 9820,1190000.0,71.5,3,wtórny,2011,1,1,0,0,0, Wilanów,Sarmacka,2,3
 4067,990000.0,71.5,3,wtórny,2000,1,1,0,0,0, Ursynów, Jana Rosoła,1,3
@@ -1488,20 +1488,20 @@
 18046,890000.0,71.16,3,wtórny,1965,0,0,0,0,0, Ochota, Ochota,2,3
 2690,1137000.0,71.1,3,wtórny,2002,0,1,0,0,0, Ursynów, Jaworowa,0,2
 9809,850000.0,71.0,3,wtórny,2005,0,1,0,0,0, Targówek,Wyspowa,3,3
-19375,1290000.0,71.0,3,pierwotny,2021,1,1,0,0,0, Wola, Wola,&gt; 10,12
+19375,1290000.0,71.0,3,pierwotny,2021,1,1,0,0,0, Wola, Wola,11,12
 4569,1285000.0,71.0,3,pierwotny,2022,1,1,0,0,0, Wola,Jana Kazimierza,4,8
 10413,1285000.0,71.0,3,pierwotny,2022,1,1,0,0,0, Wola,Jana Kazimierza,4,8
 12792,1285000.0,71.0,3,pierwotny,2022,1,1,0,0,0, Wola,Jana Kazimierza,4,8
 6162,1285000.0,71.0,3,pierwotny,2022,1,1,0,0,0, Wola,Jana Kazimierza,4,8
 15377,640000.0,71.0,4,wtórny,1980,0,0,0,0,0, Ursynów, Ursynów,3,4
 7894,1275000.0,71.0,3,wtórny,2015,1,1,0,0,0, Mokotów,Konstruktorska,3,8
-23046,1134000.0,71.0,3,pierwotny,2021,1,1,0,0,0, Wola, Wola,&gt; 10,12
+23046,1134000.0,71.0,3,pierwotny,2021,1,1,0,0,0, Wola, Wola,11,12
 3338,998000.0,71.0,3,wtórny,2016,1,1,0,0,0, Wilanów, Wilanów,2,4
 18869,970000.0,71.0,3,wtórny,2017,1,1,0,0,0, Mokotów, Mokotów,4,4
 4411,1645000.0,71.0,2,wtórny,2008,1,1,0,0,0, Mokotów, Sułkowicka,2,8
 4442,599000.0,71.0,3,wtórny,2007,0,0,0,0,0, Białołęka,Światowida,2,4
 7730,1200000.0,71.0,4,wtórny,1970,1,1,0,0,0, Śródmieście, Mieczysława Orłowicza,10,11
-23215,1179000.0,71.0,3,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,8
+23215,1179000.0,71.0,3,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,11,8
 5434,599000.0,71.0,3,wtórny,2007,0,0,0,0,0, Białołęka,Pasłęcka,2,4
 13103,1240000.0,71.0,3,wtórny,2012,1,1,0,0,0, Mokotów, Obrzeżna,2,6
 1948,879000.0,71.0,3,wtórny,2013,1,1,0,0,0, Wesoła, Wesoła,0,3
@@ -1536,8 +1536,8 @@
 17855,1150000.0,70.5,3,wtórny,2019,1,0,0,0,0, Mokotów,Śródziemnomorska,5,11
 11417,1274170.0,70.5,3,wtórny,2019,1,0,0,0,0, Mokotów,Śródziemnomorska,5,11
 18822,860000.0,70.45,3,wtórny,2005,0,0,0,0,0, Praga-Południe, Praga-Południe,2,8
-20061,890000.0,70.4,4,wtórny,1976,1,0,0,0,0, Targówek, Targówek Mieszkaniowy,&gt; 10,11
-16746,890000.0,70.4,4,wtórny,1978,1,0,0,0,0, Targówek, Kołowa,&gt; 10,11
+20061,890000.0,70.4,4,wtórny,1976,1,0,0,0,0, Targówek, Targówek Mieszkaniowy,11,11
+16746,890000.0,70.4,4,wtórny,1978,1,0,0,0,0, Targówek, Kołowa,11,11
 13371,689900.0,70.31,3,wtórny,2021,1,1,0,0,0, Białołęka, Aluzyjna,2,4
 9684,723884.0,70.28,3,pierwotny,2022,1,1,0,0,0, Białołęka, Tarchomin,4,8
 14755,695673.0,70.27,3,pierwotny,2022,1,1,0,0,0, Białołęka, Światowida,2,8
@@ -1581,7 +1581,7 @@
 3027,1189000.0,70.0,4,wtórny,1980,1,1,1,1,1, Ursynów,Jana Wasilkowskiego,0,10
 11535,960000.0,70.0,3,pierwotny,2021,1,1,0,0,0, Wola, Wola,3,8
 11333,750000.0,70.0,3,wtórny,2007,1,1,0,0,0, Wawer,Poezji,0,3
-23196,1120000.0,70.0,3,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,26
+23196,1120000.0,70.0,3,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,11,26
 10146,760000.0,70.0,3,wtórny,1972,1,1,0,0,0, Bemowo,Apenińska,6,8
 10267,1250000.0,70.0,2,wtórny,1929,0,0,0,0,0, Ochota,Grójecka,2,3
 15348,649000.0,70.0,3,wtórny,1938,0,0,0,0,0, Praga-Południe, al. Jerzego Waszyngtona,4,5
@@ -1621,7 +1621,7 @@
 6732,695000.0,69.22,3,wtórny,2009,1,1,0,0,0, Wawer, Falenica,3,3
 8252,718536.0,69.09,3,pierwotny,2022,1,1,0,0,0, Targówek, Zamkowa,3,3
 14616,1699000.0,69.03,3,wtórny,2021,1,1,0,0,0, Mokotów, Puławska,6,8
-11054,1089500.0,69.0,3,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,24
+11054,1089500.0,69.0,3,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,11,24
 5343,1230000.0,69.0,3,wtórny,2021,1,1,0,0,0, Żoliborz,Anny German,2,6
 8065,697000.0,69.0,3,wtórny,2000,1,1,0,0,0, Ursus,Królów Polskich 5B,2,6
 4544,1230000.0,69.0,3,wtórny,2021,1,1,0,0,0, Żoliborz,Anny German,2,6
@@ -1640,16 +1640,16 @@
 4378,1189000.0,69.0,3,wtórny,1988,1,0,0,0,0, Śródmieście,Wspólna,4,8
 21505,999999.0,69.0,3,wtórny,2016,1,1,0,0,0, Wilanów, Aleja Rzeczypospolitej,0,4
 23224,720000.0,69.0,3,wtórny,1938,0,1,0,0,0, Ursus, Cierlicka,1,3
-23295,1170000.0,69.0,3,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,26
+23295,1170000.0,69.0,3,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,11,26
 4910,980000.0,69.0,3,wtórny,2010,1,1,0,0,0, Bemowo,Batalionów Chłopskich,0,3
 10224,769000.0,69.0,4,wtórny,2021,1,1,0,0,0, Bemowo, Szeligowska,3,5
 11114,1050000.0,69.0,3,wtórny,1937,0,0,0,0,0, Ochota, Stara Ochota,2,3
 10216,769000.0,69.0,4,wtórny,2021,1,1,0,0,0, Bemowo, Szeligowska,3,5
-12338,1340000.0,69.0,3,pierwotny,2021,1,1,0,0,0, Wola, Wola,&gt; 10,24
-19374,1270000.0,69.0,3,pierwotny,2021,1,1,0,0,0, Wola, Wola,&gt; 10,24
-675,1331000.0,69.0,3,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,23
+12338,1340000.0,69.0,3,pierwotny,2021,1,1,0,0,0, Wola, Wola,11,24
+19374,1270000.0,69.0,3,pierwotny,2021,1,1,0,0,0, Wola, Wola,11,24
+675,1331000.0,69.0,3,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,11,23
 12718,1035000.0,69.0,3,wtórny,1976,0,0,0,0,0, Mokotów, Górny Mokotów,1,4
-1186,1330000.0,69.0,3,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,23
+1186,1330000.0,69.0,3,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,11,23
 21342,809000.0,69.0,3,wtórny,2005,0,0,0,0,0, Mokotów, Mokotów,1,7
 5288,830000.0,68.9,2,wtórny,2005,1,1,0,0,0, Mokotów, Mokotów,3,11
 13384,799124.0,68.89,3,wtórny,2005,1,1,0,0,0, Targówek,Samarytanka 1,2,6
@@ -1694,7 +1694,7 @@
 1969,1350000.0,68.49,3,wtórny,2017,1,1,0,0,0, Wola, Czyste,5,7
 2484,899000.0,68.47,3,wtórny,2022,0,1,0,0,0, Białołęka, Głębocka,4,4
 15067,724000.0,68.4,3,wtórny,2022,1,1,0,0,0, Włochy,Budki Szczęśliwickie,0,5
-3438,1095000.0,68.4,3,pierwotny,2021,1,1,0,0,0, Wola, Wola,&gt; 10,24
+3438,1095000.0,68.4,3,pierwotny,2021,1,1,0,0,0, Wola, Wola,11,24
 730,1162500.0,68.4,3,pierwotny,2022,1,1,0,0,0, Mokotów, Bartycka,0,3
 5896,924000.0,68.37,3,wtórny,2017,1,1,0,0,0, Bemowo, Dywizjonu 303,2,3
 3343,618800.0,68.36,3,wtórny,2003,0,1,1,1,1, Wawer,Wał Miedzeszyński,2,2
@@ -1713,9 +1713,9 @@
 21019,639000.0,68.2,3,wtórny,2009,0,1,0,0,0, Białołęka, Żeglugi Wiślanej,0,3
 1589,775000.0,68.2,3,wtórny,2020,1,1,0,0,0, Białołęka,Dionizosa,1,8
 16295,626000.0,68.2,3,wtórny,2011,0,0,0,0,0, Białołęka, Białołęka,0,4
-12389,649000.0,68.2,3,wtórny,1981,1,0,0,0,0, Żoliborz, Żoliborz,&gt; 10,15
-9428,599000.0,68.1,3,wtórny,1978,1,1,0,0,0, Bielany, Klaudyny,&gt; 10,15
-7980,1090000.0,68.1,3,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,24
+12389,649000.0,68.2,3,wtórny,1981,1,0,0,0,0, Żoliborz, Żoliborz,11,15
+9428,599000.0,68.1,3,wtórny,1978,1,1,0,0,0, Bielany, Klaudyny,11,15
+7980,1090000.0,68.1,3,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,11,24
 3457,630000.0,68.1,4,wtórny,1980,0,0,0,0,0, Bemowo,Karabeli,3,3
 10202,969000.0,68.07,3,wtórny,2015,1,1,0,0,0, Ochota,Włodarzewska,5,8
 13523,950000.0,68.0,3,wtórny,2022,0,1,0,0,0, Wola, Jana Kazimierza,1,5
@@ -1741,7 +1741,7 @@
 16027,1600000.0,68.0,3,wtórny,2001,1,1,0,0,0, Żoliborz, Gwiaździsta,3,3
 14422,789000.0,68.0,2,wtórny,2022,0,1,0,0,0, Bielany, Przy Agorze,3,3
 4708,870000.0,68.0,2,wtórny,2013,1,1,0,0,0, Wilanów,św. Urszuli Ledóchowskiej 5,1,4
-23045,1087000.0,68.0,3,pierwotny,2021,1,1,1,1,1, Wola, Wola,&gt; 10,26
+23045,1087000.0,68.0,3,pierwotny,2021,1,1,1,1,1, Wola, Wola,11,26
 2481,939000.0,68.0,3,wtórny,2015,1,1,0,0,0, Ursynów, Ursynów,3,6
 3337,825000.0,68.0,3,wtórny,2008,1,1,0,0,0, Bemowo, Górczewska 200C,9,10
 20150,936027.0,67.99,3,pierwotny,2022,1,1,0,0,0, Mokotów, Kątna,1,2
@@ -1765,7 +1765,7 @@
 17128,710962.0,67.55,4,pierwotny,2022,0,1,0,0,0, Ursus,Dzieci Warszawy,2,4
 5197,668000.0,67.5,3,pierwotny,2024,1,1,0,0,0, Rembertów,Pielgrzymów,1,3
 15630,659900.0,67.5,3,wtórny,1980,1,0,0,0,0, Targówek, Gościeradowska,6,10
-16435,820000.0,67.5,3,wtórny,2014,1,0,0,0,0, Praga-Południe, Jana Nowaka-Jeziorańskiego,&gt; 10,14
+16435,820000.0,67.5,3,wtórny,2014,1,0,0,0,0, Praga-Południe, Jana Nowaka-Jeziorańskiego,11,14
 15927,820000.0,67.5,4,wtórny,1977,1,0,0,0,0, Ursynów,Koński Jar,0,4
 10989,1395000.0,67.5,3,wtórny,2013,1,1,0,0,0, Ursynów, Cynamonowa 19,4,10
 15004,780000.0,67.4,4,wtórny,1975,1,0,0,0,0, Mokotów, Mokotów,4,10
@@ -1783,9 +1783,9 @@
 390,799000.0,67.31,3,wtórny,1984,1,1,0,0,0, Ursynów,Ludwika Hirszfelda,9,11
 10765,799000.0,67.31,3,wtórny,1984,1,1,0,0,0, Ursynów,Ludwika Hirszfelda,9,11
 2383,905000.0,67.3,3,wtórny,2014,1,1,0,0,0, Targówek,Handlowa,3,7
-11840,921000.0,67.3,3,wtórny,2016,1,1,0,0,0, Praga-Południe,Jana Nowaka-Jeziorańskiego,&gt; 10,14
+11840,921000.0,67.3,3,wtórny,2016,1,1,0,0,0, Praga-Południe,Jana Nowaka-Jeziorańskiego,11,14
 5518,940000.0,67.3,2,wtórny,2008,0,1,0,0,0, Wilanów, Aleja Rzeczypospolitej,1,4
-11834,921000.0,67.3,3,wtórny,2016,1,1,0,0,0, Praga-Południe,Jana Nowaka-Jeziorańskiego,&gt; 10,14
+11834,921000.0,67.3,3,wtórny,2016,1,1,0,0,0, Praga-Południe,Jana Nowaka-Jeziorańskiego,11,14
 3738,1180000.0,67.24,3,wtórny,2014,1,1,0,0,0, Żoliborz, Przasnyska 7,3,6
 14789,958000.0,67.2,2,wtórny,2009,1,0,0,0,0, Wilanów, Aleja Rzeczypospolitej,2,4
 16890,1300000.0,67.14,3,wtórny,2009,1,0,0,0,0, Śródmieście, Śródmieście,9,10
@@ -1797,7 +1797,7 @@
 8792,1090000.0,67.0,4,wtórny,2009,1,1,0,0,0, Wola, Wola,0,5
 13964,1090000.0,67.0,4,wtórny,2009,1,1,0,0,0, Wola, Wola,0,5
 19814,1090000.0,67.0,4,wtórny,2009,1,1,0,0,0, Wola, Wola,0,5
-20656,997000.0,67.0,3,wtórny,2000,1,1,0,0,0, Mokotów, Ksawerów,&gt; 10,11
+20656,997000.0,67.0,3,wtórny,2000,1,1,0,0,0, Mokotów, Ksawerów,11,11
 5319,1300000.0,67.0,3,wtórny,2015,1,1,0,0,0, Żoliborz, Żoliborz,3,5
 17669,1090000.0,67.0,4,wtórny,2009,1,1,0,0,0, Wola, Wola,0,5
 1691,799990.0,67.0,4,wtórny,1975,1,0,0,0,0, Mokotów, Sozopolska,2,10
@@ -1807,14 +1807,14 @@
 10042,810000.0,67.0,3,wtórny,2014,1,1,0,0,0, Wola, Wola,2,9
 10152,810000.0,67.0,3,wtórny,2014,1,1,0,0,0, Wola,Jana Kazimierza,2,9
 17125,860000.0,67.0,3,wtórny,2007,1,1,0,0,0, Bielany, Bielany,4,15
-812,960000.0,67.0,3,wtórny,1990,1,1,0,0,0, Żoliborz, Żoliborz,&gt; 10,12
+812,960000.0,67.0,3,wtórny,1990,1,1,0,0,0, Żoliborz, Żoliborz,11,12
 5771,980000.0,67.0,3,wtórny,2001,1,0,0,0,0, Ursynów, Franciszka Marii Lanciego,5,5
 1209,695000.0,67.0,3,wtórny,2010,1,1,0,0,0, Białołęka, Milenijna 51,1,6
 8774,980000.0,67.0,3,wtórny,2001,1,1,0,0,0, Ursynów, Franciszka Marii Lanciego,5,5
 11739,695000.0,67.0,3,wtórny,2010,1,1,0,0,0, Białołęka, Milenijna 51,1,6
 4052,695000.0,67.0,3,wtórny,2010,1,1,0,0,0, Białołęka, Milenijna 51,1,6
 8778,980000.0,67.0,3,wtórny,2001,1,1,0,0,0, Ursynów, Franciszka Marii Lanciego,5,5
-831,960000.0,67.0,3,wtórny,1990,1,1,0,0,0, Żoliborz, Żoliborz,&gt; 10,12
+831,960000.0,67.0,3,wtórny,1990,1,1,0,0,0, Żoliborz, Żoliborz,11,12
 19986,960000.0,67.0,2,wtórny,2001,1,0,0,0,0, Ochota, Drawska,0,3
 11095,719500.0,67.0,4,wtórny,2022,1,0,0,0,0, Bielany, Chomiczówka,0,8
 13871,1600000.0,67.0,3,wtórny,2017,1,1,0,0,0, Ochota, Juliana Ursyna Niemcewicza,3,4
@@ -1852,7 +1852,7 @@
 12975,660000.0,66.4,4,wtórny,2022,0,0,0,0,0, Bielany, Klaudyny,1,14
 21496,849000.0,66.4,2,wtórny,2005,1,1,0,0,0, Bemowo, Edmunda Jana Osmańczyka,3,3
 1831,989360.0,66.4,3,pierwotny,2022,1,1,0,0,0, Włochy, Promienista,2,2
-14100,850000.0,66.4,3,wtórny,1989,1,1,0,0,0, Żoliborz, Tylżycka,&gt; 10,12
+14100,850000.0,66.4,3,wtórny,1989,1,1,0,0,0, Żoliborz, Tylżycka,11,12
 18793,699000.0,66.4,3,wtórny,2010,1,1,0,0,0, Białołęka, Tajemna,2,3
 3770,739000.0,66.4,3,wtórny,2022,1,1,0,0,0, Rembertów," Aleja gen. Antoniego Chruściela ""Montera""",1,4
 10896,863000.0,66.36,3,wtórny,2021,1,1,0,0,0, Bemowo, Chrzanów,2,3
@@ -1868,7 +1868,7 @@
 3392,1090000.0,66.0,3,wtórny,2016,1,1,0,0,0, Wilanów, Wilanów,2,4
 2962,1300000.0,66.0,3,wtórny,2011,1,1,0,0,0, Mokotów, Puławska,2,7
 11079,1019900.0,66.0,3,wtórny,1950,0,0,0,0,0, Śródmieście, okolica Elektoralnej i pl. Bankowego/zieleń/cisza/kamienica z 1950 r.,1,3
-23109,997000.0,66.0,3,pierwotny,2021,1,1,1,1,1, Wola, Wola,&gt; 10,26
+23109,997000.0,66.0,3,pierwotny,2021,1,1,1,1,1, Wola, Wola,11,26
 4601,729000.0,66.0,3,wtórny,1975,1,0,0,0,0, Mokotów, Mokotów,5,10
 20464,1200000.0,66.0,3,wtórny,2018,1,1,0,0,0, Wola, Stanisława Worcella,1,6
 3955,760000.0,66.0,3,wtórny,1978,1,1,0,0,0, Bemowo,Stanisława Lencewicza,2,7
@@ -2038,7 +2038,7 @@
 3946,799000.0,64.07,4,wtórny,1968,1,1,0,0,0, Mokotów, Miączyńska,1,10
 12062,838577.0,64.04,3,pierwotny,2024,1,1,0,0,0, Targówek, Targówek,2,5
 12069,835375.0,64.04,3,pierwotny,2024,1,1,0,0,0, Targówek, Targówek,1,5
-5805,736000.0,64.03,3,wtórny,1981,1,0,0,0,0, Mokotów,Bernardyńska,&gt; 10,13
+5805,736000.0,64.03,3,wtórny,1981,1,0,0,0,0, Mokotów,Bernardyńska,11,13
 15743,520000.0,64.0,2,wtórny,1996,0,0,0,0,0, Białołęka, Białołęka,0,3
 16009,520000.0,64.0,2,wtórny,1996,0,0,0,0,0, Białołęka, Białołęka,0,3
 13714,1920000.0,64.0,2,wtórny,2018,1,1,0,0,0, Mokotów, Fort Piłsudskiego,0,2
@@ -2199,7 +2199,7 @@
 4015,835000.0,63.0,4,pierwotny,2022,1,1,0,0,0, Ursus,Posag 7 Panien,4,7
 4988,818000.0,63.0,3,wtórny,1997,0,1,0,0,0, Ochota, Jasielska 47,1,4
 7405,670000.0,63.0,2,wtórny,1975,1,0,0,0,0, Ursynów, Koński Jar,1,6
-7739,3500000.0,63.0,2,wtórny,2022,1,1,0,0,0, Śródmieście, Złota,&gt; 10,52
+7739,3500000.0,63.0,2,wtórny,2022,1,1,0,0,0, Śródmieście, Złota,11,52
 7651,649000.0,63.0,3,wtórny,1985,1,1,0,0,0, Praga-Południe,Władysława Umińskiego,8,10
 14532,899000.0,63.0,3,wtórny,1986,0,0,0,0,0, Ursynów, Ursynów,0,3
 806,885000.0,63.0,3,wtórny,2006,1,0,1,1,1, Włochy,Wyrzyska,0,4
@@ -2243,7 +2243,7 @@
 3275,920000.0,62.5,3,wtórny,2005,1,1,0,0,0, Ursynów, al. Komisji Edukacji Narodowej,4,8
 18584,769000.0,62.5,3,wtórny,1980,0,0,0,0,0, Praga-Południe, Praga-Południe,10,10
 14402,769000.0,62.5,3,wtórny,1980,0,1,0,0,0, Praga-Południe, Grochów,10,10
-4027,749000.0,62.5,3,wtórny,2022,1,0,0,0,0, Praga-Południe, Majdańska,&gt; 10,17
+4027,749000.0,62.5,3,wtórny,2022,1,0,0,0,0, Praga-Południe, Majdańska,11,17
 20425,735000.0,62.5,2,wtórny,2010,1,1,0,0,0, Bemowo, Wrocławska,2,3
 3091,590000.0,62.5,3,wtórny,2022,0,1,0,0,0, Białołęka, Pabla Picassa,2,11
 8884,1600000.0,62.5,2,wtórny,2022,0,1,0,0,0, Mokotów, Ukryty Raj,2,2
@@ -2279,22 +2279,22 @@
 19029,740000.0,62.1,3,wtórny,2007,1,1,0,0,0, Targówek,Zielone Zacisze,2,5
 18073,664363.0,62.09,2,pierwotny,2022,0,1,0,0,0, Ursus, Aleksandra Prystora,2,4
 2594,692000.0,62.06,3,pierwotny,2021,1,1,0,0,0, Praga-Południe, Kokoryczki,0,8
-10369,1180000.0,62.0,2,wtórny,2003,1,1,0,0,0, Ochota,Juliana Ursyna Niemcewicza 26,&gt; 10,16
+10369,1180000.0,62.0,2,wtórny,2003,1,1,0,0,0, Ochota,Juliana Ursyna Niemcewicza 26,11,16
 14389,630000.0,62.0,3,wtórny,1980,0,0,0,0,0, Bemowo, Karabeli,0,3
 11136,659000.0,62.0,3,wtórny,1980,0,0,0,0,0, Bemowo,Karabeli,3,3
 20393,730000.0,62.0,3,wtórny,1993,1,0,0,0,0, Wola, Bellottiego Józefa,1,9
 17657,885000.0,62.0,2,wtórny,2000,0,1,0,0,0, Bielany,"Zgrupowania AK ""Żmija""",3,4
 23074,730000.0,62.0,3,wtórny,1934,0,0,0,0,0, Wesoła, Wesoła,0,2
-3023,585000.0,62.0,3,wtórny,1978,1,0,0,0,0, Praga-Południe,Łukowska,&gt; 10,12
+3023,585000.0,62.0,3,wtórny,1978,1,0,0,0,0, Praga-Południe,Łukowska,11,12
 3733,495000.0,62.0,3,wtórny,1985,1,1,0,0,0, Białołęka, Tarchomin,5,12
-15061,585000.0,62.0,3,wtórny,1978,1,0,0,0,0, Praga-Południe, Praga-Południe,&gt; 10,12
+15061,585000.0,62.0,3,wtórny,1978,1,0,0,0,0, Praga-Południe, Praga-Południe,11,12
 10254,855000.0,62.0,3,wtórny,2015,1,1,0,0,0, Włochy,Rakowska,3,3
 14054,720000.0,62.0,3,wtórny,1951,0,0,0,0,0, Wola, Wola,1,3
 8118,523900.0,62.0,3,pierwotny,2025,1,1,0,0,0, Białołęka,Płochocińska,0,3
 4695,580000.0,62.0,3,wtórny,1983,1,1,0,0,0, Bemowo,Drogomilska,6,7
 14022,1150000.0,62.0,3,wtórny,2022,1,1,0,0,0, Mokotów, Stanisława Kierbedzia,3,6
-23108,949000.0,62.0,3,pierwotny,2021,1,1,0,0,0, Wola, Wola,&gt; 10,24
-20405,947000.0,62.0,3,pierwotny,2021,1,1,0,0,0, Wola, Wola,&gt; 10,24
+23108,949000.0,62.0,3,pierwotny,2021,1,1,0,0,0, Wola, Wola,11,24
+20405,947000.0,62.0,3,pierwotny,2021,1,1,0,0,0, Wola, Wola,11,24
 15544,800000.0,62.0,3,wtórny,2022,1,0,0,0,0, Bemowo,Aleksandra Świętochowskiego,9,11
 20444,599000.0,62.0,3,wtórny,1979,1,0,0,0,0, Praga-Południe, Jarocińska,1,12
 7674,599000.0,62.0,3,wtórny,1983,1,1,0,0,0, Bemowo, Drogomilska,6,7
@@ -2340,12 +2340,12 @@
 15249,749000.0,61.31,3,wtórny,2022,0,1,0,0,0, Ursus,Dzieci Warszawy 40C,3,4
 4232,1040000.0,61.3,2,wtórny,2022,0,1,0,0,0, Wola, Jana Kazimierza,1,7
 2098,725000.0,61.3,3,wtórny,2012,1,1,0,0,0, Targówek,Zamkowa,0,3
-18080,924000.0,61.3,3,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,17
+18080,924000.0,61.3,3,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,11,17
 2709,796000.0,61.28,3,wtórny,2022,1,1,0,0,0, Mokotów, Cybernetyki,2,4
 19004,769000.0,61.26,3,wtórny,2021,0,0,0,0,0, Mokotów, Jadźwingów,2,4
 23084,535000.0,61.23,2,wtórny,2021,1,0,0,0,0, Targówek, Zacisze,1,4
 12708,799000.0,61.23,3,wtórny,1986,1,0,0,0,0, Mokotów, Wincentego Rzymowskiego,3,5
-2448,765000.0,61.2,3,wtórny,1991,1,0,0,0,0, Bielany,Gwiaździsta,&gt; 10,20
+2448,765000.0,61.2,3,wtórny,1991,1,0,0,0,0, Bielany,Gwiaździsta,11,20
 73,700000.0,61.17,3,wtórny,2022,1,1,0,0,0, Ursus, Władysława Jagiełły,0,3
 34,700000.0,61.17,3,wtórny,2022,1,1,0,0,0, Ursus, Władysława Jagiełły,0,3
 4662,945000.0,61.15,3,wtórny,2021,1,1,0,0,0, Włochy,Budki Szczęśliwickie,4,4
@@ -2381,8 +2381,8 @@
 2802,549000.0,61.0,3,wtórny,1978,0,0,0,0,0, Praga-Południe,Łukowska,0,12
 2437,1400000.0,61.0,3,wtórny,2014,1,1,0,0,0, Żoliborz,Jasnodworska,6,8
 19839,699000.0,61.0,4,wtórny,2018,1,1,0,0,0, Ursus, Ochocka,2,3
-13811,885000.0,61.0,3,wtórny,1981,1,0,0,0,0, Ursynów, Hawajska,&gt; 10,12
-18134,920000.0,61.0,3,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,20
+13811,885000.0,61.0,3,wtórny,1981,1,0,0,0,0, Ursynów, Hawajska,11,12
+18134,920000.0,61.0,3,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,11,20
 5490,650000.0,61.0,3,wtórny,2017,1,1,0,0,0, Białołęka, Białołęka,1,4
 16307,613000.0,60.96,3,pierwotny,2023,1,1,1,1,1, Ursus, Posag 7 Panien,0,7
 10039,1090000.0,60.93,3,wtórny,2015,1,1,0,0,0, Wola, Szulborska,5,7
@@ -2470,7 +2470,7 @@
 10087,595000.0,60.0,3,wtórny,1980,1,0,0,0,0, Praga-Południe,Stanisława Rogalskiego,9,10
 3635,960000.0,60.0,3,wtórny,2011,1,0,0,0,0, Wilanów, Prymasa Augusta Hlonda,0,4
 15033,960000.0,60.0,3,wtórny,2022,1,0,0,0,0, Wilanów, Prymasa Augusta Hlonda,0,4
-5097,695000.0,60.0,3,wtórny,1979,1,0,0,0,0, Praga-Południe, Grochów,&gt; 10,15
+5097,695000.0,60.0,3,wtórny,1979,1,0,0,0,0, Praga-Południe, Grochów,11,15
 1661,699000.0,60.0,2,wtórny,1993,0,1,0,0,0, Mokotów,Melomanów,3,4
 12595,644000.0,60.0,3,wtórny,2022,0,0,0,0,0, Bemowo, Bemowo,1,2
 13199,840000.0,60.0,2,wtórny,1956,1,0,0,0,0, Mokotów, al. Niepodległości 33,4,6
@@ -2486,7 +2486,7 @@
 15634,834000.0,60.0,3,wtórny,2008,0,1,0,0,0, Mokotów, Pejzażowa,10,14
 9565,599000.0,60.0,3,wtórny,2022,0,1,0,0,0, Bemowo, Gustawa Morcinka,4,4
 548,620000.0,60.0,3,wtórny,1988,1,0,0,0,0, Ursynów,Stanisława Kazury,0,7
-2218,840000.0,60.0,3,wtórny,2004,1,1,0,0,0, Mokotów,Pejzażowa,&gt; 10,14
+2218,840000.0,60.0,3,wtórny,2004,1,1,0,0,0, Mokotów,Pejzażowa,11,14
 21981,569940.0,60.0,3,wtórny,1969,0,0,0,0,0, Praga-Południe, Ostrobramska,4,4
 1846,1400000.0,60.0,2,wtórny,2022,0,0,0,0,0, Śródmieście, Radna,4,4
 2635,749000.0,60.0,3,wtórny,2011,0,1,0,0,0, Białołęka,Milenijna 6,2,2
@@ -2551,7 +2551,7 @@
 2507,1162500.0,59.12,3,pierwotny,2024,1,1,0,0,0, Mokotów, Mokotów,0,2
 2990,899000.0,59.1,3,wtórny,2009,1,1,0,0,0, Ochota, Ochota,7,11
 21329,1500000.0,59.0,3,wtórny,2015,1,1,0,0,0, Ochota, Włodarzewska,0,4
-22566,749000.0,59.0,5,wtórny,1981,1,0,0,0,0, Wola, Czyste,&gt; 10,16
+22566,749000.0,59.0,5,wtórny,1981,1,0,0,0,0, Wola, Czyste,11,16
 1967,599000.0,59.0,3,pierwotny,2022,0,1,0,0,0, Włochy,Drukarzy,2,2
 673,949000.0,59.0,3,wtórny,2011,1,1,0,0,0, Praga-Południe, Praga-Południe,3,5
 9215,499000.0,59.0,2,wtórny,1940,0,0,0,0,0, Rembertów, Nowy Rembertów,1,2
@@ -2567,7 +2567,7 @@
 2216,765000.0,59.0,4,wtórny,1971,1,0,0,0,0, Wola,Prosta,6,11
 16526,850000.0,59.0,2,wtórny,2007,0,1,0,0,0, Mokotów, Mokotów,0,4
 11779,829900.0,59.0,3,wtórny,2013,1,0,0,0,0, Ursynów, Ursynów,1,10
-12875,700000.0,59.0,3,wtórny,1990,1,0,0,0,0, Mokotów, Zygmunta Modzelewskiego,&gt; 10,15
+12875,700000.0,59.0,3,wtórny,1990,1,0,0,0,0, Mokotów, Zygmunta Modzelewskiego,11,15
 14027,505000.0,59.0,2,wtórny,1940,0,0,0,0,0, Rembertów, Nowy Rembertów,1,2
 9884,825000.0,59.0,3,pierwotny,2022,0,1,0,0,0, Praga-Południe, Gocław,5,6
 21982,665000.0,59.0,3,wtórny,1968,0,0,0,0,0, Praga-Południe, Ostrobramska,1,4
@@ -2578,7 +2578,7 @@
 4786,829900.0,59.0,3,wtórny,2013,1,0,0,0,0, Ursynów, Ursynów,1,10
 21402,657000.0,59.0,3,wtórny,1968,0,0,0,0,0, Praga-Południe, Białowieska,1,4
 7761,829900.0,59.0,3,wtórny,2013,1,0,0,0,0, Ursynów, Ursynów,1,10
-19296,712000.0,59.0,3,wtórny,1974,1,0,0,0,0, Mokotów, Modra,&gt; 10,15
+19296,712000.0,59.0,3,wtórny,1974,1,0,0,0,0, Mokotów, Modra,11,15
 18615,510000.0,59.0,3,wtórny,2022,1,1,0,0,0, Białołęka, Białołęka,0,5
 11585,829900.0,59.0,3,wtórny,2013,1,0,0,0,0, Ursynów, Ursynów,1,10
 14792,584100.0,59.0,4,wtórny,1969,1,0,0,0,0, Praga-Południe, Praga-Południe,1,6
@@ -2592,7 +2592,7 @@
 2405,504345.0,58.85,3,pierwotny,2023,1,1,0,0,0, Białołęka,Płochocińska,0,2
 2349,510230.0,58.85,3,pierwotny,2023,1,1,0,0,0, Białołęka,Płochocińska,0,2
 4106,694312.0,58.84,2,wtórny,2015,1,1,0,0,0, Włochy, Nowe Włochy,4,5
-8305,770000.0,58.8,3,wtórny,1974,1,0,0,0,0, Mokotów, Mokotów,&gt; 10,16
+8305,770000.0,58.8,3,wtórny,1974,1,0,0,0,0, Mokotów, Mokotów,11,16
 6980,630000.0,58.8,3,wtórny,2022,1,0,0,0,0, Ursus, Skoroszewska,4,8
 8555,650000.0,58.8,3,wtórny,2014,0,1,0,0,0, Ursus,Skoroszewska,4,8
 7210,760815.0,58.75,3,pierwotny,2022,1,1,0,0,0, Bemowo, Jelonki,0,7
@@ -2665,7 +2665,7 @@
 3406,999000.0,58.0,3,wtórny,1961,1,0,0,0,0, Śródmieście, Żurawia,5,7
 15492,841000.0,58.0,3,wtórny,2020,1,1,0,0,0, Włochy, Łopuszańska,4,5
 22425,935000.0,58.0,3,wtórny,2005,1,0,0,0,0, Praga-Południe,gen. Augusta Emila Fieldorfa,1,7
-1377,799000.0,58.0,3,wtórny,1980,1,0,0,0,0, Żoliborz, Żoliborz,&gt; 10,16
+1377,799000.0,58.0,3,wtórny,1980,1,0,0,0,0, Żoliborz, Żoliborz,11,16
 10803,935000.0,58.0,3,wtórny,2005,1,0,0,0,0, Praga-Południe,gen. Augusta Emila Fieldorfa,1,7
 12532,849000.0,58.0,3,wtórny,2017,1,1,0,0,0, Wilanów, Wilanów,2,4
 17012,940000.0,58.0,2,wtórny,2018,0,1,0,0,0, Wilanów, Adama Branickiego,0,3
@@ -2724,12 +2724,12 @@
 7381,890000.0,57.25,2,wtórny,2022,1,1,0,0,0, Wilanów, Adama Branickiego,0,3
 1411,950000.0,57.17,2,wtórny,2005,1,1,0,0,0, Wilanów, al. Aleja Wilanowska,4,4
 10210,708040.0,57.1,2,wtórny,2003,0,0,0,0,0, Praga-Południe, Praga-Południe,0,5
-4104,650000.0,57.1,3,wtórny,1977,1,0,0,0,0, Mokotów,Iberyjska,&gt; 10,15
+4104,650000.0,57.1,3,wtórny,1977,1,0,0,0,0, Mokotów,Iberyjska,11,15
 3026,726000.0,57.1,2,wtórny,2003,1,0,0,0,0, Praga-Południe, NIzinna,0,5
 22963,599000.0,57.1,3,wtórny,1969,1,0,0,0,0, Żoliborz, Sady Żoliborskie,5,10
 910,625000.0,57.02,2,wtórny,2000,1,1,0,0,0, Bielany, Maszewska 35,8,10
 2035,1600000.0,57.01,2,wtórny,2015,1,1,0,0,0, Śródmieście, Orłowicza,6,8
-5284,660000.0,57.0,3,wtórny,1982,1,0,0,0,0, Praga-Południe,Władysława Umińskiego,&gt; 10,15
+5284,660000.0,57.0,3,wtórny,1982,1,0,0,0,0, Praga-Południe,Władysława Umińskiego,11,15
 855,729000.0,57.0,3,wtórny,2006,0,1,0,0,0, Włochy,Płużańska,1,2
 13398,727000.0,57.0,3,wtórny,2011,0,0,0,0,0, Ursus, Ursus,1,6
 16022,490000.0,57.0,3,pierwotny,2021,0,1,0,0,0, Białołęka, Białołęka,1,2
@@ -2740,7 +2740,7 @@
 21008,727000.0,57.0,3,wtórny,2011,1,1,0,0,0, Ursus,Skoroszewska,1,6
 5,655000.0,57.0,3,wtórny,1972,1,1,0,0,0, Mokotów,Zwierzyniecka 17,3,10
 44,655000.0,57.0,3,wtórny,1972,1,1,0,0,0, Mokotów,Zwierzyniecka 17,3,10
-3997,720000.0,57.0,3,wtórny,2023,0,1,0,0,0, Ursynów, Stefana Szolc-Rogozińskiego,&gt; 10,15
+3997,720000.0,57.0,3,wtórny,2023,0,1,0,0,0, Ursynów, Stefana Szolc-Rogozińskiego,11,15
 23231,850000.0,57.0,3,wtórny,1960,1,1,0,0,0, Śródmieście, Dobra,1,4
 4435,850000.0,57.0,3,wtórny,2017,1,1,1,1,1, Praga-Południe, Praga-Południe,4,18
 11555,500000.0,57.0,3,pierwotny,2021,0,1,0,0,0, Białołęka, Kąty Grodziskie,1,1
@@ -2762,7 +2762,7 @@
 2199,819400.0,57.0,3,pierwotny,2024,1,1,0,0,0, Praga-Południe, Praga-Południe,1,5
 3873,676000.0,57.0,3,pierwotny,2021,1,1,0,0,0, Białołęka,Aluzyjna,0,4
 14937,676000.0,57.0,3,pierwotny,2021,1,1,0,0,0, Białołęka,Aluzyjna,0,4
-3570,599000.0,57.0,3,wtórny,1981,1,0,0,0,0, Bielany, Bielany,&gt; 10,15
+3570,599000.0,57.0,3,wtórny,1981,1,0,0,0,0, Bielany, Bielany,11,15
 15788,780000.0,57.0,3,wtórny,2016,1,1,0,0,0, Wola, Jana Kazimierza,1,6
 2113,699000.0,57.0,3,wtórny,1972,0,0,0,0,0, Bielany, Conrada 19,3,15
 11075,679000.0,57.0,3,wtórny,2002,1,0,0,0,0, Mokotów, Niewielka/ciche/słoneczne/balkon/miejsce postojowe,2,4
@@ -2780,14 +2780,14 @@
 9050,850000.0,56.9,2,wtórny,2008,1,1,0,0,0, Wola,Jana Olbrachta,2,5
 7278,795000.0,56.89,2,wtórny,2022,0,1,0,0,0, Praga-Południe, Augustyna Kordeckiego,4,4
 1999,599000.0,56.82,3,wtórny,2012,1,1,0,0,0, Białołęka, Białołęka,2,5
-8264,629000.0,56.8,3,wtórny,1982,1,0,0,0,0, Bielany,Kwitnąca,&gt; 10,15
+8264,629000.0,56.8,3,wtórny,1982,1,0,0,0,0, Bielany,Kwitnąca,11,15
 14517,699000.0,56.8,3,wtórny,1981,1,0,0,0,0, Bielany, Chomiczówka,3,15
-15487,629000.0,56.8,3,wtórny,2022,1,0,0,0,0, Bielany, Chomiczówka,&gt; 10,15
+15487,629000.0,56.8,3,wtórny,2022,1,0,0,0,0, Bielany, Chomiczówka,11,15
 14643,990000.0,56.8,2,wtórny,2019,1,1,0,0,0, Wola,Marcina Kasprzaka,9,13
 5221,665000.0,56.8,3,wtórny,1980,1,0,0,0,0, Bielany,Pabla Nerudy,1,15
 16576,665000.0,56.8,3,wtórny,1980,1,0,0,0,0, Bielany,Pabla Nerudy,1,15
 15678,665000.0,56.8,3,wtórny,1980,1,0,0,0,0, Bielany,Pabla Nerudy,1,15
-4939,515000.0,56.8,3,wtórny,1979,1,0,0,0,0, Bielany,Pabla Nerudy,&gt; 10,15
+4939,515000.0,56.8,3,wtórny,1979,1,0,0,0,0, Bielany,Pabla Nerudy,11,15
 11545,665000.0,56.8,3,wtórny,1980,1,0,0,0,0, Bielany,Pabla Nerudy,1,15
 20116,505253.0,56.77,3,pierwotny,2023,1,1,0,0,0, Rembertów, Strażacka,4,5
 20813,608000.0,56.77,3,pierwotny,2022,1,0,0,0,0, Rembertów, Rembertów,1,5
@@ -2804,7 +2804,7 @@
 19656,560000.0,56.6,3,pierwotny,2022,0,1,1,1,1, Wawer,Borowiecka,0,2
 5958,620000.0,56.6,3,wtórny,1970,1,1,0,0,0, Żoliborz, Sady Żoliborskie,6,10
 15405,560000.0,56.6,3,pierwotny,2022,0,1,1,1,1, Wawer,Borowiecka,0,2
-14971,749000.0,56.6,3,wtórny,1980,1,0,0,0,0, Ursynów, Ursynów,&gt; 10,15
+14971,749000.0,56.6,3,wtórny,1980,1,0,0,0,0, Ursynów, Ursynów,11,15
 6553,560000.0,56.6,3,pierwotny,2022,0,1,1,1,1, Wawer,Borowiecka,0,2
 7514,916000.0,56.6,3,wtórny,2010,1,1,0,0,0, Wilanów,Sarmacka,1,4
 9144,916000.0,56.6,3,wtórny,2010,1,1,0,0,0, Wilanów, Sarmacka,1,4
@@ -2870,7 +2870,7 @@
 6753,899000.0,56.22,3,pierwotny,2022,1,1,0,0,0, Wola,Jana Kazimierza,3,6
 22437,564910.0,56.21,3,pierwotny,2021,0,0,0,0,0, Białołęka, Białołęka,2,3
 4455,765000.0,56.21,3,wtórny,1958,0,0,0,0,0, Wola, Płocka,3,3
-5372,561900.0,56.2,3,wtórny,1976,1,1,0,0,0, Mokotów, Nicejska,&gt; 10,12
+5372,561900.0,56.2,3,wtórny,1976,1,1,0,0,0, Mokotów, Nicejska,11,12
 4476,599000.0,56.2,3,wtórny,2022,1,1,0,0,0, Mokotów, Katalońska,8,11
 3513,785000.0,56.2,2,wtórny,2022,1,1,0,0,0, Wola, Zawiszy,2,4
 15203,709000.0,56.2,2,wtórny,2014,1,1,0,0,0, Żoliborz, Sady Żoliborskie,8,8
@@ -2931,7 +2931,7 @@
 2570,629000.0,56.0,3,wtórny,1976,1,0,0,0,0, Mokotów,Kartaginy,7,12
 10837,499900.0,56.0,3,pierwotny,2022,0,1,0,0,0, Białołęka, Głębocka,2,2
 18786,728000.0,56.0,2,wtórny,2010,0,1,0,0,0, Wawer, I Poprzeczna,1,3
-23297,950000.0,56.0,3,pierwotny,2021,1,1,0,0,0, Wola, Wola,&gt; 10,12
+23297,950000.0,56.0,3,pierwotny,2021,1,1,0,0,0, Wola, Wola,11,12
 18107,610000.0,56.0,3,wtórny,1972,1,0,0,0,0, Bielany, Władysława Broniewskiego,2,10
 17008,570000.0,56.0,3,wtórny,1963,0,1,0,0,0, Praga-Południe,Szaserów,4,4
 17002,570000.0,56.0,3,wtórny,1963,0,1,0,0,0, Praga-Południe,Szaserów,4,4
@@ -3102,7 +3102,7 @@
 4358,738000.0,54.8,2,wtórny,2002,1,1,0,0,0, Ursynów, Melchiora Wańkowicza,3,4
 12766,850000.0,54.8,3,wtórny,1938,0,0,0,0,0, Żoliborz,Rafała Krajewskiego,4,5
 15294,658000.0,54.8,3,wtórny,1978,1,0,0,0,0, Targówek,Aleksandra Gajkowicza,1,10
-8719,990000.0,54.76,2,wtórny,2019,1,1,0,0,0, Praga-Południe,Marii Rodziewiczówny,&gt; 10,25
+8719,990000.0,54.76,2,wtórny,2019,1,1,0,0,0, Praga-Południe,Marii Rodziewiczówny,11,25
 18712,639000.0,54.7,3,wtórny,1977,1,0,0,0,0, Bielany, Bielany,2,10
 23152,504327.0,54.64,3,pierwotny,2022,1,1,0,0,0, Białołęka,Brzeziny,2,2
 14832,899000.0,54.6,3,wtórny,1968,1,0,0,0,0, Śródmieście," al. Aleja ""Solidarności""",2,5
@@ -3173,7 +3173,7 @@
 667,958000.0,54.0,3,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,5,26
 4249,675000.0,54.0,3,wtórny,2013,1,1,0,0,0, Ursus,Konotopska,3,3
 19039,725000.0,54.0,2,wtórny,2001,1,1,0,0,0, Mokotów,Zygmunta Modzelewskiego,3,6
-4575,550000.0,54.0,3,wtórny,1976,1,0,0,0,0, Mokotów,Bernardyńska,&gt; 10,13
+4575,550000.0,54.0,3,wtórny,1976,1,0,0,0,0, Mokotów,Bernardyńska,11,13
 5866,635000.0,54.0,2,wtórny,2008,0,1,0,0,0, Targówek,Biruty,1,4
 9573,495000.0,54.0,2,wtórny,2022,0,1,0,0,0, Praga-Południe, Makowska,3,3
 23062,957000.0,54.0,2,wtórny,2021,1,0,0,0,0, Praga-Północ, Ząbkowska,0,5
@@ -3262,7 +3262,7 @@
 8463,790000.0,53.15,2,wtórny,1993,1,0,0,0,0, Ursynów,Stefana Dembego,0,10
 11995,560000.0,53.1,3,wtórny,1976,0,0,0,0,0, Mokotów, Złotych Piasków,4,4
 4556,590000.0,53.1,3,wtórny,1974,0,0,0,0,0, Mokotów,Warneńska,3,4
-15838,584000.0,53.1,2,wtórny,1978,1,0,0,0,0, Ursynów, Ursynów,&gt; 10,12
+15838,584000.0,53.1,2,wtórny,1978,1,0,0,0,0, Ursynów, Ursynów,11,12
 9576,590000.0,53.1,3,wtórny,1977,0,0,0,0,0, Mokotów,Czarnomorska,3,4
 5777,535000.0,53.1,3,wtórny,1977,0,0,0,0,0, Mokotów, Stegny,4,4
 20071,561000.0,53.1,2,wtórny,1977,1,0,0,0,0, Ursynów, Pięciolinii,0,10
@@ -3397,7 +3397,7 @@
 5341,619537.0,52.57,3,wtórny,2022,1,1,0,0,0, Praga-Południe, Praga-Południe,3,4
 15048,539000.0,52.5,3,wtórny,2022,1,0,0,0,0, Bemowo, Mieczysława Wolfkego,8,10
 20852,585000.0,52.5,2,wtórny,1995,0,1,0,0,0, Mokotów, Konstancińska,1,3
-485,990000.0,52.5,2,wtórny,2001,1,1,0,0,0, Śródmieście, Babka Tower,&gt; 10,25
+485,990000.0,52.5,2,wtórny,2001,1,1,0,0,0, Śródmieście, Babka Tower,11,25
 14991,729000.0,52.5,3,wtórny,2020,1,1,0,0,0, Ursynów, Polki,2,3
 11768,509200.0,52.5,3,pierwotny,2022,0,1,0,0,0, Białołęka, Głębocka,1,2
 8886,720000.0,52.49,2,wtórny,2010,1,1,0,0,0, Targówek, Krzywińska,3,4
@@ -3586,7 +3586,7 @@
 1819,630000.0,50.81,3,wtórny,1974,1,0,0,0,0, Bielany, Bielany,0,10
 21301,650000.0,50.8,2,wtórny,1930,0,0,0,0,0, Praga-Południe, Kobielska,3,3
 2203,675000.0,50.74,2,wtórny,2005,1,1,0,0,0, Targówek,Samarytanka,0,5
-2195,589999.0,50.7,3,wtórny,1980,1,0,0,0,0, Praga-Południe,Majdańska,&gt; 10,13
+2195,589999.0,50.7,3,wtórny,1980,1,0,0,0,0, Praga-Południe,Majdańska,11,13
 14880,540000.0,50.7,3,wtórny,1980,1,0,0,0,0, Bielany, Bielany,10,10
 14201,639000.0,50.7,2,wtórny,1980,1,0,0,0,0, Praga-Południe, Praga-Południe,10,10
 4727,639000.0,50.7,2,wtórny,1980,1,0,0,0,0, Praga-Południe,Majdańska,10,10
@@ -3666,7 +3666,7 @@
 21179,710000.0,50.06,3,wtórny,2018,1,1,0,0,0, Praga-Południe,Boremlowska,1,4
 16187,710000.0,50.06,3,wtórny,2018,1,1,0,0,0, Praga-Południe,Boremlowska,1,4
 1093,710000.0,50.06,3,wtórny,2018,1,1,0,0,0, Praga-Południe,Boremlowska,1,4
-17145,510000.0,50.03,2,wtórny,2022,1,0,0,0,0, Targówek, Kondratowicza Ludwika,&gt; 10,17
+17145,510000.0,50.03,2,wtórny,2022,1,0,0,0,0, Targówek, Kondratowicza Ludwika,11,17
 586,675405.0,50.03,2,wtórny,2021,1,1,0,0,0, Praga-Południe,Celownicza 4,6,17
 5148,675405.0,50.03,2,wtórny,2021,1,1,0,0,0, Praga-Południe,Celownicza 4,6,17
 9244,675405.0,50.03,2,wtórny,2021,1,1,0,0,0, Praga-Południe,Celownicza 4,6,17
@@ -3689,7 +3689,7 @@
 10150,600000.0,50.0,3,wtórny,1969,1,0,0,0,0, Mokotów,Bełska,2,10
 7334,596000.0,50.0,3,wtórny,1975,1,0,0,0,0, Wola,Księcia Janusza 41/43,3,10
 2487,625000.0,50.0,2,wtórny,2012,1,1,0,0,0, Bemowo, Bemowo,5,5
-17688,575000.0,50.0,2,wtórny,1977,1,0,0,0,0, Bemowo, Siemiatycka,&gt; 10,12
+17688,575000.0,50.0,2,wtórny,1977,1,0,0,0,0, Bemowo, Siemiatycka,11,12
 13768,598000.0,50.0,2,wtórny,2008,0,1,0,0,0, Białołęka,Skarbka z Gór,2,3
 7994,598000.0,50.0,2,wtórny,2008,0,1,0,0,0, Białołęka,Skarbka z Gór,2,3
 1639,630000.0,50.0,2,wtórny,1980,1,0,0,0,0, Wilanów,Goplańska 29,5,10
@@ -3740,7 +3740,7 @@
 2237,679000.0,50.0,3,wtórny,2014,1,1,0,0,0, Włochy,Krańcowa,6,7
 13773,500000.0,50.0,3,wtórny,1976,1,0,0,0,0, Wola, Górczewska,4,10
 4365,700000.0,50.0,3,wtórny,2014,1,1,0,0,0, Włochy,Krańcowa,7,7
-8694,820000.0,50.0,2,wtórny,2018,1,1,0,0,0, Praga-Południe,Marii Rodziewiczówny,&gt; 10,25
+8694,820000.0,50.0,2,wtórny,2018,1,1,0,0,0, Praga-Południe,Marii Rodziewiczówny,11,25
 13193,820000.0,50.0,3,wtórny,1957,0,0,0,0,0, Bielany,Skalbmierska,0,3
 16488,415000.0,50.0,3,wtórny,2001,1,1,0,0,0, Ursus,Górna Droga,3,7
 15034,795000.0,50.0,2,wtórny,2013,0,0,0,0,0, Mokotów, Mokotów,3,8
@@ -3956,7 +3956,7 @@
 15589,499000.0,48.0,3,wtórny,1973,0,0,0,0,0, Bielany,Literacka,2,4
 7111,630000.0,48.0,2,wtórny,1976,1,0,0,0,0, Mokotów,Nicejska,5,12
 9412,499000.0,48.0,3,wtórny,1980,0,0,0,0,0, Ursus, Ursus,0,4
-21780,675000.0,48.0,2,wtórny,2019,1,1,0,0,0, Praga-Południe, Ostrobramska,&gt; 10,17
+21780,675000.0,48.0,2,wtórny,2019,1,1,0,0,0, Praga-Południe, Ostrobramska,11,17
 19314,750000.0,48.0,2,wtórny,2022,1,1,0,0,0, Praga-Południe, Gocław,2,4
 6360,670000.0,48.0,2,wtórny,1972,1,0,0,0,0, Mokotów,Sielecka,6,10
 9753,630000.0,48.0,2,wtórny,2006,0,1,0,0,0, Bemowo, Kazimierza Deyny,2,4
@@ -3990,7 +3990,7 @@
 12570,570000.0,48.0,2,wtórny,2022,0,0,0,0,0, Ursus, Mariana Keniga,4,4
 4726,630000.0,48.0,2,wtórny,2014,1,0,0,0,0, Włochy,Krańcowa,3,7
 15545,570000.0,48.0,3,wtórny,1964,0,0,0,0,0, Praga-Południe, Saska Kępa,2,3
-21190,839000.0,48.0,3,wtórny,2018,1,0,0,0,0, Wola,Stańczyka 2,&gt; 10,14
+21190,839000.0,48.0,3,wtórny,2018,1,0,0,0,0, Wola,Stańczyka 2,11,14
 10113,650000.0,48.0,3,wtórny,1970,0,0,0,0,0, Mokotów, Mokotów,3,4
 12740,650000.0,48.0,2,wtórny,1979,0,0,0,0,0, Mokotów, Łukowa,1,4
 18919,630000.0,48.0,3,wtórny,1973,0,0,0,0,0, mazowieckie, mazowieckie,4,4
@@ -4031,7 +4031,7 @@
 11625,563000.0,47.5,3,wtórny,1980,0,0,0,0,0, Ochota, Ochota,1,4
 21325,450000.0,47.5,3,wtórny,1968,0,0,0,0,0, Targówek, Suwalska,2,4
 11621,563000.0,47.5,3,wtórny,1980,0,0,0,0,0, Ochota, Ochota,1,4
-4458,549900.0,47.5,2,wtórny,1980,1,0,0,0,0, Targówek, Ludwika Kondratowicza,&gt; 10,15
+4458,549900.0,47.5,2,wtórny,1980,1,0,0,0,0, Targówek, Ludwika Kondratowicza,11,15
 13938,598500.0,47.5,2,wtórny,1999,1,1,0,0,0, Bemowo, Jelonki,5,7
 16387,508000.0,47.5,2,wtórny,1980,1,0,0,0,0, Praga-Południe, Witolińska,10,12
 4963,549000.0,47.5,2,wtórny,1967,0,0,0,0,0, Mokotów, al. Aleja Lotników,1,4
@@ -4044,7 +4044,7 @@
 20868,521400.0,47.4,2,wtórny,1979,1,0,0,0,0, Praga-Południe, Praga-Południe,10,12
 436,749000.0,47.37,2,wtórny,2016,1,1,0,0,0, Wola, Stanisława Worcella,1,6
 11211,670000.0,47.33,3,wtórny,2019,1,1,0,0,0, Ursynów, Ursynów,0,3
-20639,820000.0,47.3,3,wtórny,2021,0,0,0,0,0, Wola, Żelazna,&gt; 10,11
+20639,820000.0,47.3,3,wtórny,2021,0,0,0,0,0, Wola, Żelazna,11,11
 8304,548500.0,47.3,3,wtórny,1973,0,1,0,0,0, Ochota, Ochota,2,4
 13931,590000.0,47.3,2,wtórny,2016,0,0,0,0,0, Wawer, Marysin Wawerski,5,6
 14970,599000.0,47.3,2,wtórny,1968,1,0,0,0,0, Praga-Południe, Grochowska,5,10
@@ -4090,7 +4090,7 @@
 14017,645000.0,47.0,2,wtórny,1965,0,0,0,0,0, Ochota, Ochota,3,3
 10767,875000.0,47.0,2,wtórny,2022,0,1,0,0,0, Mokotów, Jana III Sobieskiego,4,8
 14014,639000.0,47.0,2,wtórny,1971,1,0,0,0,0, Bemowo, Bemowo,1,10
-23218,847000.0,47.0,2,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,24
+23218,847000.0,47.0,2,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,11,24
 2591,650000.0,47.0,3,wtórny,2022,1,0,0,0,0, Wola, Stańczyka,4,10
 13960,649000.0,47.0,2,wtórny,2022,0,1,0,0,0, Ursynów, Michała Rosnowskiego,1,3
 18604,695500.0,47.0,2,wtórny,1963,0,0,0,0,0, Mokotów, Bukietowa 8,1,4
@@ -4101,7 +4101,7 @@
 8173,615000.0,47.0,2,wtórny,2004,0,1,0,0,0, Wola,Marynin,3,3
 9985,695500.0,47.0,2,wtórny,1963,0,0,0,0,0, Mokotów, Bukietowa 8,1,4
 15205,649000.0,47.0,2,wtórny,2000,0,1,0,0,0, Ursynów, Ursynów,1,3
-13640,550000.0,47.0,2,wtórny,1981,1,1,0,0,0, Targówek, Ludwika Kondratowicza,&gt; 10,15
+13640,550000.0,47.0,2,wtórny,1981,1,1,0,0,0, Targówek, Ludwika Kondratowicza,11,15
 16542,570000.0,47.0,2,wtórny,1971,1,1,0,0,0, Żoliborz, Włościańska,6,10
 4044,649999.0,47.0,2,wtórny,2022,0,0,0,0,0, Bielany, Leopolda Staffa,3,4
 11552,650000.0,47.0,2,wtórny,2021,1,0,0,0,0, Targówek, Targówek,0,12
@@ -4252,7 +4252,7 @@
 2458,549000.0,46.1,2,wtórny,1977,1,0,0,0,0, Mokotów,Wolfganga Amadeusza Mozarta,2,11
 3433,549000.0,46.1,2,wtórny,1977,1,0,0,0,0, Mokotów,Wolfganga Amadeusza Mozarta,2,11
 11084,465000.0,46.06,2,wtórny,1955,0,0,0,0,0, Ursus, Kazimierza Pużaka,2,3
-1736,805525.0,46.03,2,wtórny,2015,1,1,0,0,0, Praga-Południe, Mińska,&gt; 10,11
+1736,805525.0,46.03,2,wtórny,2015,1,1,0,0,0, Praga-Południe, Mińska,11,11
 5722,495000.0,46.0,2,wtórny,2022,1,1,0,0,0, Włochy, Budki Szczęśliwickie,1,4
 8700,560000.0,46.0,2,wtórny,1978,1,0,0,0,0, Bemowo, Karabeli,3,12
 4953,499000.0,46.0,2,wtórny,1970,0,0,0,0,0, Targówek, Bródno,2,10
@@ -4285,13 +4285,13 @@
 7331,574000.0,46.0,2,wtórny,1980,1,0,0,0,0, Bemowo,Karabeli,5,8
 2503,528000.0,46.0,2,wtórny,1980,1,0,0,0,0, Targówek, Mokra 4,7,12
 3425,879000.0,46.0,2,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,3,20
-12346,903000.0,46.0,2,pierwotny,2022,1,1,0,0,0, Wola, Wola,&gt; 10,24
+12346,903000.0,46.0,2,pierwotny,2022,1,1,0,0,0, Wola, Wola,11,24
 9452,589000.0,46.0,3,wtórny,1964,0,0,0,0,0, Ochota, Bitwy Warszawskiej 1920 r.,1,4
 19880,715000.0,46.0,2,wtórny,2018,1,0,0,0,0, Wawer, Wawer,0,3
 15511,780000.0,46.0,2,wtórny,2005,1,1,0,0,0, Mokotów, Woronicza,9,12
 12043,590000.0,46.0,2,wtórny,1970,0,0,0,0,0, Ursynów, Ursynów,4,4
 6927,769000.0,46.0,2,wtórny,2016,0,0,0,0,0, Wilanów, al. Rzeczypospolitej 22,0,3
-4651,850000.0,46.0,3,pierwotny,2021,1,1,0,0,0, Wola, Wola,&gt; 10,21
+4651,850000.0,46.0,3,pierwotny,2021,1,1,0,0,0, Wola, Wola,11,21
 7051,580000.0,46.0,2,wtórny,1986,1,0,0,0,0, Bielany, Bielany,2,6
 11679,850000.0,46.0,2,wtórny,2008,1,1,0,0,0, Ursynów, al. Aleja Komisji Edukacji Narodowej 85,8,12
 23219,620000.0,46.0,2,pierwotny,2021,1,1,0,0,0, Wola, Wola,3,11
@@ -4322,7 +4322,7 @@
 13051,575000.0,45.8,2,wtórny,1980,1,0,0,0,0, Bemowo, Karabeli,5,8
 13872,590000.0,45.8,2,wtórny,1980,1,0,0,0,0, Bemowo, Karabeli,5,8
 5316,685000.0,45.79,2,wtórny,2016,1,1,0,0,0, Ursynów,Kłobucka,5,6
-20427,617000.0,45.78,3,wtórny,1968,1,0,0,0,0, Wola, Okopowa,&gt; 10,11
+20427,617000.0,45.78,3,wtórny,1968,1,0,0,0,0, Wola, Okopowa,11,11
 11111,570000.0,45.76,3,wtórny,1966,0,0,0,0,0, Wola,Mordechaja Anielewicza,4,4
 15156,686250.0,45.75,2,wtórny,2022,1,1,0,0,0, Wola, Juliana Konstantego Ordona,7,8
 12779,630000.0,45.71,3,wtórny,2022,0,0,0,0,0, Wola, Okopowa,5,11
@@ -4395,7 +4395,7 @@
 14759,462000.0,45.23,2,pierwotny,2023,1,1,1,1,1, Ursus, Posag 7 Panien,2,7
 8281,635500.0,45.21,2,pierwotny,2022,1,1,0,0,0, Praga-Południe, Gocław,0,7
 3427,825000.0,45.2,2,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,10,26
-3435,826000.0,45.2,2,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,23
+3435,826000.0,45.2,2,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,11,23
 3430,849000.0,45.2,2,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,5,23
 5103,641000.0,45.18,2,wtórny,2020,1,1,0,0,0, Ursynów, Kłobucka,0,4
 10755,460632.0,45.16,2,pierwotny,2023,1,1,0,0,0, Rembertów, Rembertów,5,5
@@ -4405,9 +4405,9 @@
 12519,570000.0,45.12,2,wtórny,2018,1,0,0,0,0, Praga-Południe,Wiatraczna 29,3,8
 3973,570000.0,45.12,2,wtórny,2018,1,0,0,0,0, Praga-Południe,Wiatraczna 29,3,8
 567,563750.0,45.1,2,wtórny,2011,1,1,0,0,0, Praga-Południe, Grochowska 42,1,4
-9571,654000.0,45.1,2,wtórny,2022,1,1,0,0,0, Żoliborz, Gwiaździsta,&gt; 10,15
+9571,654000.0,45.1,2,wtórny,2022,1,1,0,0,0, Żoliborz, Gwiaździsta,11,15
 4384,750000.0,45.1,2,wtórny,2014,1,0,0,0,0, Wilanów, Aleja Rzeczpospolitej,2,4
-18353,654000.0,45.1,2,wtórny,1981,1,0,0,0,0, Bielany, Gwiaździsta,&gt; 10,14
+18353,654000.0,45.1,2,wtórny,1981,1,0,0,0,0, Bielany, Gwiaździsta,11,14
 13977,495000.0,45.1,2,wtórny,1968,1,0,0,0,0, Bielany,Przy Agorze,2,10
 12627,810000.0,45.06,2,wtórny,2012,1,1,0,0,0, Żoliborz, Rydygiera,1,6
 7968,661200.0,45.06,2,pierwotny,2022,1,1,0,0,0, Praga-Południe, Gocław,5,6
@@ -4415,7 +4415,7 @@
 17686,689000.0,45.05,3,wtórny,1968,1,0,0,0,0, Bielany, Jana Kasprowicza,1,8
 19175,689000.0,45.05,3,wtórny,1957,0,0,0,0,0, Bielany, Słodowiec,1,8
 20432,756581.0,45.03,2,pierwotny,2021,1,1,0,0,0, Mokotów, Bluszczańska,0,2
-23054,739804.0,45.0,2,pierwotny,2022,1,1,0,0,0, Wola, Wola,&gt; 10,25
+23054,739804.0,45.0,2,pierwotny,2022,1,1,0,0,0, Wola, Wola,11,25
 12409,580000.0,45.0,2,wtórny,2022,0,1,0,0,0, Ursus, Dzieci Warszawy,0,6
 2609,749000.0,45.0,3,wtórny,2022,1,0,0,0,0, Śródmieście, Mordechaja Anielewicza,1,9
 11580,560000.0,45.0,3,wtórny,1965,0,0,0,0,0, Mokotów,Konduktorska,1,4
@@ -4426,7 +4426,7 @@
 13352,640000.0,45.0,2,wtórny,2013,1,1,0,0,0, Bemowo, Dywizjonu 303,0,5
 17719,640000.0,45.0,2,wtórny,2008,1,1,0,0,0, Bemowo, Górczewska,4,14
 21808,402361.0,45.0,2,pierwotny,2022,1,1,0,0,0, Białołęka, Białołęka,0,3
-845,529000.0,45.0,2,wtórny,1975,1,0,0,0,0, Praga-Południe, Praga-Południe,&gt; 10,11
+845,529000.0,45.0,2,wtórny,1975,1,0,0,0,0, Praga-Południe, Praga-Południe,11,11
 16894,665000.0,45.0,2,wtórny,2002,1,0,0,0,0, Ursynów, Belgradzka,3,10
 14063,662400.0,45.0,2,pierwotny,2022,0,1,0,0,0, Praga-Południe, Gocław,5,6
 14057,661200.0,45.0,2,pierwotny,2022,0,1,0,0,0, Praga-Południe, Gocław,5,6
@@ -4445,7 +4445,7 @@
 3494,630000.0,45.0,3,wtórny,1968,0,0,0,0,0, Ochota, Strubiczów,4,4
 15768,520000.0,45.0,2,wtórny,2016,0,0,0,0,0, Bielany, Bielany,0,6
 4346,750000.0,45.0,2,wtórny,1976,0,0,0,0,0, Mokotów, Huculska,2,10
-619,876000.0,45.0,2,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,23
+619,876000.0,45.0,2,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,11,23
 10977,550000.0,45.0,3,wtórny,1969,1,0,0,0,0, Mokotów, Jana Feliksa Piwarskiego,4,7
 13042,795000.0,45.0,3,pierwotny,2022,1,1,0,0,0, Praga-Południe, Praga-Południe,4,6
 5613,570000.0,45.0,2,wtórny,2017,1,0,0,0,0, Praga-Południe,Wiatraczna 29,3,8
@@ -4517,27 +4517,27 @@
 7152,518000.0,44.1,1,wtórny,2015,1,1,0,0,0, Białołęka, Białołęka,5,8
 519,620000.0,44.06,2,wtórny,2016,1,1,0,0,0, Bemowo,Batalionów Chłopskich,1,4
 4899,440000.0,44.0,2,wtórny,2011,0,1,0,0,0, Białołęka,Podłużna,1,2
-12891,590000.0,44.0,2,wtórny,1962,0,0,0,0,0, Mokotów, Mokotów,&gt; 10,12
+12891,590000.0,44.0,2,wtórny,1962,0,0,0,0,0, Mokotów, Mokotów,11,12
 4834,1012000.0,44.0,3,wtórny,1948,0,1,0,0,0, Śródmieście,Bednarska,1,2
 4608,615000.0,44.0,2,wtórny,2012,1,1,0,0,0, Białołęka,Krokwi,1,3
-15895,690000.0,44.0,2,wtórny,1983,1,1,0,0,0, Praga-Południe,Władysława Umińskiego,&gt; 10,15
+15895,690000.0,44.0,2,wtórny,1983,1,1,0,0,0, Praga-Południe,Władysława Umińskiego,11,15
 15924,460000.0,44.0,2,wtórny,2012,0,1,0,0,0, Białołęka, Lewandów,1,2
 5787,570000.0,44.0,2,wtórny,2013,0,1,0,0,0, Wawer, Wawer,1,4
 12741,695000.0,44.0,2,wtórny,1959,1,0,0,0,0, Mokotów, przy Goszczyńskiego/al. Niepodległości/jasne/klimat/winda/balkon/metro/cegła,2,6
-12424,590000.0,44.0,2,wtórny,1962,1,0,0,0,0, Mokotów, Mokotów,&gt; 10,12
+12424,590000.0,44.0,2,wtórny,1962,1,0,0,0,0, Mokotów, Mokotów,11,12
 7665,439000.0,44.0,2,wtórny,2012,0,0,0,0,0, Białołęka, Podłużna,1,2
 3895,703000.0,44.0,2,wtórny,1953,0,1,0,0,0, Wola, MŁYNARSKA 25,3,4
 2003,495000.0,44.0,2,wtórny,2000,1,0,0,0,0, Ursus, Górna Droga,0,10
 9588,570000.0,44.0,2,wtórny,2020,0,1,0,0,0, Wawer, Naddnieprzańska,1,4
 19828,570000.0,44.0,2,wtórny,1959,0,0,0,0,0, Mokotów, Aleja Niepodległości,6,6
-4026,538000.0,44.0,2,wtórny,1980,1,0,0,0,0, Bielany, Bielany,&gt; 10,15
+4026,538000.0,44.0,2,wtórny,1980,1,0,0,0,0, Bielany, Bielany,11,15
 11379,730000.0,44.0,2,wtórny,2020,1,1,0,0,0, Włochy, Przerwana,5,5
 20529,530000.0,44.0,2,wtórny,1976,1,1,0,0,0, Praga-Południe, Umińskiego,5,15
 12480,529000.0,44.0,2,wtórny,1959,0,0,0,0,0, Praga-Południe, Garwolińska 26a,1,4
 17862,529000.0,44.0,2,wtórny,1959,0,0,0,0,0, Praga-Południe, Garwolińska 26a,1,4
 11505,529000.0,44.0,2,wtórny,1959,0,0,0,0,0, Praga-Południe, Garwolińska 26a,1,4
 7714,575000.0,44.0,2,wtórny,1990,0,0,0,0,0, Mokotów, Jana Sebastiana Bacha,5,11
-22894,538000.0,44.0,2,wtórny,1980,1,0,0,0,0, Bielany, Bielany,&gt; 10,15
+22894,538000.0,44.0,2,wtórny,1980,1,0,0,0,0, Bielany, Bielany,11,15
 7323,500000.0,44.0,2,wtórny,1961,0,0,0,0,0, Żoliborz, ks. Teofila Boguckiego,4,4
 5039,1047200.0,44.0,2,wtórny,2020,1,0,0,0,0, Wola,Kolejowa,4,6
 17697,599000.0,44.0,2,wtórny,2022,0,1,0,0,0, Białołęka, Krokwi,1,3
@@ -4550,20 +4550,20 @@
 3650,669000.0,44.0,2,wtórny,1965,1,1,0,0,0, Ochota, Grójecka,5,7
 9429,530000.0,44.0,2,wtórny,1975,1,1,0,0,0, Bielany, Hansa Christiana Andersena,1,11
 1450,535000.0,44.0,2,wtórny,1960,1,0,0,0,0, Mokotów,Egejska,8,15
-1131,538000.0,44.0,2,wtórny,1980,1,0,0,0,0, Bielany, Bielany,&gt; 10,15
-20319,538000.0,44.0,2,wtórny,1980,1,0,0,0,0, Bielany, Bielany,&gt; 10,15
-16533,595000.0,44.0,2,wtórny,1981,1,0,0,0,0, Bielany, Gwiaździsta,&gt; 10,12
+1131,538000.0,44.0,2,wtórny,1980,1,0,0,0,0, Bielany, Bielany,11,15
+20319,538000.0,44.0,2,wtórny,1980,1,0,0,0,0, Bielany, Bielany,11,15
+16533,595000.0,44.0,2,wtórny,1981,1,0,0,0,0, Bielany, Gwiaździsta,11,12
 14076,559000.0,44.0,2,wtórny,2013,0,1,0,0,0, Wawer, Naddnieprzańska,1,4
-5604,528000.0,44.0,2,wtórny,1980,1,1,0,0,0, Bielany, Sandora Petöfiego,&gt; 10,15
+5604,528000.0,44.0,2,wtórny,1980,1,1,0,0,0, Bielany, Sandora Petöfiego,11,15
 8226,528000.0,44.0,2,wtórny,1980,1,1,0,0,0, Bielany, Hansa Christiana Andersena,1,10
 12869,540000.0,44.0,2,wtórny,1982,1,0,0,0,0, Praga-Południe, Gocław,5,15
-9945,538000.0,44.0,2,wtórny,1980,1,0,0,0,0, Bielany, Bielany,&gt; 10,15
+9945,538000.0,44.0,2,wtórny,1980,1,0,0,0,0, Bielany, Bielany,11,15
 17680,595000.0,44.0,2,wtórny,1965,0,0,0,0,0, Mokotów, Mokotów,4,4
 4004,673200.0,44.0,2,pierwotny,2014,0,1,0,0,0, Białołęka, Tarchomin,3,7
 8837,538000.0,44.0,2,wtórny,1980,1,0,0,0,0, Bielany, Sandora Petöfiego,10,15
 15458,760000.0,44.0,2,wtórny,2020,1,1,0,0,0, Praga-Północ, Szwedzka,5,5
 8211,720000.0,44.0,2,wtórny,2019,1,1,0,0,0, Ursynów, Polki,2,3
-19023,750000.0,44.0,2,wtórny,1980,1,1,0,0,0, Praga-Południe, Władysława Umińskiego,&gt; 10,15
+19023,750000.0,44.0,2,wtórny,1980,1,1,0,0,0, Praga-Południe, Władysława Umińskiego,11,15
 16732,529000.0,44.0,2,wtórny,1959,0,0,0,0,0, Praga-Południe, Garwolińska 26a,1,4
 10884,529000.0,43.9,2,wtórny,1978,1,0,0,0,0, Mokotów, Mokotów,7,15
 16531,482900.0,43.9,2,pierwotny,2022,1,0,0,0,0, Białołęka, Kobiałka,1,2
@@ -4584,7 +4584,7 @@
 5577,574173.0,43.83,2,wtórny,2021,1,1,0,0,0, Rembertów," al. Aleja gen. Antoniego Chruściela ""Montera""",5,5
 3298,1100000.0,43.8,2,pierwotny,2022,1,0,0,0,0, Śródmieście, Radna,0,6
 9948,529000.0,43.8,2,wtórny,2022,1,0,0,0,0, Mokotów, Egejska,6,15
-13956,690000.0,43.8,2,wtórny,1983,1,1,0,0,0, Praga-Południe, Praga-Południe,&gt; 10,15
+13956,690000.0,43.8,2,wtórny,1983,1,1,0,0,0, Praga-Południe, Praga-Południe,11,15
 9432,500000.0,43.8,2,wtórny,1961,0,0,0,0,0, Żoliborz, Stary Żoliborz,4,4
 20423,715000.0,43.8,2,wtórny,1954,1,0,0,0,0, Ochota,Grójecka,4,7
 7815,434998.0,43.78,2,pierwotny,2022,0,1,0,0,0, Wesoła, Wesoła,0,4
@@ -4646,7 +4646,7 @@
 6857,560000.0,43.0,2,wtórny,1976,1,1,0,0,0, Praga-Południe, Rapperswilska,3,3
 8037,679000.0,43.0,2,wtórny,2020,1,1,0,0,0, Bielany,Żółwia,2,2
 16644,490000.0,43.0,2,wtórny,1952,0,0,0,0,0, Wola,Antoniego Dobiszewskiego,3,3
-1150,826000.0,43.0,2,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,23
+1150,826000.0,43.0,2,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,11,23
 6362,549000.0,43.0,2,wtórny,2002,1,0,0,0,0, Bemowo, Bemowo,2,8
 16036,490000.0,43.0,2,wtórny,1971,1,1,0,0,0, Bielany, Hansa Christiana Andersena,8,10
 20465,989000.0,43.0,2,wtórny,2021,1,1,0,0,0, Wola, Ogrodowa,4,11
@@ -4739,14 +4739,14 @@
 6480,760000.0,42.08,2,wtórny,2018,1,1,0,0,0, Praga-Południe,Boremlowska,0,3
 20697,559000.0,42.08,2,pierwotny,2023,1,1,0,0,0, Mokotów, Gąsocińska,2,3
 12673,470000.0,42.07,2,wtórny,2023,1,1,0,0,0, Ursus, Ursus,5,6
-7035,818000.0,42.0,2,pierwotny,2022,1,1,1,1,1, Wola, Marcina Kasprzaka,&gt; 10,26
+7035,818000.0,42.0,2,pierwotny,2022,1,1,1,1,1, Wola, Marcina Kasprzaka,11,26
 21379,520000.0,42.0,2,wtórny,1979,1,0,0,0,0, Bielany, Broniewskiego,3,10
 8624,850000.0,42.0,2,wtórny,2018,0,1,0,0,0, Praga-Południe, Praga-Południe,0,3
 4855,654990.0,42.0,2,wtórny,2016,1,1,0,0,0, Praga-Północ,Szwedzka,2,8
 3578,415000.0,42.0,2,wtórny,1966,0,0,0,0,0, Ursus, Jana Marcina Szancera,3,4
-1705,826000.0,42.0,2,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,23
+1705,826000.0,42.0,2,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,11,23
 22270,654990.0,42.0,2,wtórny,2016,1,1,0,0,0, Praga-Północ,Szwedzka,2,8
-659,826000.0,42.0,2,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,23
+659,826000.0,42.0,2,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,11,23
 20536,497900.0,42.0,2,wtórny,2005,1,0,0,0,0, Targówek, Topazowa,2,3
 14566,455000.0,42.0,2,wtórny,1988,1,0,0,0,0, Praga-Południe, Władysława Tatarkiewicza,0,10
 15118,498000.0,42.0,2,wtórny,1985,1,0,0,0,0, Praga-Południe, Gocław,10,10
@@ -4761,7 +4761,7 @@
 6530,510000.0,42.0,2,wtórny,2022,1,0,0,0,0, Targówek, Targówek,1,10
 11650,490000.0,42.0,2,wtórny,1979,1,0,0,0,0, Wola, Tadeusza Krępowieckiego,4,9
 2901,710000.0,42.0,2,wtórny,2022,1,0,0,0,0, Śródmieście, Hoża,6,6
-11715,819000.0,42.0,2,pierwotny,2022,1,1,1,1,1, Wola, Marcina Kasprzaka,&gt; 10,26
+11715,819000.0,42.0,2,pierwotny,2022,1,1,1,1,1, Wola, Marcina Kasprzaka,11,26
 7616,620000.0,42.0,3,wtórny,2022,1,0,0,0,0, Mokotów,Gotarda,2,10
 4124,550000.0,42.0,2,wtórny,1972,1,0,0,0,0, Żoliborz,Elbląska,7,10
 18833,628000.0,42.0,2,wtórny,1939,0,0,0,0,0, Ochota, Ochota,0,4
@@ -4813,7 +4813,7 @@
 6752,699000.0,41.53,2,pierwotny,2022,1,0,0,0,0, Wola,Jana Kazimierza,2,6
 2680,699000.0,41.53,2,wtórny,2022,1,1,0,0,0, Wola, Jana Kazimierza,2,6
 7070,535000.0,41.5,2,wtórny,2018,1,1,0,0,0, Ursus, Konotopska,3,3
-14241,499000.0,41.5,1,wtórny,2002,1,1,0,0,0, Targówek, Ludwika Kondratowicza,&gt; 10,15
+14241,499000.0,41.5,1,wtórny,2002,1,1,0,0,0, Targówek, Ludwika Kondratowicza,11,15
 7027,539500.0,41.5,2,wtórny,1971,0,0,0,0,0, Żoliborz, Izabelli,2,4
 10437,525000.0,41.5,2,wtórny,1972,1,0,0,0,0, Żoliborz, Jasnodworska,3,9
 2110,430000.0,41.5,2,wtórny,2011,1,1,0,0,0, Białołęka,Leona Berensona,2,5
@@ -4938,10 +4938,10 @@
 9158,520000.0,40.0,2,wtórny,1978,1,0,0,0,0, Mokotów, Czerniakowska,5,10
 604,559000.0,40.0,2,wtórny,2022,0,0,0,0,0, Praga-Południe, Praga-Południe,3,6
 3827,500000.0,40.0,2,wtórny,2022,1,0,0,0,0, Włochy, Włochy,1,4
-23256,639000.0,40.0,2,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,12
+23256,639000.0,40.0,2,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,11,12
 4421,719900.0,40.0,2,wtórny,2021,1,1,0,0,0, Wola, Gumińska,1,5
 471,799000.0,40.0,2,wtórny,2015,1,0,0,0,0, Praga-Południe, Praga-Południe,4,8
-568,1150000.0,40.0,1,wtórny,2009,1,0,0,0,0, Wesoła,Grzybowska,&gt; 10,22
+568,1150000.0,40.0,1,wtórny,2009,1,0,0,0,0, Wesoła,Grzybowska,11,22
 12655,599000.0,40.0,2,wtórny,2021,0,0,0,0,0, Śródmieście, Ludna,3,16
 5808,420000.0,40.0,2,wtórny,2001,1,0,0,0,0, Białołęka,Książkowa,2,4
 12180,599000.0,40.0,2,wtórny,2018,1,0,0,0,0, Włochy, Bakalarska,3,5
@@ -4959,7 +4959,7 @@
 973,480000.0,39.89,2,pierwotny,2022,1,1,0,0,0, Włochy, Włochy,5,5
 14853,418000.0,39.8,2,wtórny,2022,0,0,0,0,0, Targówek, Radzymińska,0,4
 4883,520000.0,39.8,2,wtórny,1962,1,0,0,0,0, Wola, Wolska  15,10,10
-1738,714780.0,39.71,2,wtórny,2015,1,1,0,0,0, Praga-Południe, Mińska,&gt; 10,11
+1738,714780.0,39.71,2,wtórny,2015,1,1,0,0,0, Praga-Południe, Mińska,11,11
 9932,657600.0,39.71,2,pierwotny,2022,0,1,0,0,0, Praga-Południe, Gocław,6,8
 9235,657600.0,39.71,2,pierwotny,2022,1,1,0,0,0, Praga-Południe, Gocław,6,7
 6088,665000.0,39.7,2,wtórny,2012,1,0,0,0,0, Wola, Wola,2,10
@@ -4983,7 +4983,7 @@
 6826,511801.0,39.43,2,wtórny,2021,1,1,0,0,0, Rembertów, al. Aleja gen. Antoniego Chruściela ,5,5
 1834,511801.0,39.43,2,wtórny,2021,1,1,0,0,0, Rembertów, al. Aleja gen. Antoniego Chruściela ,5,5
 12116,650852.0,39.36,2,pierwotny,2022,1,1,0,0,0, Mokotów, Bartycka,1,2
-13655,484000.0,39.32,2,wtórny,1982,1,0,0,0,0, Praga-Południe,Złotej Wilgi,&gt; 10,13
+13655,484000.0,39.32,2,wtórny,1982,1,0,0,0,0, Praga-Południe,Złotej Wilgi,11,13
 2773,429900.0,39.3,2,pierwotny,2022,1,1,0,0,0, Ursus,Posag 7 Panien,4,7
 13056,449000.0,39.3,2,pierwotny,2022,1,1,0,0,0, Ursus, Aleje Jerozolimskie,2,4
 12005,495000.0,39.3,2,wtórny,1968,1,0,0,0,0, Wola, Muranów,2,10
@@ -5012,15 +5012,15 @@
 5829,528200.0,39.0,2,wtórny,1970,1,0,0,0,0, Centrum, Chłodna 15,5,14
 18849,677000.0,39.0,2,pierwotny,2021,1,1,0,0,0, Wola, Wola,4,21
 13405,520000.0,39.0,2,wtórny,1948,0,0,0,0,0, Wola, ks. Jana Sitnika,2,3
-18848,637000.0,39.0,2,pierwotny,2021,1,1,0,0,0, Wola, Wola,&gt; 10,24
+18848,637000.0,39.0,2,pierwotny,2021,1,1,0,0,0, Wola, Wola,11,24
 13758,520000.0,39.0,2,wtórny,1948,0,0,0,0,0, Wola, Młynów,2,3
 819,528200.0,39.0,2,wtórny,1970,1,0,0,0,0, Centrum, Chłodna 15,5,14
 2340,528200.0,39.0,2,wtórny,1970,1,0,0,0,0, Centrum, Chłodna 15,5,14
-23048,676000.0,39.0,2,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,12
+23048,676000.0,39.0,2,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,11,12
 18296,780000.0,39.0,2,wtórny,1962,1,0,0,0,0, Śródmieście, Latawiec,3,6
 12971,549900.0,39.0,2,wtórny,2000,1,1,0,0,0, Praga-Południe, Praga-Południe,5,6
 1421,599000.0,39.0,2,wtórny,1968,1,1,0,0,0, Praga-Północ, Jagiellońska,4,7
-16428,676000.0,39.0,2,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,12
+16428,676000.0,39.0,2,pierwotny,2021,1,1,0,0,0, Wola,Marcina Kasprzaka,11,12
 1653,520000.0,39.0,2,wtórny,1948,0,0,0,0,0, Wola, Sitnika 4,2,3
 11622,650000.0,39.0,2,wtórny,1968,1,1,0,0,0, Praga-Północ, Praga-Północ,5,7
 4017,650000.0,39.0,2,wtórny,1968,1,1,0,0,0, Praga-Północ, Praga-Północ,5,7
@@ -5062,7 +5062,7 @@
 13887,889000.0,38.89,2,wtórny,1960,1,0,0,0,0, Śródmieście, Wspólna,3,5
 12793,459000.0,38.8,2,wtórny,1968,1,0,0,0,0, Mokotów,Artura Malawskiego,6,10
 8237,459000.0,38.8,2,wtórny,1968,1,0,0,0,0, Mokotów,Artura Malawskiego,6,10
-16597,649000.0,38.8,2,wtórny,1972,1,0,0,0,0, Śródmieście, Śródmieście Północne,&gt; 10,15
+16597,649000.0,38.8,2,wtórny,1972,1,0,0,0,0, Śródmieście, Śródmieście Północne,11,15
 3317,459000.0,38.8,2,wtórny,1968,1,0,0,0,0, Mokotów,Artura Malawskiego,6,10
 8894,459000.0,38.8,2,wtórny,1968,1,0,0,0,0, Mokotów,Artura Malawskiego,6,10
 6320,459000.0,38.8,2,wtórny,1968,1,0,0,0,0, Mokotów,Artura Malawskiego,6,10
@@ -5111,7 +5111,7 @@
 13077,684000.0,38.18,2,wtórny,1936,0,0,0,0,0, Śródmieście,Fabryczna,1,4
 14656,569000.0,38.17,2,wtórny,1956,0,0,0,0,0, Śródmieście,Nowolipki,0,4
 6356,460000.0,38.1,2,wtórny,2003,0,1,0,0,0, Wesoła, Wesoła,2,3
-3544,417000.0,38.1,2,wtórny,1992,1,0,0,0,0, Bemowo, Jana Blatona,&gt; 10,11
+3544,417000.0,38.1,2,wtórny,1992,1,0,0,0,0, Bemowo, Jana Blatona,11,11
 13852,428000.0,38.09,2,wtórny,2021,1,1,0,0,0, Białołęka, Claudia Monteverdiego,1,3
 9944,585000.0,38.05,2,wtórny,2022,1,1,0,0,0, Ursynów, Kłobucka,1,4
 5521,680000.0,38.03,2,wtórny,2022,1,1,0,0,0, Mokotów, Pory,0,5
@@ -5120,11 +5120,11 @@
 15669,619000.0,38.0,2,wtórny,1959,1,0,0,0,0, Śródmieście, Śródmieście,0,7
 17643,409000.0,38.0,2,wtórny,1973,0,0,0,0,0, Bielany, Piaski,4,4
 2436,699200.0,38.0,2,wtórny,2014,1,1,0,0,0, Ursynów,Indiry Gandhi,7,8
-10476,669000.0,38.0,2,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,12
+10476,669000.0,38.0,2,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,11,12
 14417,670000.0,38.0,2,wtórny,1978,1,0,0,0,0, Wola, Pańska,5,8
 6547,599000.0,38.0,1,wtórny,1970,1,0,0,0,0, Mokotów, Mokotów,10,10
 5974,670000.0,38.0,2,wtórny,1970,1,0,0,0,0, Śródmieście, Śródmieście,5,10
-11716,669000.0,38.0,2,pierwotny,2022,1,1,1,1,1, Wola, Marcina Kasprzaka,&gt; 10,12
+11716,669000.0,38.0,2,pierwotny,2022,1,1,1,1,1, Wola, Marcina Kasprzaka,11,12
 8772,589000.0,38.0,2,wtórny,1978,1,0,0,0,0, Praga-Południe, Międzynarodowa,6,10
 9723,565000.0,38.0,2,wtórny,2018,1,0,0,0,0, Targówek, Targówek,1,3
 3440,585000.0,38.0,2,wtórny,2019,1,0,0,0,0, Bemowo,Szeligowska 10,4,7
@@ -5158,7 +5158,7 @@
 15800,570000.0,38.0,2,wtórny,1990,1,0,0,0,0, Wola, Śliska,3,8
 18851,539000.0,38.0,2,wtórny,1968,0,0,0,0,0, Żoliborz,gen. Józefa Zajączka,1,4
 11799,515000.0,38.0,2,wtórny,2004,0,1,0,0,0, Bemowo, Bemowo,0,3
-5935,417000.0,38.0,2,wtórny,1992,1,0,0,0,0, Bemowo,Jana Blatona,&gt; 10,11
+5935,417000.0,38.0,2,wtórny,1992,1,0,0,0,0, Bemowo,Jana Blatona,11,11
 16234,486000.0,38.0,2,wtórny,1936,0,0,0,0,0, Praga-Południe, Kobielska,1,2
 720,525000.0,38.0,2,wtórny,1976,1,0,0,0,0, Targówek, Targówek,2,10
 7437,500000.0,38.0,2,wtórny,1972,1,0,0,0,0, Żoliborz,Włościańska,9,10
@@ -5179,9 +5179,9 @@
 8649,559000.0,38.0,2,wtórny,1969,1,1,0,0,0, Targówek, Suwalska 4,7,10
 1171,485000.0,38.0,2,wtórny,1936,0,0,0,0,0, Praga-Południe,Kobielska,1,2
 3706,485000.0,38.0,2,wtórny,1936,0,0,0,0,0, Praga-Południe,Kobielska,1,2
-12347,676000.0,38.0,2,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,12
-22656,659000.0,38.0,1,pierwotny,2021,1,1,0,0,0, Wola, Wola,&gt; 10,12
-658,676000.0,38.0,2,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,23
+12347,676000.0,38.0,2,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,11,12
+22656,659000.0,38.0,1,pierwotny,2021,1,1,0,0,0, Wola, Wola,11,12
+658,676000.0,38.0,2,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,11,23
 9979,590900.0,38.0,3,wtórny,1975,1,0,0,0,0, Ochota, Grójecka,9,10
 11137,660000.0,38.0,2,wtórny,1960,0,0,0,0,0, Bielany,Jana Kasprowicza,2,3
 791,589000.0,38.0,2,wtórny,2021,0,1,0,0,0, Wola, Wola,2,6
@@ -5216,7 +5216,7 @@
 21685,449000.0,37.7,2,wtórny,2012,1,0,0,0,0, Białołęka,Marywilska 67,5,5
 3924,499000.0,37.64,1,wtórny,2021,1,1,0,0,0, Białołęka,Głębocka,3,4
 17737,578000.0,37.6,2,wtórny,1965,1,0,0,0,0, Wola, Żelazna,3,10
-11981,676620.0,37.59,2,pierwotny,2022,1,1,0,0,0, Wola, Marcina Kasprzaka,&gt; 10,13
+11981,676620.0,37.59,2,pierwotny,2022,1,1,0,0,0, Wola, Marcina Kasprzaka,11,13
 2930,351654.0,37.58,2,pierwotny,2024,0,1,0,0,0, Białołęka, Leona Berensona,2,2
 10007,419000.0,37.58,1,wtórny,2022,1,1,0,0,0, Białołęka,Głębocka,0,4
 5168,340550.0,37.58,2,pierwotny,2023,0,1,0,0,0, Białołęka, Białołęka,1,2
@@ -5236,7 +5236,7 @@
 9918,539000.0,37.5,2,wtórny,1970,0,0,0,0,0, Targówek, Bródno,4,4
 2452,440000.0,37.5,2,wtórny,2022,0,0,0,0,0, Wola, Obozowa,0,2
 14537,425000.0,37.5,2,wtórny,2022,1,0,0,0,0, Wola, Wola,8,10
-6387,810000.0,37.5,2,wtórny,1969,1,0,0,0,0, Śródmieście, Śródmieście Północne,&gt; 10,17
+6387,810000.0,37.5,2,wtórny,1969,1,0,0,0,0, Śródmieście, Śródmieście Północne,11,17
 9575,628000.0,37.5,1,wtórny,1968,1,0,0,0,0, Mokotów, Giordana Bruna,10,10
 15354,465000.0,37.5,2,wtórny,1969,1,0,0,0,0, Ochota, al. Jerozolimskie,9,11
 7637,470000.0,37.5,2,wtórny,1986,0,0,0,0,0, Praga-Południe, Floriana Znanieckiego,1,4
@@ -5307,12 +5307,12 @@
 11287,610500.0,37.0,2,wtórny,1975,1,0,0,0,0, Wola, Chłodna,7,10
 3431,399999.0,37.0,2,wtórny,1966,1,0,0,0,0, Ochota,Strubiczów,9,10
 10500,440000.0,37.0,2,wtórny,2018,0,0,0,0,0, Wesoła, Wesoła,1,2
-14140,390000.0,37.0,1,wtórny,1981,1,0,0,0,0, Bielany, Klaudyny,&gt; 10,12
+14140,390000.0,37.0,1,wtórny,1981,1,0,0,0,0, Bielany, Klaudyny,11,12
 4722,440000.0,37.0,2,wtórny,2018,0,0,0,0,0, Wesoła, Wesoła,1,2
 8018,440000.0,37.0,2,wtórny,2018,0,0,0,0,0, Wesoła, Wesoła,1,2
 13764,395000.0,37.0,2,wtórny,2005,1,1,0,0,0, Białołęka, Ceramiczna,4,6
-13619,389000.0,37.0,1,wtórny,1979,1,0,0,0,0, Bielany, Klaudyny,&gt; 10,15
-3950,515000.0,37.0,2,wtórny,1966,1,0,0,0,0, Praga-Północ, Praga-Północ,&gt; 10,11
+13619,389000.0,37.0,1,wtórny,1979,1,0,0,0,0, Bielany, Klaudyny,11,15
+3950,515000.0,37.0,2,wtórny,1966,1,0,0,0,0, Praga-Północ, Praga-Północ,11,11
 20940,553000.0,37.0,2,wtórny,1965,0,0,0,0,0, Wola, Mordechaja Anielewicza,1,3
 6097,490000.0,37.0,2,wtórny,1966,1,1,0,0,0, Praga-Północ, Stara Praga,6,11
 18932,490000.0,37.0,2,wtórny,1975,1,0,0,0,0, Ochota,Grójecka,4,14
@@ -5330,9 +5330,9 @@
 7128,520000.0,36.9,2,wtórny,1966,1,0,0,0,0, Mokotów,Giordana Bruna ,4,10
 4519,479000.0,36.86,1,wtórny,1966,1,0,0,0,0, Praga-Północ,Karola Darwina,3,11
 2769,479000.0,36.86,1,wtórny,1966,1,0,0,0,0, Praga-Północ,Karola Darwina,3,11
-3968,677000.0,36.8,2,pierwotny,2022,1,0,0,0,0, Wola, Marcina Kasprzaka,&gt; 10,27
+3968,677000.0,36.8,2,pierwotny,2022,1,0,0,0,0, Wola, Marcina Kasprzaka,11,27
 9610,450000.0,36.8,2,wtórny,2021,1,1,0,0,0, Rembertów, Chełmżyńska,3,5
-15119,595000.0,36.8,2,wtórny,1974,1,0,0,0,0, Praga-Północ, Praga-Północ,&gt; 10,11
+15119,595000.0,36.8,2,wtórny,1974,1,0,0,0,0, Praga-Północ, Praga-Północ,11,11
 10155,699000.0,36.8,2,wtórny,1970,1,0,0,0,0, Śródmieście, Zgoda,5,20
 13330,440000.0,36.7,2,wtórny,2017,0,0,0,0,0, Wesoła, Wesoła,1,2
 10505,390000.0,36.7,2,wtórny,2005,1,1,0,0,0, Białołęka,Ceramiczna 9,4,6
@@ -5341,7 +5341,7 @@
 8039,390000.0,36.6,2,wtórny,1970,0,1,0,0,0, Wawer, Zorzy,0,2
 3517,850000.0,36.6,2,wtórny,2021,1,0,0,0,0, Wola,Burakowska,7,7
 3371,450000.0,36.6,2,wtórny,2006,1,1,0,0,0, Białołęka, Tarchomin,6,9
-13011,390000.0,36.6,1,wtórny,1979,1,0,0,0,0, Bielany, Marymont,&gt; 10,12
+13011,390000.0,36.6,1,wtórny,1979,1,0,0,0,0, Bielany, Marymont,11,12
 4413,300000.0,36.5,1,wtórny,2018,1,1,0,0,0, Białołęka,Kołacińska,0,4
 7124,608000.0,36.5,2,wtórny,1939,0,0,0,0,0, Ochota, Piotrkowska,2,3
 14531,435000.0,36.5,1,wtórny,1978,1,0,0,0,0, Bielany, Bielany,3,12
@@ -5352,7 +5352,7 @@
 14797,580000.0,36.4,1,wtórny,2009,1,0,0,0,0, Mokotów, Bukowińska,1,15
 19877,480000.0,36.4,1,wtórny,2022,0,1,0,0,0, Praga-Południe, Praga-Południe,1,4
 7492,464500.0,36.37,2,pierwotny,2023,1,1,0,0,0, Włochy,Jutrzenki,4,6
-10381,498500.0,36.3,2,wtórny,1968,1,1,0,0,0, Mokotów, Puławska,&gt; 10,12
+10381,498500.0,36.3,2,wtórny,1968,1,1,0,0,0, Mokotów, Puławska,11,12
 11343,540000.0,36.3,1,wtórny,1958,0,0,0,0,0, Mokotów, Mokotów,3,3
 16373,485000.0,36.3,2,wtórny,1967,1,0,0,0,0, Mokotów, Wierzbno,6,12
 1054,550000.0,36.3,2,wtórny,1975,1,0,0,0,0, Mokotów,Wojciecha Żywnego,5,10
@@ -5381,7 +5381,7 @@
 3310,555000.0,36.0,2,wtórny,1960,0,0,0,0,0, Wola, Żytnia,1,3
 3069,499000.0,36.0,1,wtórny,2016,1,1,0,0,0, Bemowo, Bemowo,1,6
 1123,521000.0,36.0,2,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,4,23
-881,524000.0,36.0,2,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,20
+881,524000.0,36.0,2,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,11,20
 7191,600000.0,36.0,2,wtórny,1968,1,0,0,0,0, Śródmieście,Solec,5,10
 10878,720000.0,36.0,2,wtórny,2022,0,0,0,0,0, Śródmieście, Leszczyńska,4,7
 16837,570000.0,36.0,2,wtórny,1977,1,0,0,0,0, Śródmieście, Solec,5,9
@@ -5613,11 +5613,11 @@
 8255,419000.0,32.86,2,wtórny,1980,1,0,0,0,0, Ursynów, Ursynów,4,7
 7367,515000.0,32.82,1,wtórny,2022,1,0,0,0,0, Śródmieście, Aleja Solidarności,8,11
 6608,498000.0,32.81,2,wtórny,2020,1,1,0,0,0, Włochy, Popularna,2,2
-8047,520000.0,32.8,1,wtórny,1978,1,1,0,0,0, Praga-Północ, Targowa,&gt; 10,18
+8047,520000.0,32.8,1,wtórny,1978,1,1,0,0,0, Praga-Północ, Targowa,11,18
 4205,565000.0,32.8,2,wtórny,2015,1,1,0,0,0, Praga-Północ, Kijowska 7,6,8
 1694,370000.0,32.7,2,wtórny,2017,1,1,0,0,0, Białołęka, Mariana Wyrzykowskiego,1,6
 7907,430000.0,32.67,1,wtórny,2016,1,0,0,0,0, Praga-Południe,Osada Ojców 17,1,2
-9695,387000.0,32.63,1,wtórny,1979,1,0,0,0,0, Bielany, Bielany,&gt; 10,12
+9695,387000.0,32.63,1,wtórny,1979,1,0,0,0,0, Bielany, Bielany,11,12
 13055,449800.0,32.6,2,pierwotny,2024,1,0,1,1,1, Praga-Południe, Mińska ,0,5
 975,420000.0,32.6,2,wtórny,2022,1,1,0,0,0, Włochy,Łopuszańska,1,5
 7137,420000.0,32.6,2,wtórny,2022,1,1,0,0,0, Włochy,Łopuszańska,1,5
@@ -5654,7 +5654,7 @@
 6901,400000.0,32.0,1,wtórny,2009,1,1,0,0,0, Ursus, Ryżowa 48,7,7
 13979,960000.0,32.0,1,wtórny,2020,1,1,0,0,0, Śródmieście,Sienna 65,1,7
 2418,430000.0,32.0,2,wtórny,1980,1,0,0,0,0, Targówek,Złotopolska,6,9
-15121,992000.0,32.0,1,wtórny,2019,1,0,0,0,0, Wola, Aleja Prymasa Tysiąclecia,&gt; 10,11
+15121,992000.0,32.0,1,wtórny,2019,1,0,0,0,0, Wola, Aleja Prymasa Tysiąclecia,11,11
 6840,928000.0,32.0,1,wtórny,2022,1,1,0,0,0, Śródmieście,Górnośląska 6,1,8
 9569,515000.0,32.0,2,wtórny,2017,1,1,0,0,0, Praga-Południe, Praga-Południe,2,5
 22641,447000.0,32.0,1,wtórny,2000,0,0,0,0,0, Włochy, Krańcowa,3,3
@@ -5909,7 +5909,7 @@
 22648,370000.0,21.0,1,pierwotny,2021,1,1,1,1,1, Wola, Wola,8,12
 5838,399000.0,21.0,1,wtórny,2018,1,1,0,0,0, Białołęka, Nowodwory,4,6
 21889,385000.0,21.0,1,wtórny,2019,1,0,0,0,0, Wola, al. Prymasa Tysiąclecia,3,12
-3466,309000.0,21.0,1,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,&gt; 10,20
+3466,309000.0,21.0,1,pierwotny,2022,1,1,0,0,0, Wola,Marcina Kasprzaka,11,20
 9009,243000.0,20.0,1,wtórny,1960,0,0,0,0,0, Wola,Grabowska,3,3
 2224,243000.0,20.0,1,wtórny,1960,0,0,0,0,0, Wola,Grabowska,3,3
 5268,243000.0,20.0,1,wtórny,1960,0,0,0,0,0, Wola,Grabowska,3,3
