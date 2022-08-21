@@ -44,6 +44,6 @@ This is my private portfolio project to analyze housing prices in Warsaw in July
 - [x] EDA
 - [x] Feature enginering
 - [x] Pycaret Modeling
-- [ ] Scikit learn modeling
+- [x] Scikit learn modeling
 - [ ] Neural network model in Tensorflow / Keras
-- [ ] Power BI analysis
+- [x] Power BI analysis
