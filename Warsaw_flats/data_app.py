@@ -17,12 +17,14 @@ st.markdown("""Write about:
 st.write(data.head(20))
 
 
-st.write("Flats by district")
+st.header("Factors that mostly influeces price")
 
+
+st.header('Analysis in depth of couple districs')
 st.write(data.groupby('district')['Price'].agg([np.mean,np.std,np.median]))
 
-
 st.write('Śródmieście')
+
 sro = data.loc[data['district'] == 'Śródmieście']
 fig = plt.figure(figsize=(5, 4))
 b = sns.boxplot(x = 'district', y = 'Price',data= sro)
@@ -32,6 +34,7 @@ b.set_ylabel('Price in milions PLN')
 b.set(ylim=(100000, 4000000))
 st.pyplot(fig)
 
-
 st.write("Warsaw map")
 st.map()
+
+st.header('Price prediction model based on proviede data')
