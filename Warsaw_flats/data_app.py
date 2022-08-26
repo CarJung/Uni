@@ -4,17 +4,37 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+
 data = pd.read_csv('data/data_clean_removed.csv')
 data =data.iloc[:, 1:]
 data['district'] =data['district'].str.replace(" ","")
+sample = data.sample(n=500, random_state=42)
 st.title('Warsaw flats prices in July of 2022')
 
-st.markdown("""Write about:
-            - how was dataset aquired
-            - co się w nim znajduje
-            - co będzie dalej
-            """)
+st.markdown("""This is a small data science report about real estate market in Warsaw. This dataset was made purely my me. I have scrapped flats offers from Otodomo page.
+            Dataset consist of 15 columns.\\
+            Thing you can find in the report: \\
+            - Dataset reiview \\
+            - Factors that mostly influece price \\
+            - Analysis in depth of couple districs \\
+            - Model predicting price of a flat based on provided features
+            
+""")
+st.header("Dataset reiview")
+"""This is real world data about estates market in Warsaw. There are 15 columns. Two features are two continous variables and the rest are categorical - 13. """
 st.write(data.head(20))
+
+def distribution_plot():
+    
+    plt.style.use('ggplot')
+    fig, ax = plt.subplots(3,figsize=(19,10))
+    fig.suptitle('Distribution of columns')
+    sns.histplot(sample, x ='Price', discrete=True, ax = ax[0])
+    sns.histplot(sample, x ='Space', discrete=True, ax = ax[1])
+    sns.histplot(sample, x ='Room', discrete=True, ax = ax[2])
+    return st.pyplot(fig)
+
+distribution_plot()
 
 
 st.header("Factors that mostly influeces price")
