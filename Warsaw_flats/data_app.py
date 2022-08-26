@@ -3,9 +3,26 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import pymongo
 
+@st.experimental_singleton
+def init_connection():
+    return pymongo.MongoClient(**st.secrets["mongo"])
 
-data = pd.read_csv('data/data_clean_removed.csv')
+client = init_connection()
+
+@st.experimental_memo(ttl=600)
+def get_data():
+    db = client.mydb
+    items = db.mycollection.find()
+    items = list(items)  # make hashable for st.experimental_memo
+    return items
+
+items = get_data()
+
+client = init_connection()
+
+data = pd.DataFrame(items)
 data =data.iloc[:, 1:]
 data['district'] =data['district'].str.replace(" ","")
 sample = data.sample(n=500, random_state=42)
