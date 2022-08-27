@@ -45,5 +45,6 @@ This is my private portfolio project to analyze housing prices in Warsaw in July
 - [x] Feature enginering
 - [x] Pycaret Modeling
 - [x] Scikit learn modeling
+- [ ] Streamlit app
 - [ ] Neural network model in Tensorflow / Keras
 - [x] Power BI analysis
