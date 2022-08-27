@@ -3,27 +3,29 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-import pymongo
+from google.oauth2 import service_account
+from gsheetsdb import connect
 
-@st.experimental_singleton
-def init_connection():
-    return pymongo.MongoClient(**st.secrets["mongo"])
+credentials = service_account.Credentials.from_service_account_info(
+    st.secrets["gcp_service_account"],
+    scopes=[
+        "https://www.googleapis.com/auth/spreadsheets",
+    ],
+)
+conn = connect(credentials=credentials)
 
-client = init_connection()
+# Perform SQL query on the Google Sheet.
+# Uses st.cache to only rerun when the query changes or after 10 min.
+@st.cache(ttl=600)
+def run_query(query):
+    rows = conn.execute(query, headers=1)
+    rows = rows.fetchall()
+    return rows
 
-@st.experimental_memo(ttl=600)
-def get_data():
-    db = client.mydb
-    items = db.mycollection.find()
-    items = list(items)  # make hashable for st.experimental_memo
-    return items
+sheet_url = st.secrets["private_gsheets_url"]
+rows = run_query(f'SELECT * FROM "{sheet_url}"')
 
-items = get_data()
-
-client = init_connection()
-
-data = pd.DataFrame(items)
-data =data.iloc[:, 1:]
+data = pd.DataFrame(rows)
 data['district'] =data['district'].str.replace(" ","")
 sample = data.sample(n=500, random_state=42)
 st.title('Warsaw flats prices in July of 2022')
@@ -48,7 +50,7 @@ def distribution_plot():
     fig.suptitle('Distribution of columns')
     sns.histplot(sample, x ='Price', discrete=True, ax = ax[0])
     sns.histplot(sample, x ='Space', discrete=True, ax = ax[1])
-    sns.histplot(sample, x ='Room', discrete=True, ax = ax[2])
+    sns.histplot(sample, x ='Rooms', discrete=True, ax = ax[2])
     return st.pyplot(fig)
 
 distribution_plot()
