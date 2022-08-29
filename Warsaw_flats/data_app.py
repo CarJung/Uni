@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from google.oauth2 import service_account
 from gsheetsdb import connect
+import scipy as sp
+import pingouin as pg
 
 credentials = service_account.Credentials.from_service_account_info(
     st.secrets["gcp_service_account"],
@@ -30,11 +32,9 @@ data = pd.DataFrame(rows)
 data['district'] =data['district'].str.replace(" ","")
 data['Year'] = data['Year'].astype(str) 
 data['Year'] =data['Year'].str.slice(0,-2)
+sample = data.sample(n=750, random_state=42)
 
-
-sample = data.sample(n=500, random_state=42)
 st.title('Warsaw flats prices in July of 2022')
-
 st.markdown("""This is a small data science report about real estate market in Warsaw. This dataset was made purely my me. I have scrapped flats offers from Otodomo page.
             Dataset consist of 15 columns.\\
             Thing you can find in the report: \\
@@ -44,25 +44,40 @@ st.markdown("""This is a small data science report about real estate market in W
             - Model predicting price of a flat based on provided features
             
 """)
+
+
 st.header("Dataset reiview")
 """This is real world data about estates market in Warsaw. There are 15 columns. Two features are two continous variables and the rest are categorical - 13. """
 st.write(data.head(20))
-
-def distribution_plot():
-    
+"""Distribution of rooms in the dataset. Since the dataset is huge I have sampled it to see the distribution of rooms. """
+def rooms_distribution_plot():
     plt.style.use('ggplot')
-    fig, ax = plt.subplots(3,figsize=(19,10))
-    fig.suptitle('Distribution of columns')
-    sns.histplot(sample, x ='Price', discrete=True, ax = ax[0])
-    sns.histplot(sample, x ='Space', discrete=True, ax = ax[1])
-    sns.histplot(sample, x ='Rooms', discrete=True, ax = ax[2])
+    fig= plt.figure(figsize=(19,10))
+    fig.suptitle('Distribution of rooms column', fontsize=25)
+    plt.xlabel('Rooms', fontsize=25);
+    plt.ylabel('Count', fontsize=25);
+    plt.xticks([0,1,2,3,4,5,6,7,8,9],fontsize=20);
+    fig.tight_layout()
+    sns.histplot(sample, x ='Rooms', discrete=True)
     return st.pyplot(fig)
 
-distribution_plot()
+rooms_distribution_plot()
+f"""Most flats have two or three rooms. Kurtosis is {round(sp.stats.kurtosis(data.Rooms), 2 )}, and skewness is {round(sp.stats.skew(data.Rooms), 2 )}. """
 
 
 st.header("Factors that mostly influeces price")
 
+f"""ANCOVA realtionship beetwen rooms and price{pg.anova(data= sample , dv = 'Price', between='Rooms')} """
+fig1= plt.figure(figsize=(19,10))
+fig1.suptitle('Distribution of rooms column', fontsize=25)
+sns.boxplot(data=sample, x='Rooms', y='Price')
+st.pyplot(fig1)
+
+f"""Pearson correlation beetwen space and price{sp.stats.pearsonr(sample.Price, sample.Space)} """
+fig2= plt.figure(figsize=(19,10))
+fig2.suptitle('Distribution of rooms column', fontsize=25)
+sns.scatterplot(data=sample, x='Space', y='Price')
+st.pyplot(fig2)
 
 st.header('Analysis in depth of couple districs')
 st.write(data.groupby('district')['Price'].agg([np.mean,np.std,np.median]))
