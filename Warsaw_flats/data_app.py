@@ -8,6 +8,7 @@ from gsheetsdb import connect
 import scipy as sp
 import pingouin as pg
 
+# Data fetching from Google Sheets
 credentials = service_account.Credentials.from_service_account_info(
     st.secrets["gcp_service_account"],
     scopes=[
@@ -27,11 +28,13 @@ def run_query(query):
 sheet_url = st.secrets["private_gsheets_url"]
 rows = run_query(f'SELECT * FROM "{sheet_url}"')
 
-#data proccesing
+# Data proccesing
 data = pd.DataFrame(rows)
 data['district'] =data['district'].str.replace(" ","")
 data['Year'] = data['Year'].astype(str) 
 data['Year'] =data['Year'].str.slice(0,-2)
+data['Price'] = data['Price'].astype(float)
+data['Space'] = data['Space'].astype(float)
 sample = data.sample(n=750, random_state=42)
 
 st.title('Warsaw flats prices in July of 2022')
@@ -44,6 +47,7 @@ st.markdown("""This is a small data science report about real estate market in W
             - Model predicting price of a flat based on provided features
             
 """)
+
 
 
 st.header("Dataset reiview")
@@ -65,19 +69,24 @@ rooms_distribution_plot()
 f"""Most flats have two or three rooms. Kurtosis is {round(sp.stats.kurtosis(data.Rooms), 2 )}, and skewness is {round(sp.stats.skew(data.Rooms), 2 )}. """
 
 
+
 st.header("Factors that mostly influeces price")
 
-f"""ANCOVA realtionship beetwen rooms and price{pg.anova(data= sample , dv = 'Price', between='Rooms')} """
+#{round(pg.anova(data= sample , dv = 'Price', between='Rooms')['p-unc'].values[0],30)}
+f"""ANOVA realtionship beetwen rooms and price is statisticlly significant p-value is smaller than 0.05,
+and eta sqaured effect is equal to = {round(pg.anova(data= sample , dv = 'Price', between='Rooms')['np2'].values[0],3)}. """
 fig1= plt.figure(figsize=(19,10))
 fig1.suptitle('Distribution of rooms column', fontsize=25)
 sns.boxplot(data=sample, x='Rooms', y='Price')
 st.pyplot(fig1)
 
-f"""Pearson correlation beetwen space and price{sp.stats.pearsonr(sample.Price, sample.Space)} """
+f"""Pearson correlation beetwen space and price is equal to {round(sp.stats.pearsonr(sample.Price, sample.Space)[0],3)}."""
 fig2= plt.figure(figsize=(19,10))
 fig2.suptitle('Distribution of rooms column', fontsize=25)
 sns.scatterplot(data=sample, x='Space', y='Price')
 st.pyplot(fig2)
+
+
 
 st.header('Analysis in depth of couple districs')
 st.write(data.groupby('district')['Price'].agg([np.mean,np.std,np.median]))
@@ -93,7 +102,26 @@ b.set_ylabel('Price in milions PLN')
 b.set(ylim=(100000, 4000000))
 st.pyplot(fig)
 
+
+
+
 st.write("Warsaw map")
 st.map()
 
+
+
 st.header('Price prediction model based on proviede data')
+
+district = st.text_input( label = 'Enter district')
+level = st.text_input( label = 'Enter level')
+max_level = st.text_input( label = 'Enter max_level')
+market = st.text_input( label = 'Enter market')
+year = st.text_input( label = 'Enter year')
+elevator = st.text_input( label = 'Enter elevator')
+parking_place = st.text_input( label = 'Enter parking_place')
+balcony = st.text_input( label = 'Enter balcony')
+ogrodek = st.text_input( label = 'Enter ogrodek')
+taras = st.text_input( label = 'Enter taras')
+street = st.text_input( label = 'Enter street')
+
+space = st.number_input( label = 'Enter space')
