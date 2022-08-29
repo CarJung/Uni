@@ -25,8 +25,13 @@ def run_query(query):
 sheet_url = st.secrets["private_gsheets_url"]
 rows = run_query(f'SELECT * FROM "{sheet_url}"')
 
+#data proccesing
 data = pd.DataFrame(rows)
 data['district'] =data['district'].str.replace(" ","")
+data['Year'] = data['Year'].astype(str) 
+data['Year'] =data['Year'].str.slice(0,-2)
+
+
 sample = data.sample(n=500, random_state=42)
 st.title('Warsaw flats prices in July of 2022')
 
