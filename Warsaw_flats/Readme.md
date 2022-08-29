@@ -22,7 +22,7 @@
 ## About The Project
 This is my private portfolio project to analyze housing prices in Warsaw in July 2022. My main goal is descriptive analysis of the housing market and the creation of a model for the valuation of apartments.
 
-
+Right now i'm building web app im streamlit. It's accesibly via this link https://carjung-uni-warsaw-flatsdata-app-9kvo9p.streamlitapp.com .
 
 ### Built With
 
