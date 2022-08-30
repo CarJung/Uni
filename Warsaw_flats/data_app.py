@@ -134,7 +134,6 @@ st.pyplot(fig)
 
 
 
-
 st.write("Warsaw map")
 st.map()
 
@@ -155,3 +154,10 @@ taras = st.text_input( label = 'Enter taras')
 street = st.text_input( label = 'Enter street')
 
 space = st.number_input( label = 'Enter space')
+
+#@st.cache
+#model = xgb.XGBRegressor()
+#model.load_model('xgb_model.json')
+#prediction = model.predict(pd.DataFrame([[street,district, level, max_level, market, year, elevator, parking_place, balcony, ogrodek,taras,street]], 
+#                                           columns=['street','district', 'level', 'max_level', 'market', 'year', 'elevator', 'parking_place', 'balcony', 'ogrodek','taras','street']))
+#st.success(f'The predicted price of the flat is ${prediction[0]:.2f} PLN')
