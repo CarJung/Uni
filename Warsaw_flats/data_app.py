@@ -37,6 +37,11 @@ data['Price'] = data['Price'].astype(float)
 data['Space'] = data['Space'].astype(float)
 sample = data.sample(n=750, random_state=42)
 
+st.sidebar.subheader('Data Exploration')
+st.sidebar.subheader('Factors that mostly influeces price')
+st.sidebar.subheader('Analysis in depth of couple districs')
+st.sidebar.subheader('Price prediction model based on proviede data')
+    
 st.title('Warsaw flats prices in July of 2022')
 st.markdown("""This is a small data science report about real estate market in Warsaw. This dataset was made purely my me. I have scrapped flats offers from Otodomo page.
             Dataset consist of 15 columns.\\
@@ -50,7 +55,7 @@ st.markdown("""This is a small data science report about real estate market in W
 
 
 
-st.header("Dataset reiview")
+st.header("Data Exploration")
 """This is real world data about estates market in Warsaw. There are 15 columns. Two features are two continous variables and the rest are categorical - 13. """
 st.write(data.head(20))
 """Distribution of rooms in the dataset. Since the dataset is huge I have sampled it to see the distribution of rooms. """
@@ -71,20 +76,40 @@ f"""Most flats have two or three rooms. Kurtosis is {round(sp.stats.kurtosis(dat
 
 
 st.header("Factors that mostly influeces price")
+f"""The most important factors that influence price are:"""
+st.table(sample.corr()['Price'].sort_values(ascending=False)[1:4])
 
+#Rooms and Price
 #{round(pg.anova(data= sample , dv = 'Price', between='Rooms')['p-unc'].values[0],30)}
-f"""ANOVA realtionship beetwen rooms and price is statisticlly significant p-value is smaller than 0.05,
-and eta sqaured effect is equal to = {round(pg.anova(data= sample , dv = 'Price', between='Rooms')['np2'].values[0],3)}. """
+"""#### Rooms and Price realtionship"""
 fig1= plt.figure(figsize=(19,10))
-fig1.suptitle('Distribution of rooms column', fontsize=25)
+fig1.suptitle('Boxplots of Rooms by Price', fontsize=25)
+plt.xlabel('Rooms', fontsize=25);
+plt.ylabel('Price', fontsize=25);
 sns.boxplot(data=sample, x='Rooms', y='Price')
 st.pyplot(fig1)
+f"""ANOVA realtionship beetwen rooms and price is statisticlly significant p-value is smaller than 0.05,
+and eta sqaured effect is equal to = {round(pg.anova(data= sample , dv = 'Price', between='Rooms')['np2'].values[0],3)}. """
 
-f"""Pearson correlation beetwen space and price is equal to {round(sp.stats.pearsonr(sample.Price, sample.Space)[0],3)}."""
+#Space and Price
+"""#### Space and Price realtionship"""
 fig2= plt.figure(figsize=(19,10))
-fig2.suptitle('Distribution of rooms column', fontsize=25)
+fig2.suptitle('Space and Price scatter plot', fontsize=25)
+plt.xlabel('Space', fontsize=25);
+plt.ylabel('Price', fontsize=25);
 sns.scatterplot(data=sample, x='Space', y='Price')
 st.pyplot(fig2)
+f"""Pearson correlation beetwen space and price is equal to {round(sp.stats.pearsonr(sample.Price, sample.Space)[0],3)}."""
+
+
+#Elevator and Price
+"""#### Elevator and Price realtionship"""
+fig1= plt.figure(figsize=(19,10))
+fig1.suptitle('Boxplots of elevator by Price', fontsize=25)
+plt.xlabel('elevator', fontsize=25);
+plt.ylabel('Price', fontsize=25);
+sns.boxplot(data=sample, x='elevator', y='Price')
+st.pyplot(fig1)
 
 
 
