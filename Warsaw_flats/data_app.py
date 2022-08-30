@@ -90,6 +90,8 @@ sns.boxplot(data=sample, x='Rooms', y='Price')
 st.pyplot(fig1)
 f"""ANOVA realtionship beetwen rooms and price is statisticlly significant p-value is smaller than 0.05,
 and eta sqaured effect is equal to = {round(pg.anova(data= sample , dv = 'Price', between='Rooms')['np2'].values[0],3)}. """
+st.table(data.groupby('Rooms')['Price'].agg([np.mean,np.std,np.median][:5]))
+
 
 #Space and Price
 """#### Space and Price realtionship"""
@@ -110,6 +112,9 @@ plt.xlabel('elevator', fontsize=25);
 plt.ylabel('Price', fontsize=25);
 sns.boxplot(data=sample, x='elevator', y='Price')
 st.pyplot(fig1)
+st.table(data.groupby('elevator')['Price'].agg([np.mean,np.std,np.median]))
+f"""Altough the correlation exist bettwen this two variables, ANOVA test is statisticlly insignificant with p-value equal to 
+{round(pg.anova(data= sample , dv = 'elevator', between='Rooms')['p-unc'].values[0],3)} which is lower than assumed alpha value - 0.05. """
 
 
 
