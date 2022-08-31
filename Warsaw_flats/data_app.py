@@ -157,10 +157,10 @@ street = st.text_input( label = 'Enter street')
 
 space = st.number_input( label = 'Enter space')
 
-filename = 'finalized_model.sav'
+filename = 'gbr_model.sav'
 
-#@st.cache
-#loaded_model = pickle.load(open(filename, 'rb'))
-#predictions = loaded_model.predict(pd.DataFrame([[street,district, level, max_level, market, year, elevator, parking_place, balcony, ogrodek,taras,street]], 
+@st.cache
+loaded_model = pickle.load(open(filename, 'rb'))
+predictions = loaded_model.predict(pd.DataFrame([[street,district, level, max_level, market, year, elevator, parking_place, balcony, ogrodek,taras,street]], 
                                                columns=['street','district', 'level', 'max_level', 'market', 'year', 'elevator', 'parking_place', 'balcony', 'ogrodek','taras','street']))
-#st.success(f'The predicted price of the flat is ${prediction[0]:.2f} PLN')
+st.success(f'The predicted price of the flat is ${predictions[0]:.2f} PLN')
