@@ -5,4 +5,4 @@ seaborn
 gsheetsdb
 scipy
 pingouin
-pickle
+pickle5
