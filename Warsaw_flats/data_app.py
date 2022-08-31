@@ -1,3 +1,4 @@
+from fileinput import filename
 import pandas as pd
 import streamlit as st
 import numpy as np
@@ -7,6 +8,7 @@ from google.oauth2 import service_account
 from gsheetsdb import connect
 import scipy as sp
 import pingouin as pg
+import pickle
 
 # Data fetching from Google Sheets
 credentials = service_account.Credentials.from_service_account_info(
@@ -155,9 +157,10 @@ street = st.text_input( label = 'Enter street')
 
 space = st.number_input( label = 'Enter space')
 
+filename = 'finalized_model.sav'
+
 #@st.cache
-#model = xgb.XGBRegressor()
-#model.load_model('xgb_model.json')
-#prediction = model.predict(pd.DataFrame([[street,district, level, max_level, market, year, elevator, parking_place, balcony, ogrodek,taras,street]], 
-#                                           columns=['street','district', 'level', 'max_level', 'market', 'year', 'elevator', 'parking_place', 'balcony', 'ogrodek','taras','street']))
+#loaded_model = pickle.load(open(filename, 'rb'))
+#predictions = loaded_model.predict(pd.DataFrame([[street,district, level, max_level, market, year, elevator, parking_place, balcony, ogrodek,taras,street]], 
+                                               columns=['street','district', 'level', 'max_level', 'market', 'year', 'elevator', 'parking_place', 'balcony', 'ogrodek','taras','street']))
 #st.success(f'The predicted price of the flat is ${prediction[0]:.2f} PLN')
