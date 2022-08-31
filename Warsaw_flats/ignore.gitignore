@@ -1,1 +1,2 @@
-*.toml
+*/streamlit/.toml
+upload_tomogo.py
