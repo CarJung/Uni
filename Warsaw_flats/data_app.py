@@ -161,6 +161,10 @@ filename = 'gbr_model.sav'
 
 st.cache
 model = pickle.load(open(filename, 'rb'))
-predictions = model.predict(pd.DataFrame([[street,district, level, max_level, market, year, elevator, parking_place, balcony, ogrodek,taras,street]], 
+
+predict  = st.button('Predict')
+if predict:
+    predictions = model.predict(pd.DataFrame([[street,district, level, max_level, market, year, elevator, parking_place, balcony, ogrodek,taras,street]], 
                                                columns=['street','district', 'level', 'max_level', 'market', 'year', 'elevator', 'parking_place', 'balcony', 'ogrodek','taras','street']))
-st.success(f'The predicted price of the flat is ${predictions[0]:.2f} PLN')
+    st.write(f'Flat is worth:{predictions} PLN')    
+
