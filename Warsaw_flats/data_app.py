@@ -9,6 +9,7 @@ from gsheetsdb import connect
 import scipy as sp
 import pingouin as pg
 import pickle
+import regex as re
 
 # Data fetching from Google Sheets
 credentials = service_account.Credentials.from_service_account_info(
@@ -162,9 +163,11 @@ predict  = st.button('Predict')
 if predict:
     filename = 'gbr_model.sav'
     model = pickle.load(open(filename, 'rb'))
-
-    predictions = model.predict(pd.DataFrame([[street,district, level, max_level, market, year, elevator, parking_place, balcony, ogrodek,taras,street]], 
-                                               columns=['street','district', 'level', 'max_level', 'market', 'year', 'elevator', 'parking_place', 'balcony', 'ogrodek','taras','street']))
+    data = pd.DataFrame([[street,district, level, max_level, market, year, elevator, parking_place, balcony, ogrodek,taras,street]], 
+                                               columns=['street','district', 'level', 'max_level', 'market', 'year', 'elevator', 'parking_place', 'balcony', 'ogrodek','taras','street'])
+    data = data.rename(columns = lambda x:re.sub('[^A-Za-z0-9_]+', '', x))
+    data = pd.get_dummies(data, columns=['Market','street','district'])
+    predictions = model.predict(data)
     if predictions[0] > 0:
         st.success(f'Price is {round(predictions[0],2)} milions PLN')
     else:

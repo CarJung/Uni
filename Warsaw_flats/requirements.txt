@@ -6,3 +6,4 @@ gsheetsdb
 scipy
 pingouin
 pickle5
+regex
