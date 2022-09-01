@@ -136,35 +136,37 @@ st.pyplot(fig)
 
 
 
-st.write("Warsaw map")
-st.map()
+#st.write("Warsaw map")
+#st.map()
 
 
 
 st.header('Price prediction model based on proviede data')
+st1, st2 = st.columns(2)
 
-district = st.text_input( label = 'Enter district')
-level = st.text_input( label = 'Enter level')
-max_level = st.text_input( label = 'Enter max_level')
-market = st.text_input( label = 'Enter market')
-year = st.text_input( label = 'Enter year')
-elevator = st.text_input( label = 'Enter elevator')
-parking_place = st.text_input( label = 'Enter parking_place')
-balcony = st.text_input( label = 'Enter balcony')
-ogrodek = st.text_input( label = 'Enter ogrodek')
-taras = st.text_input( label = 'Enter taras')
-street = st.text_input( label = 'Enter street')
+district = st1.multiselect( label = 'Enter district' , options = data['district'].unique())
+level = st2.multiselect( label = 'Enter level', options = data['level'].unique())
+max_level = st1.multiselect( label = 'Enter max_level', options = data['max_level'].unique())
+market = st2.multiselect( label = 'Enter market', options= data['Market'].unique())
+year = st1.multiselect( label = 'Enter year', options= data['Year'].unique())
+elevator = st2.multiselect( label = 'Enter elevator', options= data['elevator'].unique())
+parking_place = st1.multiselect( label = 'Enter parking_place', options= data['Parking_place'].unique())
+balcony = st2.multiselect( label = 'Enter balcony', options= data['balkon'].unique())
+ogrodek = st1.multiselect( label = 'Enter ogrodek', options= data['ogródek'].unique())
+taras = st2.multiselect( label = 'Enter taras', options= data['taras'].unique())
+street = st1.multiselect( label = 'Enter street', options= data['street'].unique())
 
-space = st.number_input( label = 'Enter space')
-
-filename = 'gbr_model.sav'
-
-st.cache
-model = pickle.load(open(filename, 'rb'))
+space = st2.number_input( label = 'Enter space')
 
 predict  = st.button('Predict')
 if predict:
+    filename = 'gbr_model.sav'
+    model = pickle.load(open(filename, 'rb'))
+
     predictions = model.predict(pd.DataFrame([[street,district, level, max_level, market, year, elevator, parking_place, balcony, ogrodek,taras,street]], 
                                                columns=['street','district', 'level', 'max_level', 'market', 'year', 'elevator', 'parking_place', 'balcony', 'ogrodek','taras','street']))
-    st.write(f'Flat is worth:{predictions} PLN')    
+    if predictions[0] > 0:
+        st.success(f'Price is {round(predictions[0],2)} milions PLN')
+    else:
+        st.write('Ups something went wrong')
 
