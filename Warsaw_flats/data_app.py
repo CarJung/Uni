@@ -40,6 +40,12 @@ data['Price'] = data['Price'].astype(float)
 data['Space'] = data['Space'].astype(float)
 sample = data.sample(n=750, random_state=42)
 
+data.replace({'elevatoe': {1: 'jest', 0: 'nie ma'}}, inplace=True)
+data.replace({'Parkingplace': {1: 'jest', 0: 'nie ma'}}, inplace=True)
+data.replace({'balkon': {1: 'jest', 0: 'nie ma'}}, inplace=True)
+data.replace({'taras': {1: 'jest', 0: 'nie ma'}}, inplace=True)
+data.replace({'ogrdek': {1: 'jest', 0: 'nie ma'}}, inplace=True)
+
 st.sidebar.subheader('Data Exploration')
 st.sidebar.subheader('Factors that mostly influeces price')
 st.sidebar.subheader('Analysis in depth of couple districs')
@@ -124,24 +130,39 @@ f"""Altough the correlation exist bettwen this two variables, ANOVA test is stat
 st.header('Analysis in depth of couple districs')
 st.write(data.groupby('district')['Price'].agg([np.mean,np.std,np.median]))
 
-st.write('Śródmieście')
+#Districts
+"""I will examine two districts in detail. I will start with Srodmiescie district. It is the most expensive district in Warsaw. It is also the most popular one. It is located in the center of Warsaw. Then I will examine Rembertów district. It is the cheapest district in Warsaw. It is located in the south of Warsaw. It is also the least popular one. """
+
+#Srodmiescie
+'#### Śródmieście'
 
 sro = data.loc[data['district'] == 'Śródmieście']
 fig = plt.figure(figsize=(5, 4))
 b = sns.boxplot(x = 'district', y = 'Price',data= sro)
-b.set_yticks([ 200000 ,600000 ,1000000 ,1400000 ,1600000 ,2000000,2400000,2800000,3200000,4000000 ])
+b.set_yticks([ 200000 ,600000 ,1000000 ,1400000 ,1700000 ,2000000,2400000,2800000,3200000,4000000 ])
 b.set_ylabel('Price in milions PLN')
 #b.ticklabel_format(style= 'plain')
 b.set(ylim=(100000, 4000000))
 st.pyplot(fig)
 
+#Rembertów
+'#### Rembertów'
 
+rem = data.loc[data['district'] == 'Rembertów']
+fig = plt.figure(figsize=(5, 4))
+b = sns.boxplot(x = 'district', y = 'Price',data= rem)
+b.set_yticks([ 200000 ,600000 ,1000000 ,1400000])
+b.set_ylabel('Price in milions PLN')
+#b.ticklabel_format(style= 'plain')
+b.set(ylim=(100000, 1400000))
+st.pyplot(fig)
 
 #st.write("Warsaw map")
 #st.map()
 
 
 
+#Model
 st.header('Price prediction model based on proviede data')
 st1, st2 = st.columns(2)
 
