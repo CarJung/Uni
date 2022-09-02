@@ -35,7 +35,7 @@ rows = run_query(f'SELECT * FROM "{sheet_url}"')
 data = pd.DataFrame(rows)
 data['district'] =data['district'].str.replace(" ","")
 data['Year'] = data['Year'].astype(str) 
-data['Year'] =data['Year'].str.slice(0,-2)
+data['Year'] = data['Year'].str.slice(0,-2)
 data['Price'] = data['Price'].astype(float)
 data['Space'] = data['Space'].astype(float)
 sample = data.sample(n=750, random_state=42)
@@ -156,15 +156,16 @@ balcony = st2.multiselect( label = 'Enter balcony', options= data['balkon'].uniq
 ogrodek = st1.multiselect( label = 'Enter ogrodek', options= data['ogródek'].unique())
 taras = st2.multiselect( label = 'Enter taras', options= data['taras'].unique())
 street = st1.multiselect( label = 'Enter street', options= data['street'].unique())
+Rooms = st2.multiselect( label = 'Enter Rooms', options= data['Rooms'].unique())
 
-space = st2.number_input( label = 'Enter space')
+space = st.number_input( label = 'Enter space')
 
 predict  = st.button('Predict')
 if predict:
     filename = 'gbr_model.sav'
     model = pickle.load(open(filename, 'rb'))
-    data = pd.DataFrame([[street,district, level, max_level, market, year, elevator, parking_place, balcony, ogrodek,taras,street]], 
-                                               columns=['street','district', 'level', 'max_level', 'market', 'year', 'elevator', 'parking_place', 'balcony', 'ogrodek','taras','street'])
+    data = pd.DataFrame([space, Rooms,market,year,elevator,parking_place,balcony,taras,ogrodek,district,street, level,max_level], 
+                                               columns=['Space', 'Rooms','Market','Year','elevator','Parkingplace','balkon','taras','ogrdek','district','street', 'level','max_level'])
     data = data.rename(columns = lambda x:re.sub('[^A-Za-z0-9_]+', '', x))
     data = pd.get_dummies(data, columns=['Market','street','district'])
     predictions = model.predict(data)
