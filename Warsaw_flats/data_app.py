@@ -181,15 +181,17 @@ Rooms = st2.multiselect( label = 'Enter Rooms', options= data['Rooms'].unique())
 
 space = st.number_input( label = 'Enter space')
 
+passed = np.array([space, Rooms[0],market[0],year[0],elevator[0],parking_place[0],balcony[0],taras[0],ogrodek[0],district[0],street[0], level[0],max_level[0]])
+
+#passed = pd.DataFrame(passed,columns=['Space', 'Rooms','Market','Year','elevator','Parkingplace','balkon','taras','ogrdek','district','street', 'level','max_level'])
+#st.write(passed)
 predict  = st.button('Predict')
 if predict:
     filename = 'gbr_model.sav'
     model = pickle.load(open(filename, 'rb'))
-    data = pd.DataFrame([space, Rooms,market,year,elevator,parking_place,balcony,taras,ogrodek,district,street, level,max_level], 
-                                               columns=['Space', 'Rooms','Market','Year','elevator','Parkingplace','balkon','taras','ogrdek','district','street', 'level','max_level'])
-    data = data.rename(columns = lambda x:re.sub('[^A-Za-z0-9_]+', '', x))
-    data = pd.get_dummies(data, columns=['Market','street','district'])
-    predictions = model.predict(data)
+    passed = passed.rename(columns = lambda x:re.sub('[^A-Za-z0-9_]+', '', x))
+    passed= pd.get_dummies(passed, columns=['Market','street','district'])
+    predictions = model.predict(passed)
     if predictions[0] > 0:
         st.success(f'Price is {round(predictions[0],2)} milions PLN')
     else:
