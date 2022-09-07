@@ -52,7 +52,7 @@ def extract_data(data, selected_columnnames):
 
 st.title("Statistical Testing App")
 
-data = st.file_uploader("Upload a dataset", type="csv")
+data = st.file_uploader("Upload a dataset. Dataset must be in long format.", type="csv")
 if data:
     data = pd.read_csv(data)
     selected_columnnames = st.multiselect("Select columns to analyze", data.columns)
@@ -61,13 +61,15 @@ if data:
 select_test = st.selectbox("Select a statistical test", ["t-test", "ANOVA" ,'Correlation', 'Bayesian ANOVA'])
 
 
+columns = ['None'] + list(data.columns)
+
 if select_test == "t-test":
     ispaired = st.checkbox("Is paired")
     istwosided = st.checkbox("Is two-sided")
     
 if select_test == "ANOVA":
-    dv = st.selectbox( "Select a dependent variable", data.columns)
-    group = st.selectbox( 'Select a group variable',data.columns)
+    dv = st.selectbox( "Select a dependent variable", columns)
+    group = st.selectbox( 'Select a group variable',columns)
     
 if select_test == "Correlation":
     type = st.selectbox('Select a correlation type',['pearson', 'spearman', 'kendall'])   
