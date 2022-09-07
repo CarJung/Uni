@@ -95,9 +95,9 @@ if run:
         data = extract_data(data, selected_columnnames)
         result = corr(data, type, selected_columnnames)
         st.write(result)
-        fig = corr_plot(data)
+        fig = corr_plot(data, type)
         st.pyplot(fig)
-        heat = heat_plot(data)
+        heat = heat_plot(data,type)
         st.pyplot(heat)
 
     if select_test == 'Bayesian ANOVA':
