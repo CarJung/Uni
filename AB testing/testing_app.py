@@ -15,6 +15,9 @@ def ttest(data,ispaired = False ,isonesided = False, columns = []):
 def anova(data, dv = '', group = ''):
     return pg.anova(data = data, dv=dv, between=group)
 
+def rmanova(data, dv = '', within = '', subject = ''):
+    pg.rm_anova(data=data, dv=dv, within=within,subject =subject, detailed=True)
+
 def corr(data, method = 'pearson',columns = []):
     return pg.corr(x=data[columns[0]],y=data[columns[1]], method = type)
 
@@ -57,8 +60,9 @@ def extract_data(data, selected_columnnames):
     """Extract columns from the uploaded file by columns selected by the user"""
     return data[selected_columnnames]
 
-def post_hoc():
-    return None
+def post_hoc(data, dv = '', group = '', round = 3):
+    """Post hoc test"""
+    return pg.pairwise_ttests(data=data, dv=dv,effsize ='cohen' ,between = group,padjust=('sidak')).round(round)
 
 
 st.title("Statistical Testing App")
@@ -76,7 +80,7 @@ if data:
         selected_columnnames = st.multiselect("Select columns to analyze", data.columns)
     
 
-select_test = st.selectbox("Select a statistical test", ["t-test", "ANOVA" ,'Correlation', 'Bayesian testing'])
+select_test = st.selectbox("Select a statistical test", ["T-Test", "ANOVA","Repeated Measure Anova" ,'Correlation', 'Bayesian Testing'])
 
 
 columns = ['None'] + list(data.columns)
@@ -89,6 +93,11 @@ if select_test == "ANOVA":
     dv = st.selectbox( "Select a dependent variable", columns)
     group = st.selectbox( 'Select a group variable',columns)
     
+if select_test == "Repeated Measure Anova":
+    dv = st.selectbox( "Select a dependent variable", columns)
+    within = st.selectbox( 'Select a within variable',columns)
+    subject = st.selectbox( 'Select a between variable',columns)
+
 if select_test == "Correlation":
     type = st.selectbox('Select a correlation type',['pearson', 'spearman', 'kendall'])   
     
@@ -109,6 +118,16 @@ if run:
         st.write(result)
         fig = barplot(data, dv, group)
         st.pyplot(fig)
+        post = post_hoc(data, dv, group)
+        st.write(post)
+    
+    if select_test == 'Repeated Measure Anova':
+        result = rmanova(data, dv, within, subject)
+        st.write(result)
+        fig = barplot(data, dv, group)
+        st.pyplot(fig)
+        post = post_hoc(data, dv, group)
+        st.write(post)
         
     if select_test == 'Correlation':
         data = extract_data(data, selected_columnnames)
