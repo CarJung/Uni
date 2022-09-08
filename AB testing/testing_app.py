@@ -40,25 +40,43 @@ def corr_plot(data, method = 'pearson'):
     sns.scatterplot(data=data, x='A', y='B')
     return fig
 
-def boxplot(data, dv = '', group = ''):
-    fig = plt.figure(figsize=(5, 4))
-    sns.boxplot(data=data, x=group, y=dv)
+def barplot(data, dv = '', group = ''):
+    fig, ax = plt.subplots(figsize = (8,6))
+
+    sns.barplot(x =group , y=dv , data = data , capsize = 0.2)
+
+    #ax.set_xlabel('Rodzaj motywacji');
+    #ax.set_ylabel('Wynik testu');
+
+    ax.grid(which = 'major', axis= 'y', ls = '--')
+
+    ax.grid(which='minor', axis='y', ls='-.')
     return fig
 
 def extract_data(data, selected_columnnames):
     """Extract columns from the uploaded file by columns selected by the user"""
     return data[selected_columnnames]
 
+def post_hoc():
+    return None
+
 
 st.title("Statistical Testing App")
 
 data = st.file_uploader("Upload a dataset. Dataset must be in long format.", type="csv")
+wide_long = st.radio("Is the dataset wide or long format?", ('Wide', 'Long'))
 if data:
     data = pd.read_csv(data)
-    selected_columnnames = st.multiselect("Select columns to analyze", data.columns)
+    if wide_long == 'Wide':
+        index = st.multiselect("Select columns with indexes", data.columns)
+        selected_columnnames = data.index.unique()
+        #values = data.columns.difference(index)
+        #selected_columnnames = st.multiselect("Select columns to analyze", values)
+    else: 
+        selected_columnnames = st.multiselect("Select columns to analyze", data.columns)
+    
 
-
-select_test = st.selectbox("Select a statistical test", ["t-test", "ANOVA" ,'Correlation', 'Bayesian ANOVA'])
+select_test = st.selectbox("Select a statistical test", ["t-test", "ANOVA" ,'Correlation', 'Bayesian testing'])
 
 
 columns = ['None'] + list(data.columns)
@@ -74,7 +92,7 @@ if select_test == "ANOVA":
 if select_test == "Correlation":
     type = st.selectbox('Select a correlation type',['pearson', 'spearman', 'kendall'])   
     
-if select_test == "Bayesian ANOVA":
+if select_test == "Bayesian testing":
     likelihoods = st.selectbox('Select likelihoods', ['Student-t', 'Normal', 'Lognormal', 'Poisson', 'Gamma', 'Inverse-Gamma', 'Beta', 'Uniform'])           
 
 run = st.button("Run Test")
@@ -86,11 +104,10 @@ if run:
         fig = plot_bidistri(data)
         st.pyplot(fig)
         
-    if select_test == 'ANOVA':
-        data = extract_data(data, selected_columnnames)            
+    if select_test == 'ANOVA':          
         result = anova(data, dv, group)
         st.write(result)
-        fig = boxplot(data, dv, group)
+        fig = barplot(data, dv, group)
         st.pyplot(fig)
         
     if select_test == 'Correlation':
@@ -102,5 +119,6 @@ if run:
         heat = heat_plot(data,type)
         st.pyplot(heat)
 
-    if select_test == 'Bayesian ANOVA':
+        
+    if select_test == 'Bayesian testing':
         pass
