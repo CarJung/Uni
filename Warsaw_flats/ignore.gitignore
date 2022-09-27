@@ -1,2 +1,12 @@
+#streamlit
 */streamlit/.toml
+
+#mogo
 upload_tomogo.py
+
+#models
+*.sav
+*.log
+
+#catboost
+cataboost_info/
